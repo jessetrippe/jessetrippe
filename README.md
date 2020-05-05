@@ -1,2 +1,2 @@
-# jessetrippe
-Personal Portfolio Site of Jesse Trippe
+# Jesse Trippe
+Personal portfolio site of Jesse Trippe

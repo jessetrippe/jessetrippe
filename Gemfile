@@ -6,5 +6,4 @@ gem "liquid-c"
 group :jekyll_plugins do
   gem "jekyll-postcss"
   gem "jekyll-purgecss"
-  gem "jekyll-minifier"
 end

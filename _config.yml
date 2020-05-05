@@ -14,7 +14,6 @@ markdown: kramdown
 plugins:
   - jekyll-postcss
   - jekyll-purgecss
-  - jekyll-minifier
 
 css_dir: "styles"
 
@@ -23,11 +22,6 @@ collections:
     output: true
     permalink: /:path/
     sort_by: order
-
-jekyll-minifier:
-  exclude: 'archive/*'
-
-cdn: https://jessetrippe-cdn-173419.appspot.com/portfolio
 
 title: "Jesse Trippe &#124; Product and UX Designer"
 description: "Website of Jesse Trippe—a Product and UX Designer working at Amazon in Seattle, WA."

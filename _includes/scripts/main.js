@@ -67,3 +67,12 @@ $("#nav-close").click(function() {
 $("#nav-primary a").click(function() {
 	$("#nav-close").click();
 });
+
+$("[data-reveal]").each(function() {
+	$("[data-reveal]").one("webkitAnimationEnd oanimationend oAnimationEnd msAnimationEnd animationend", function(event) {
+		$(this).removeAttr("data-reveal-from");
+		$(this).removeAttr("data-reveal-delay");
+		$(this).removeAttr("data-reveal-duration");
+		$(this).removeAttr("data-reveal");
+	});
+});

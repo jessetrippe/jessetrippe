@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" class="bg-magenta-500 text-magenta-white">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ site.title }}</title>
+    <meta name="author" content="{{ site.author }}">
+    <meta name="description" content="{{ site.description }}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body class="font-sans text-lg bg-magenta-black">
+
+    {{ content }}
+
+    <script src="/scripts/jquery-3.4.1.min.js"></script>
+    <script>{% include scripts/main.js %}</script>
+    <script>{% include scripts/analytics.js %}</script>
+    <script src="https://www.google-analytics.com/analytics.js" defer></script>
+</body>
+</html>

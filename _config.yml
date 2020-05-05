@@ -1,0 +1,51 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-postcss
+  - jekyll-purgecss
+  - jekyll-minifier
+
+css_dir: "styles"
+
+collections:
+  work_items:
+    output: true
+    permalink: /:path/
+    sort_by: order
+
+jekyll-minifier:
+  exclude: 'archive/*'
+
+cdn: https://jessetrippe-cdn-173419.appspot.com/portfolio
+
+title: "Jesse Trippe &#124; Product and UX Designer"
+description: "Website of Jesse Trippe—a Product and UX Designer working at Amazon in Seattle, WA."
+author: "Jesse Trippe"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - .gitignore
+  - /archive/old-work-items/
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - netlify.toml
+  - node_modules
+  - package-lock.json
+  - package.json
+  - postcss.config.js
+  - purgecss.config.js
+  - yarn.lock

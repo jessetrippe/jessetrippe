@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<a href="/" class="p-3 fixed top-0 right-0" id="close-work-item" data-toggle="work-item">
+	{% include vectors/icon-menu-close-thin.svg class="h-10 w-10 filter-shadow" %}
+</a>
+<div class="container mx-auto px-8">
+	{% include elements/pagination.html %}
+	<h2 class="text-6xl mb-8 font-bold leading-tight">{{ page.title }}{% if page.tag %}&nbsp;&nbsp;<span class="align-middle bg-magenta-800 font-bold inline-block px-1 px-2 rounded text-2xl text-magenta-200 text-white uppercase whitespace-no-wrap">Case Study</span>{% endif %}</h2>
+	{{ content }}
+	{% include elements/pagination.html %}
+</div>

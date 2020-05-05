@@ -1,0 +1,27 @@
+
+{% for work_item in site.work_items %}
+    {% if work_item.title == page.title %}
+        {% assign item_index = forloop.index %}
+    {% endif %}
+{% endfor %}
+
+{% assign prev_index = item_index | plus: 1 %}
+{% assign next_index = item_index | minus: 1 %}
+
+{% for work_item in site.work_items %}
+    {% if forloop.index == prev_index %}
+        {% assign prev = work_item %}
+    {% endif %}
+    {% if forloop.index == next_index %}
+        {% assign next = work_item %}
+    {% endif %}
+{% endfor %}
+
+<nav class="py-20 flex items-center justify-between text-xl">
+    {% if next %}
+        <a href="{{ next.url }}" class="flex items-center text-magenta-600 hover:text-magenta-500 transition duration-150">{% include vectors/icon-arrow-xlong-left.svg class="mr-2 h-6 w-6" %} Previous</a>
+    {% endif %}
+    {% if prev %}
+        <a href="{{ prev.url }}" class="ml-auto flex items-center text-magenta-600 hover:text-magenta-500 transition duration-150">Next {% include vectors/icon-arrow-xlong-right.svg class="ml-2 h-6 w-6" %}</a>
+    {% endif %}
+</nav>

@@ -32,7 +32,7 @@ author: "Jesse Trippe"
 # to override the default setting.
 exclude:
   - .gitignore
-  - /archive/old-work-items/
+  - /archive/
   - bin
   - Gemfile
   - Gemfile.lock

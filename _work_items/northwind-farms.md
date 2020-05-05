@@ -36,11 +36,11 @@ order: 14
 </section>
 
 <section class="grid grid-cols-2 gap-10 pt-20">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/northwind-1.png" alt="Northwind Identity Casebook 1" height="800" width="550">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/northwind-2.png" alt="Northwind Identity Casebook 2" height="800" width="1100">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/northwind-3.png" alt="Northwind Identity Casebook 4" height="800" width="1100">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/northwind-4.png" alt="Northwind Identity Casebook 3" height="800" width="1100">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/northwind-5.png" alt="Northwind Identity Casebook 5" height="800" width="1100">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/northwind-6.png" alt="Northwind Identity Casebook 6" height="800" width="1100">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="{{ site.cdn }}/northwind-7.png" alt="Northwind Identity Business Cards" height="1331" width="1500">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/northwind-1.png" alt="Northwind Identity Casebook 1" height="800" width="550">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/northwind-2.png" alt="Northwind Identity Casebook 2" height="800" width="1100">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/northwind-3.png" alt="Northwind Identity Casebook 4" height="800" width="1100">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/northwind-4.png" alt="Northwind Identity Casebook 3" height="800" width="1100">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/northwind-5.png" alt="Northwind Identity Casebook 5" height="800" width="1100">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/northwind-6.png" alt="Northwind Identity Casebook 6" height="800" width="1100">
+	<img loading="lazy" class="rounded shadow-xl col-span-2" src="/images/projects/northwind-7.png" alt="Northwind Identity Business Cards" height="1331" width="1500">
 </section>

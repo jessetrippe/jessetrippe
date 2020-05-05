@@ -36,8 +36,8 @@ order: 11
 </section>
 
 <section class="grid grid-cols-3 gap-10 pt-20">
-	<img loading="lazy" class="rounded shadow-xl col-span-3 w-full" src="{{ site.cdn }}/ohboyy-1.png" alt="OhBoyy Screenshot 1" height="1696" width="960">
-	<img loading="lazy" class="rounded shadow-xl col-span-2 row-span-2" src="{{ site.cdn }}/ohboyy-2.png" alt="OhBoyy Screenshot 2" height="771" width="960">
-	<img loading="lazy" class="rounded shadow-xl " src="{{ site.cdn }}/ohboyy-4.jpg" alt="OhBoyy Packaging" height="2073" width="1811">
-	<img loading="lazy" class="" src="{{ site.cdn }}/ohboyy-3.png" alt="OhBoyy Wordmark" height="466" width="1000">
+	<img loading="lazy" class="rounded shadow-xl col-span-3 w-full" src="/images/projects/ohboyy-1.png" alt="OhBoyy Screenshot 1" height="1696" width="960">
+	<img loading="lazy" class="rounded shadow-xl col-span-2 row-span-2" src="/images/projects/ohboyy-2.png" alt="OhBoyy Screenshot 2" height="771" width="960">
+	<img loading="lazy" class="rounded shadow-xl " src="/images/projects/ohboyy-4.jpg" alt="OhBoyy Packaging" height="2073" width="1811">
+	<img loading="lazy" class="" src="/images/projects/ohboyy-3.png" alt="OhBoyy Wordmark" height="466" width="1000">
 </section>

@@ -44,22 +44,22 @@ order: 1
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-cols-3 grid-auto-row-min-content">
 		<div class="grid gap-10">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-field-research-01.jpg" alt="Amazon Scheduling Field Research 1" height="1125" width="1500">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-field-research-02.jpg" alt="Amazon Scheduling Field Research 2" height="1273" width="1500">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-field-research-03.jpg" alt="Amazon Scheduling Field Research 3" height="768" width="965">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-field-research-04.jpg" alt="Amazon Scheduling Field Research 4" height="1125" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-field-research-01.jpg" alt="Amazon Scheduling Field Research 1" height="1125" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-field-research-02.jpg" alt="Amazon Scheduling Field Research 2" height="1273" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-field-research-03.jpg" alt="Amazon Scheduling Field Research 3" height="768" width="965">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-field-research-04.jpg" alt="Amazon Scheduling Field Research 4" height="1125" width="1500">
 		</div>
 		<div class="grid gap-10">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-field-research-05.jpg" alt="Amazon Scheduling Field Research 5" height="1125" width="1500">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-field-research-06.jpg" alt="Amazon Scheduling Field Research 6" height="1125" width="1500">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-field-research-07.jpg" alt="Amazon Scheduling Field Research 7" height="992" width="1500">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-field-research-08.jpg" alt="Amazon Scheduling Field Research 8" height="1539" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-field-research-05.jpg" alt="Amazon Scheduling Field Research 5" height="1125" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-field-research-06.jpg" alt="Amazon Scheduling Field Research 6" height="1125" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-field-research-07.jpg" alt="Amazon Scheduling Field Research 7" height="992" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-field-research-08.jpg" alt="Amazon Scheduling Field Research 8" height="1539" width="1500">
 		</div>
 		<div class="grid gap-10">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-field-research-09.jpg" alt="Amazon Scheduling Field Research 9" height="1782" width="1500">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-field-research-10.jpg" alt="Amazon Scheduling Field Research 10" height="1125" width="1500">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-field-research-13.jpg" alt="Amazon Scheduling Field Research 13" height="1247" width="1500">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-field-research-14.jpg" alt="Amazon Scheduling Field Research 14" height="1228" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-field-research-09.jpg" alt="Amazon Scheduling Field Research 9" height="1782" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-field-research-10.jpg" alt="Amazon Scheduling Field Research 10" height="1125" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-field-research-13.jpg" alt="Amazon Scheduling Field Research 13" height="1247" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-field-research-14.jpg" alt="Amazon Scheduling Field Research 14" height="1228" width="1500">
 		</div>
 	</div>
 </section>
@@ -70,16 +70,16 @@ order: 1
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-cols-3 grid-auto-row-min-content">
 		<div class="grid gap-10">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-brainstorming-01.jpg" alt="Amazon Scheduling Brainstorming 1" height="865" width="1500">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-brainstorming-02.jpg" alt="Amazon Scheduling Brainstorming 2" height="1335" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-brainstorming-01.jpg" alt="Amazon Scheduling Brainstorming 1" height="865" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-brainstorming-02.jpg" alt="Amazon Scheduling Brainstorming 2" height="1335" width="1500">
 		</div>
 		<div class="grid gap-10">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-brainstorming-03.jpg" alt="Amazon Scheduling Brainstorming 3" height="1075" width="1740">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-brainstorming-04.jpg" alt="Amazon Scheduling Brainstorming 4" height="1075" width="1645">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-brainstorming-03.jpg" alt="Amazon Scheduling Brainstorming 3" height="1075" width="1740">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-brainstorming-04.jpg" alt="Amazon Scheduling Brainstorming 4" height="1075" width="1645">
 		</div>
 		<div class="grid gap-10">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-brainstorming-05.jpg" alt="Amazon Scheduling Brainstorming 5" height="875" width="1500">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-brainstorming-06.jpg" alt="Amazon Scheduling Brainstorming 6" height="1910" width="1883">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-brainstorming-05.jpg" alt="Amazon Scheduling Brainstorming 5" height="875" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-brainstorming-06.jpg" alt="Amazon Scheduling Brainstorming 6" height="1910" width="1883">
 		</div>
 	</div>
 </section>
@@ -90,23 +90,23 @@ order: 1
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-cols-3">
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-01.jpg" alt="Amazon Scheduling Competitive Research 1" height="525" width="893">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-04.jpg" alt="Amazon Scheduling Competitive Research 4" height="518" width="522">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-07.png" alt="Amazon Scheduling Competitive Research 7" height="529" width="937">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-10.png" alt="Amazon Scheduling Competitive Research 10" height="946" width="1640">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-13.png" alt="Amazon Scheduling Competitive Research 13" height="840" width="1400">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-01.jpg" alt="Amazon Scheduling Competitive Research 1" height="525" width="893">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-04.jpg" alt="Amazon Scheduling Competitive Research 4" height="518" width="522">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-07.png" alt="Amazon Scheduling Competitive Research 7" height="529" width="937">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-10.png" alt="Amazon Scheduling Competitive Research 10" height="946" width="1640">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-13.png" alt="Amazon Scheduling Competitive Research 13" height="840" width="1400">
 		</div>
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-02.jpg" alt="Amazon Scheduling Competitive Research 2" height="520" width="854">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-05.jpg" alt="Amazon Scheduling Competitive Research 5" height="517" width="520">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-08.png" alt="Amazon Scheduling Competitive Research 8" height="668" width="904">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-11.png" alt="Amazon Scheduling Competitive Research 11" height="1096" width="1707">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-02.jpg" alt="Amazon Scheduling Competitive Research 2" height="520" width="854">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-05.jpg" alt="Amazon Scheduling Competitive Research 5" height="517" width="520">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-08.png" alt="Amazon Scheduling Competitive Research 8" height="668" width="904">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-11.png" alt="Amazon Scheduling Competitive Research 11" height="1096" width="1707">
 		</div>
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-03.jpg" alt="Amazon Scheduling Competitive Research 3" height="527" width="525">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-06.png" alt="Amazon Scheduling Competitive Research 6" height="2688" width="2484">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-09.png" alt="Amazon Scheduling Competitive Research 9" height="1214" width="1500">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-competitive-research-12.png" alt="Amazon Scheduling Competitive Research 12" height="967" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-03.jpg" alt="Amazon Scheduling Competitive Research 3" height="527" width="525">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-06.png" alt="Amazon Scheduling Competitive Research 6" height="2688" width="2484">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-09.png" alt="Amazon Scheduling Competitive Research 9" height="1214" width="1500">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-competitive-research-12.png" alt="Amazon Scheduling Competitive Research 12" height="967" width="1500">
 		</div>
 	</div>
 </section>
@@ -116,24 +116,24 @@ order: 1
 		<p>We then began sketching solutions that involved both desktop and mobile experiences, and both driver and scheduler participation in the process. After a full day of sketching and countless iterations, I decided on a direction. We built a presentation with storyboards that highlighted the happy path solution and quickly mocked up low-fidelity wireframes present to leadership.</p>
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-cols-3 grid-auto-row-min-content">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-01.png" alt="Amazon Scheduling Wireframe 1" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-02.png" alt="Amazon Scheduling Wireframe 2" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-03.png" alt="Amazon Scheduling Wireframe 3" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-04.png" alt="Amazon Scheduling Wireframe 4" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-05.png" alt="Amazon Scheduling Wireframe 5" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-07.png" alt="Amazon Scheduling Wireframe 7" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-11.png" alt="Amazon Scheduling Wireframe 11" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-13.png" alt="Amazon Scheduling Wireframe 13" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-14.png" alt="Amazon Scheduling Wireframe 14" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-17.png" alt="Amazon Scheduling Wireframe 17" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-18.png" alt="Amazon Scheduling Wireframe 18" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-19.png" alt="Amazon Scheduling Wireframe 19" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-23.png" alt="Amazon Scheduling Wireframe 23" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-28.png" alt="Amazon Scheduling Wireframe 28" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-29.png" alt="Amazon Scheduling Wireframe 29" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-30.png" alt="Amazon Scheduling Wireframe 30" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-31.png" alt="Amazon Scheduling Wireframe 31" height="967" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-wireframe-37.png" alt="Amazon Scheduling Wireframe 37" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-01.png" alt="Amazon Scheduling Wireframe 1" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-02.png" alt="Amazon Scheduling Wireframe 2" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-03.png" alt="Amazon Scheduling Wireframe 3" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-04.png" alt="Amazon Scheduling Wireframe 4" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-05.png" alt="Amazon Scheduling Wireframe 5" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-07.png" alt="Amazon Scheduling Wireframe 7" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-11.png" alt="Amazon Scheduling Wireframe 11" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-13.png" alt="Amazon Scheduling Wireframe 13" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-14.png" alt="Amazon Scheduling Wireframe 14" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-17.png" alt="Amazon Scheduling Wireframe 17" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-18.png" alt="Amazon Scheduling Wireframe 18" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-19.png" alt="Amazon Scheduling Wireframe 19" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-23.png" alt="Amazon Scheduling Wireframe 23" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-28.png" alt="Amazon Scheduling Wireframe 28" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-29.png" alt="Amazon Scheduling Wireframe 29" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-30.png" alt="Amazon Scheduling Wireframe 30" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-31.png" alt="Amazon Scheduling Wireframe 31" height="967" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-wireframe-37.png" alt="Amazon Scheduling Wireframe 37" height="967" width="1280">
 	</div>
 </section>
 <section class="grid grid-cols-3 gap-10 py-20">
@@ -147,17 +147,17 @@ order: 1
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-cols-2">
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-calendar-picker.png" alt="Amazon Scheduling 1" height="970" width="841">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-calendar-in-context.png" alt="Amazon Scheduling 3" height="800" width="1306">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-calendar-no-week.png" alt="Amazon Scheduling 5" height="560" width="651">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-calendar-on-off.png" alt="Amazon Scheduling 4" height="560" width="798">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-calendar-picker.png" alt="Amazon Scheduling 1" height="970" width="841">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-calendar-in-context.png" alt="Amazon Scheduling 3" height="800" width="1306">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-calendar-no-week.png" alt="Amazon Scheduling 5" height="560" width="651">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-calendar-on-off.png" alt="Amazon Scheduling 4" height="560" width="798">
 		</div>
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-calendar-color-block.png" alt="Amazon Scheduling 2" height="1202" width="794">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-calendar-final.png" alt="Amazon Scheduling 7" height="950" width="870">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-calendar-no-date-picker.png" alt="Amazon Scheduling 6" height="2276" width="2265">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-calendar-color-block.png" alt="Amazon Scheduling 2" height="1202" width="794">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-calendar-final.png" alt="Amazon Scheduling 7" height="950" width="870">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-calendar-no-date-picker.png" alt="Amazon Scheduling 6" height="2276" width="2265">
 		</div>
-		<img loading="lazy" class="rounded shadow-xl col-span-2" src="{{ site.cdn }}/amazon-scheduling-outstanding-iteration.png" alt="Amazon Scheduling 8" height="373" width="1167">
+		<img loading="lazy" class="rounded shadow-xl col-span-2" src="/images/projects/amazon-scheduling-outstanding-iteration.png" alt="Amazon Scheduling 8" height="373" width="1167">
 	</div>
 </section>
 <section class="grid grid-cols-3 gap-10 pt-20">
@@ -169,11 +169,11 @@ order: 1
 		<p>In Fall of 2018, we completed the launch of the desktop scheduling experience which consisted of a weekly scheduling template, a weekly and daily scheduling view, the ability to schedule time-off, and the ability to filter each view based on various parameters. The team is now focusing on the driver facing mobile experience to receive and makes changes to schedules. This is being readied for mid-2019.</p>
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-auto-row-min-content">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-final-01.png" alt="Amazon Scheduling 1" height="1928" width="2560">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-final-02.png" alt="Amazon Scheduling 2" height="1928" width="2560">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-final-03.png" alt="Amazon Scheduling 3" height="1928" width="2560">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-final-04.png" alt="Amazon Scheduling 4" height="1928" width="2560">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-scheduling-final-05.png" alt="Amazon Scheduling 5" height="2048" width="2880">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-final-01.png" alt="Amazon Scheduling 1" height="1928" width="2560">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-final-02.png" alt="Amazon Scheduling 2" height="1928" width="2560">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-final-03.png" alt="Amazon Scheduling 3" height="1928" width="2560">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-final-04.png" alt="Amazon Scheduling 4" height="1928" width="2560">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-scheduling-final-05.png" alt="Amazon Scheduling 5" height="2048" width="2880">
 	</div>
 </section>
 

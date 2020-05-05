@@ -41,8 +41,8 @@ order: 12
 </section>
 
 <section class="grid grid-cols-2 gap-10 pt-20">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="{{ site.cdn }}/bauer-latoza-1.png" alt="Bauer Latoza Studio Screenshot 1" height="956" width="1020">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/bauer-latoza-3.png" alt="Bauer Latoza Studio Screenshot 2" height="1332" width="1020">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/bauer-latoza-4.png" alt="Bauer Latoza Studio Screenshot 3" height="921" width="1020">
-	<img loading="lazy" class="rounded shadow-x col-span-2" src="{{ site.cdn }}/bauer-latoza-2.png" alt="Bauer Latoza Studio Screenshot 4" height="1215" width="1020">
+	<img loading="lazy" class="rounded shadow-xl col-span-2" src="/images/projects/bauer-latoza-1.png" alt="Bauer Latoza Studio Screenshot 1" height="956" width="1020">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/bauer-latoza-3.png" alt="Bauer Latoza Studio Screenshot 2" height="1332" width="1020">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/bauer-latoza-4.png" alt="Bauer Latoza Studio Screenshot 3" height="921" width="1020">
+	<img loading="lazy" class="rounded shadow-x col-span-2" src="/images/projects/bauer-latoza-2.png" alt="Bauer Latoza Studio Screenshot 4" height="1215" width="1020">
 </section>

@@ -41,7 +41,7 @@ order: 10
 </section>
 
 <section class="grid grid-cols-2 gap-10 pt-20">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="{{ site.cdn }}/barack-obama-tumblr-1.png" alt="Barack Obama's Tumblr Screenshot 1" height="790" width="1024">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/barack-obama-tumblr-2.png" alt="Barack Obama's Tumblr Screenshot 2" height="811" width="468">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/barack-obama-tumblr-3.png" alt="Barack Obama's Tumblr Screenshot 3" height="790" width="1024">
+	<img loading="lazy" class="rounded shadow-xl col-span-2" src="/images/projects/barack-obama-tumblr-1.png" alt="Barack Obama's Tumblr Screenshot 1" height="790" width="1024">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/barack-obama-tumblr-2.png" alt="Barack Obama's Tumblr Screenshot 2" height="811" width="468">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/barack-obama-tumblr-3.png" alt="Barack Obama's Tumblr Screenshot 3" height="790" width="1024">
 </section>

@@ -43,7 +43,7 @@ order: 7
 		<p>The paper and pen phase of this project was quick and used to explore a few solutions to the problem. The team met and decided on one design idea. Requirements gathering was easy as most of the tasks were already defined in other areas of the app. The hard part here was deciding when a task became important enough to warrant a spot on this page as there are many tasks required by any given carrier user on our website.</p>
 	</div>
 	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/my-tasks-sketch-1.jpg" alt="My Tasks Sketch 1" height="2000" width="1551">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/my-tasks-sketch-1.jpg" alt="My Tasks Sketch 1" height="2000" width="1551">
 	</div>
 </section>
 
@@ -53,9 +53,9 @@ order: 7
 		<p>After putting together wireframes of our solution and running user tests with carrier and the reps that manually track them, we quickly found a problem with our solution—while gathering all the tasks into one, easy to use interface solved half the problem, sending them to other areas of the site to complete the task slowed them down. So we decided to implement an actionable sidebar to complete each task without having to leave this page.</p>
 	</div>
 	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/my-tasks-moqup-0.png" alt="My Tasks Moqup 1" height="948" width="1200">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/my-tasks-moqup-1.png" alt="My Tasks Moqup 2" height="1000" width="1199">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/my-tasks-moqup-2.png" alt="My Tasks Moqup 3" height="999" width="1199">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/my-tasks-moqup-0.png" alt="My Tasks Moqup 1" height="948" width="1200">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/my-tasks-moqup-1.png" alt="My Tasks Moqup 2" height="1000" width="1199">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/my-tasks-moqup-2.png" alt="My Tasks Moqup 3" height="999" width="1199">
 	</div>
 </section>
 
@@ -66,7 +66,7 @@ order: 7
 		<p>With the release of each phase, the amount of self-tracking increased, eventually surpassing our 40% goal. Other parts of the business have seen this feature and are now developing their own "My Tasks" pages to help solve similar problems.</p>
 	</div>
 	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/my-tasks-1.png" alt="My Tasks Final Design" height="1033" width="1200">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/my-tasks-1.png" alt="My Tasks Final Design" height="1033" width="1200">
 	</div>
 </section>
 

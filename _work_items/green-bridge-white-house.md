@@ -36,7 +36,7 @@ order: 13
 </section>
 
 <section class="grid grid-cols-2 gap-10 pt-20">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="{{ site.cdn }}/gbwh-1.png" alt="Green Bridge White House Screenshot" height="889" width="1070">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/gbwh-2.png" alt="Green Bridge White House Business Cards" height="571" width="1000">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/gbwh-3.png" alt="Green Bridge White House Business Cards" height="843" width="1500">
+	<img loading="lazy" class="rounded shadow-xl col-span-2" src="/images/projects/gbwh-1.png" alt="Green Bridge White House Screenshot" height="889" width="1070">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/gbwh-2.png" alt="Green Bridge White House Business Cards" height="571" width="1000">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/gbwh-3.png" alt="Green Bridge White House Business Cards" height="843" width="1500">
 </section>

@@ -36,8 +36,8 @@ order: 6
 </section>
 
 <section class="grid grid-cols-3 gap-10 pt-20">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="{{ site.cdn }}/shuffl-1.png" alt="Shuffl Screen Shot 1" height="7016" width="3200">
-	<img loading="lazy" class="rounded shadow-xl row-span-4" src="{{ site.cdn }}/shuffl-2.png" alt="Shuffl Screen Shot 2" height="14310" width="1125">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="{{ site.cdn }}/shuffl-3.png" alt="Shuffl Screen Shot 3" height="2532" width="3200">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="{{ site.cdn }}/shuffl-4.png" alt="Shuffl Screen Shot 4" height="5056" width="3200">
+	<img loading="lazy" class="rounded shadow-xl col-span-2" src="/images/projects/shuffl-1.png" alt="Shuffl Screen Shot 1" height="7016" width="3200">
+	<img loading="lazy" class="rounded shadow-xl row-span-4" src="/images/projects/shuffl-2.png" alt="Shuffl Screen Shot 2" height="14310" width="1125">
+	<img loading="lazy" class="rounded shadow-xl col-span-2" src="/images/projects/shuffl-3.png" alt="Shuffl Screen Shot 3" height="2532" width="3200">
+	<img loading="lazy" class="rounded shadow-xl col-span-2" src="/images/projects/shuffl-4.png" alt="Shuffl Screen Shot 4" height="5056" width="3200">
 </section>

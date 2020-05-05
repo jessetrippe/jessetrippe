@@ -42,24 +42,24 @@ order: 2
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-cols-3">
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-01.png" alt="Amazon Dispatch Wireframe 1" height="823" width="1195">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-04.png" alt="Amazon Dispatch Wireframe 4" height="823" width="1197">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-07.png" alt="Amazon Dispatch Wireframe 7" height="922" width="1195">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-10.png" alt="Amazon Dispatch Wireframe 10" height="886" width="1196">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-13.png" alt="Amazon Dispatch Wireframe 13" height="569" width="321">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-01.png" alt="Amazon Dispatch Wireframe 1" height="823" width="1195">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-04.png" alt="Amazon Dispatch Wireframe 4" height="823" width="1197">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-07.png" alt="Amazon Dispatch Wireframe 7" height="922" width="1195">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-10.png" alt="Amazon Dispatch Wireframe 10" height="886" width="1196">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-13.png" alt="Amazon Dispatch Wireframe 13" height="569" width="321">
 		</div>
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-02.png" alt="Amazon Dispatch Wireframe 2" height="870" width="1197">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-05.png" alt="Amazon Dispatch Wireframe 5" height="823" width="1193">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-08.png" alt="Amazon Dispatch Wireframe 8" height="885" width="1196">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-11.png" alt="Amazon Dispatch Wireframe 11" height="1033" width="1399">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-14.png" alt="Amazon Dispatch Wireframe 14" height="569" width="321">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-02.png" alt="Amazon Dispatch Wireframe 2" height="870" width="1197">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-05.png" alt="Amazon Dispatch Wireframe 5" height="823" width="1193">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-08.png" alt="Amazon Dispatch Wireframe 8" height="885" width="1196">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-11.png" alt="Amazon Dispatch Wireframe 11" height="1033" width="1399">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-14.png" alt="Amazon Dispatch Wireframe 14" height="569" width="321">
 		</div>
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-03.png" alt="Amazon Dispatch Wireframe 3" height="868" width="1193">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-06.png" alt="Amazon Dispatch Wireframe 6" height="825" width="1196">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-09.png" alt="Amazon Dispatch Wireframe 9" height="1033" width="1397">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-wireframe-12.png" alt="Amazon Dispatch Wireframe 12" height="1033" width="1397">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-03.png" alt="Amazon Dispatch Wireframe 3" height="868" width="1193">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-06.png" alt="Amazon Dispatch Wireframe 6" height="825" width="1196">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-09.png" alt="Amazon Dispatch Wireframe 9" height="1033" width="1397">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-wireframe-12.png" alt="Amazon Dispatch Wireframe 12" height="1033" width="1397">
 		</div>
 	</div>
 </section>
@@ -69,10 +69,10 @@ order: 2
 		<p>The final tool allows dispatchers to see where routes are, where drivers are, and quickly spot and triage exceptions. This enables 3rd-party companies to establish and more fully optimize their operations. The final designs were taken to a delivery station and presented to users for further feedback. This feedback influenced changes that were either implemented into the product or added to a future feature list.</p>
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-auto-row-min-content">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-01.png" alt="Amazon Dispatch Final Design 1" height="1700" width="2560">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-02.png" alt="Amazon Dispatch Final Design 2" height="1700" width="2560">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-03.png" alt="Amazon Dispatch Final Design 3" height="1700" width="2560">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-dispatch-04.png" alt="Amazon Dispatch Final Design 4" height="1700" width="2560">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-01.png" alt="Amazon Dispatch Final Design 1" height="1700" width="2560">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-02.png" alt="Amazon Dispatch Final Design 2" height="1700" width="2560">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-03.png" alt="Amazon Dispatch Final Design 3" height="1700" width="2560">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-dispatch-04.png" alt="Amazon Dispatch Final Design 4" height="1700" width="2560">
 	</div>
 </section>
 

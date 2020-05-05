@@ -44,13 +44,13 @@ order: 3
 		<p>I wireframed layouts that organized the collection of work in different ways and then reached out to the same beta testers for feedback. I used the wireframes to ensure the right information was being displayed to complete the task without overwhelming them with unnecessary stats and metrics.</p>
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-auto-row-min-content">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-work-tracking-wireframe-01.png" alt="Amazon Work Tracking Wireframe 1" height="770" width="1123">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-work-tracking-wireframe-03.png" alt="Amazon Work Tracking Wireframe 5" height="739" width="1124">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-work-tracking-wireframe-05.png" alt="Amazon Work Tracking Wireframe 4" height="1005" width="1122">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-work-tracking-wireframe-01.png" alt="Amazon Work Tracking Wireframe 1" height="770" width="1123">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-work-tracking-wireframe-03.png" alt="Amazon Work Tracking Wireframe 5" height="739" width="1124">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-work-tracking-wireframe-05.png" alt="Amazon Work Tracking Wireframe 4" height="1005" width="1122">
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-auto-row-min-content">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-work-tracking-wireframe-02.png" alt="Amazon Work Tracking Wireframe 2" height="1028" width="1125">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-work-tracking-wireframe-04.png" alt="Amazon Work Tracking Wireframe 3" height="1058" width="1123">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-work-tracking-wireframe-02.png" alt="Amazon Work Tracking Wireframe 2" height="1028" width="1125">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-work-tracking-wireframe-04.png" alt="Amazon Work Tracking Wireframe 3" height="1058" width="1123">
 	</div>
 </section>
 <section class="grid grid-cols-3 gap-10 pt-20">
@@ -59,9 +59,9 @@ order: 3
 		<p>Once the wireframe and overall approach were settled, we divided the design work between both designers and built pixel-perfect designs while syncing often. Because of the failures of the initial launch, after the design was somewhat complete, I built a working prototype using actual data, HTML, CSS, and JavaScript and traveled to the UK to test at the three beta stations. The new tool succeeded where the previous failed and also proved far more efficient. We collected feedback and made changes to many of the smaller details but overall the prototype and design were successful.</p>
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-auto-row-min-content">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-work-tracking-01.png" alt="Amazon Work Tracking Final Design 1" height="895" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-work-tracking-02.png" alt="Amazon Work Tracking Final Design 2" height="895" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/amazon-work-tracking-03.png" alt="Amazon Work Tracking Final Design 3" height="895" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-work-tracking-01.png" alt="Amazon Work Tracking Final Design 1" height="895" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-work-tracking-02.png" alt="Amazon Work Tracking Final Design 2" height="895" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/amazon-work-tracking-03.png" alt="Amazon Work Tracking Final Design 3" height="895" width="1280">
 	</div>
 </section>
 

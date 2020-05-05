@@ -45,12 +45,12 @@ order: 4
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-cols-2">
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/howl-sketch-1.jpg" alt="Howl Sketch 1" height="2000" width="1328">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/howl-sketch-3.jpg" alt="Howl Sketch 3" height="2000" width="1316">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-sketch-1.jpg" alt="Howl Sketch 1" height="2000" width="1328">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-sketch-3.jpg" alt="Howl Sketch 3" height="2000" width="1316">
 		</div>
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/howl-sketch-2.jpg" alt="Howl Sketch 2" height="2000" width="1270">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/howl-sketch-4.jpg" alt="Howl Sketch 4" height="2000" width="1181">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-sketch-2.jpg" alt="Howl Sketch 2" height="2000" width="1270">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-sketch-4.jpg" alt="Howl Sketch 4" height="2000" width="1181">
 		</div>
 	</div>
 </section>
@@ -63,12 +63,12 @@ order: 4
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-cols-2">
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/howl-moqup-1.png" alt="Howl Moqup 1" height="504" width="318">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/howl-moqup-3.png" alt="Howl Moqup 3" height="504" width="318">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-moqup-1.png" alt="Howl Moqup 1" height="504" width="318">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-moqup-3.png" alt="Howl Moqup 3" height="504" width="318">
 		</div>
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/howl-moqup-2.png" alt="Howl Moqup 2" height="504" width="318">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/howl-moqup-4.png" alt="Howl Moqup 4" height="504" width="318">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-moqup-2.png" alt="Howl Moqup 2" height="504" width="318">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-moqup-4.png" alt="Howl Moqup 4" height="504" width="318">
 		</div>
 	</div>
 </section>
@@ -80,12 +80,12 @@ order: 4
 	</div>
 	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-cols-2">
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/howl-1.png" alt="Howl Final Design 1" height="1334" width="750">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/howl-3.png" alt="Howl Final Design 3" height="1334" width="750">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-1.png" alt="Howl Final Design 1" height="1334" width="750">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-3.png" alt="Howl Final Design 3" height="1334" width="750">
 		</div>
 		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/howl-2.png" alt="Howl Final Design 2" height="1334" width="750">
-			<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/howl-4.png" alt="Howl Final Design 4" height="1334" width="750">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-2.png" alt="Howl Final Design 2" height="1334" width="750">
+			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-4.png" alt="Howl Final Design 4" height="1334" width="750">
 		</div>
 	</div>
 </section>

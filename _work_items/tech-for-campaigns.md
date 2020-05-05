@@ -47,11 +47,11 @@ order: 9
 		<p>On top of design tweaks, we added an email only sign-up form to allow non-tech visitors to receive organization updates via email. This created a database of visitors that could be vetted and, in some cases with the right work experience, converted into volunteers. It also created a pool of non-tech volunteers that could be used for more traditional campaigning or fundraising.</p>
 	</div>
 	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-wireframe-01.png" alt="Tech for Campaigns Phase One Wireframes 1" height="1051" width="1299">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 2" height="1050" width="1299">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-wireframe-04.png" alt="Tech for Campaigns Phase One Wireframes 3" height="1460" width="1299">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 4" height="1050" width="1299">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-wireframe-02.png" alt="Tech for Campaigns Phase One Wireframes 5" height="1052" width="1299">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-wireframe-01.png" alt="Tech for Campaigns Phase One Wireframes 1" height="1051" width="1299">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 2" height="1050" width="1299">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-wireframe-04.png" alt="Tech for Campaigns Phase One Wireframes 3" height="1460" width="1299">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-wireframe-03.png" alt="Tech for Campaigns Phase One Wireframes 4" height="1050" width="1299">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-wireframe-02.png" alt="Tech for Campaigns Phase One Wireframes 5" height="1052" width="1299">
 	</div>
 </section>
 
@@ -61,9 +61,9 @@ order: 9
 		<p>After getting approval of the wireframes and basic design direction I moved into Photoshop and Sketch to explore designs and ideas further. We settled on a final design for approval and implementation. We tested the new design and found a 13% increase in volunteer form submissions. We also added a significant amount of email-only users that will hopefully convert to volunteers in the future.</p>
 	</div>
 	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-01.png" alt="Tech for Campaigns Phase One 1" height="2561" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-02.png" alt="Tech for Campaigns Phase One 2" height="1998" width="1280">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-03.png" alt="Tech for Campaigns Phase One 3" height="2061" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-01.png" alt="Tech for Campaigns Phase One 1" height="2561" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-02.png" alt="Tech for Campaigns Phase One 2" height="1998" width="1280">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-03.png" alt="Tech for Campaigns Phase One 3" height="2061" width="1280">
 	</div>
 </section>
 
@@ -74,10 +74,10 @@ order: 9
 		<p>I thoughtfully split the form into four steps, designed a status bar, and added placeholders for intro text and icons. After a round of feedback from my team, I sought approval from Tech for Campaigns' founders and moved into the final design phase.</p>
 	</div>
 	<div class="col-span-3 md:col-span-2 grid gap-10 grid-cols-2">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-two-wireframe-01.png" alt="Tech for Campaigns Phase Two Wireframes 1" height="846" width="1386">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-two-wireframe-02.png" alt="Tech for Campaigns Phase Two Wireframes 2" height="846" width="1386">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-two-wireframe-03.png" alt="Tech for Campaigns Phase Two Wireframes 3" height="846" width="1386">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-two-wireframe-04.png" alt="Tech for Campaigns Phase Two Wireframes 4" height="846" width="1386">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-two-wireframe-01.png" alt="Tech for Campaigns Phase Two Wireframes 1" height="846" width="1386">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-two-wireframe-02.png" alt="Tech for Campaigns Phase Two Wireframes 2" height="846" width="1386">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-two-wireframe-03.png" alt="Tech for Campaigns Phase Two Wireframes 3" height="846" width="1386">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-two-wireframe-04.png" alt="Tech for Campaigns Phase Two Wireframes 4" height="846" width="1386">
 	</div>
 </section>
 
@@ -88,10 +88,10 @@ order: 9
 		<p>We're currently monitoring success metrics to ensure conversion increase and continue improving conversion. So far we've increased volunteer sign-ups over unique homepage visitors from 8% to 33%&mdash;a huge success!</p>
 	</div>
 	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-two-01.png" alt="Tech for Campaigns Phase Two 1" height="2048" width="2048">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-two-02.png" alt="Tech for Campaigns Phase Two 2" height="2048" width="2048">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-two-03.png" alt="Tech for Campaigns Phase Two 3" height="2048" width="2048">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-two-04.png" alt="Tech for Campaigns Phase Two 4" height="2048" width="2048">
-		<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/tfc-two-05.png" alt="Tech for Campaigns Phase Two 5" height="2048" width="2048">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-two-01.png" alt="Tech for Campaigns Phase Two 1" height="2048" width="2048">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-two-02.png" alt="Tech for Campaigns Phase Two 2" height="2048" width="2048">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-two-03.png" alt="Tech for Campaigns Phase Two 3" height="2048" width="2048">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-two-04.png" alt="Tech for Campaigns Phase Two 4" height="2048" width="2048">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/tfc-two-05.png" alt="Tech for Campaigns Phase Two 5" height="2048" width="2048">
 	</div>
 </section>

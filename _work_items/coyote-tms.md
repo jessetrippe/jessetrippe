@@ -36,11 +36,11 @@ order: 8
 </section>
 
 <section class="grid grid-cols-2 gap-10 pt-20">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="{{ site.cdn }}/coyote-tms-1.png" alt="Coyote TMS Screenshot 1" height="884" width="1024">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="{{ site.cdn }}/coyote-tms-2.png" alt="Coyote TMS Screenshot 2" height="990" width="1024">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="{{ site.cdn }}/coyote-tms-3.png" alt="Coyote TMS Screenshot 3" height="884" width="1024">
-	<img loading="lazy" class="rounded shadow-xl col-span-2" src="{{ site.cdn }}/coyote-tms-4.png" alt="Coyote TMS Screenshot 4" height="884" width="1024">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/coyote-tms-5.png" alt="Coyote TMS Screenshot 5" height="884" width="1024">
-	<img loading="lazy" class="rounded shadow-xl" src="{{ site.cdn }}/coyote-tms-6.png" alt="Coyote TMS Screenshot 6" height="972" width="768">
+	<img loading="lazy" class="rounded shadow-xl col-span-2" src="/images/projects/coyote-tms-1.png" alt="Coyote TMS Screenshot 1" height="884" width="1024">
+	<img loading="lazy" class="rounded shadow-xl col-span-2" src="/images/projects/coyote-tms-2.png" alt="Coyote TMS Screenshot 2" height="990" width="1024">
+	<img loading="lazy" class="rounded shadow-xl col-span-2" src="/images/projects/coyote-tms-3.png" alt="Coyote TMS Screenshot 3" height="884" width="1024">
+	<img loading="lazy" class="rounded shadow-xl col-span-2" src="/images/projects/coyote-tms-4.png" alt="Coyote TMS Screenshot 4" height="884" width="1024">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/coyote-tms-5.png" alt="Coyote TMS Screenshot 5" height="884" width="1024">
+	<img loading="lazy" class="rounded shadow-xl" src="/images/projects/coyote-tms-6.png" alt="Coyote TMS Screenshot 6" height="972" width="768">
 </section>
 

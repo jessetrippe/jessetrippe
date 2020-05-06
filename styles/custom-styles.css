@@ -1,7 +1,5 @@
 
-.filter-shadow {
-	filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
-}
+.filter-shadow { filter: drop-shadow(0 1px 1px rgba(0,0,0,.3)); }
 
 .grid-auto-row-min-content { grid-auto-rows: min-content; }
 

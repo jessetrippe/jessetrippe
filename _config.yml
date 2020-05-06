@@ -8,10 +8,10 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Build settings
 plugins:
   - jekyll-postcss
-  - jekyll-purgecss
-
+  
 css_dir: "styles"
 
 collections:
@@ -20,6 +20,7 @@ collections:
     permalink: /:path/
     sort_by: order
 
+#Site info
 title: "Jesse Trippe &#124; Product and UX Designer"
 description: "Website of Jesse Trippe—a Product and UX Designer working at Amazon in Seattle, WA."
 author: "Jesse Trippe"
@@ -28,15 +29,14 @@ author: "Jesse Trippe"
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-  - .gitignore
-  - /archive/
-  - bin
   - Gemfile
   - Gemfile.lock
-  - netlify.toml
   - node_modules
+  - yarn.lock
   - package-lock.json
-  - package.json
+  - README.md
   - postcss.config.js
   - purgecss.config.js
-  - yarn.lock
+  - netlify.toml
+  - bin
+  - .gitignore

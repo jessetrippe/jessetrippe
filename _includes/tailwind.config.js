@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    content: ['./_site/**/*.html'],
+    content: ["./_site/**/*.html"],
     css: ["./_site/styles/main.css"]
   },
   theme: {

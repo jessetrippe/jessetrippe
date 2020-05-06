@@ -1,8 +1,8 @@
 module.exports = {
-  purge: {
-    content: ["./_site/**/*.html"],
-    css: ["./_site/styles/main.css"]
-  },
+  // purge: {
+  //   content: ["./_site/**/*.html"],
+  //   css: ["./_site/styles/main.css"]
+  // },
   theme: {
     fontFamily: {
       'sans': ["'IBM Plex Sans'", "-apple-system", "BlinkMacSystemFont", "'Segoe UI'", "Roboto", "'Helvetica Neue'", "Arial", "sans-serif"]

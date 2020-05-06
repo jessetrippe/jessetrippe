@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     content: ['./_site/**/*.html'],
-    css: ["./_site/styles/site.css"]
+    css: ["./_site/styles/main.css"]
   },
   theme: {
     fontFamily: {

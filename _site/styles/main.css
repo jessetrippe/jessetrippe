@@ -629,6 +629,11 @@ video {
 
 /* tailwind end components */
 
+---
+---
+/* Front matter is necessary for Jekyll */ {
+}
+
 .filter-shadow { -webkit-filter: drop-shadow(0 1px 1px rgba(0,0,0,.3)); filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
 }
 
@@ -748,6 +753,11 @@ video {
 .animated-underline:hover:after {
   visibility: visible;
   width: 100%;
+}
+
+---
+---
+/* Front matter is necessary for Jekyll */ {
 }
 
 @-webkit-keyframes tada {

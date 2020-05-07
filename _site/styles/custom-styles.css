@@ -46,8 +46,9 @@
 	left: 0;
 	bottom: 0;
 	right: 0;
-	display: grid;
-	place-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: #FFA2FD;
 	color: #FF01FB;
 	opacity: 0;

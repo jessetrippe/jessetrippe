@@ -22,6 +22,9 @@ module.exports = {
           black: 'hsl(301, 100%, 1%)',
           white: 'hsl(301, 100%, 99%)'
         }
+      },
+      borderWidth: {
+        '16': '16px',
       }
     }
   },

@@ -56,16 +56,12 @@ $(document).ready(function() {
 	};
 });
 
-$("#nav-toggle").click(function() {
-	$("#nav-primary").removeAttr("hidden");
+$("[data-toggle='menu']").click(function() {
+	$("#" + $(this).data("toggle")).toggleClass("hidden");
 });
 
-$("#nav-close").click(function() {
-	$("#nav-primary").attr("hidden", true);
-});
-
-$("#nav-primary a").click(function() {
-	$("#nav-close").click();
+$("[data-close='menu']").click(function() {
+	$("#" + $(this).data("close")).addClass("hidden");
 });
 
 $("[data-reveal]").each(function() {

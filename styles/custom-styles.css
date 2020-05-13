@@ -20,10 +20,6 @@
 	background: linear-gradient(145deg, #2F012E 0%, #180117 100%);
 }
 
-[data-clipboard-content]:focus {
-    outline: 0;
-}
-
 [data-clipboard-content]:active {
     transform: scale(.98);
 }

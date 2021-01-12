@@ -30,5 +30,6 @@ exclude:
   - netlify.toml
   - bin
   - .gitignore
+  - yarn-error.log
 
 # Use NODE_ENV=production to trigger purgecss

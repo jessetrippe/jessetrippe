@@ -1,8 +1,12 @@
 {
-  "devDependencies": {
-    "autoprefixer": "^9.7.6",
-    "postcss-cli": "^7.0.0",
-    "postcss-import": "^12.0.0",
-    "tailwindcss": "^1.4.5"
-  }
+	"devDependencies": {
+		"autoprefixer": "^9.7.6",
+		"postcss-cli": "^7.0.0",
+		"postcss-import": "^12.0.0",
+		"tailwindcss": "^1.4.5"
+	},
+	"scripts": {
+		"build": "bundle exec jekyll build && find ./_site/styles/* ! -name 'main.css' -exec rm -rf {} + && purgecss --css './_site/styles/main.css' --content './_site/**/*.html' './_site/**/*.js' --output './_site/styles/main.css'",
+		"serve": "bundle exec jekyll serve --livereload"
+	}
 }

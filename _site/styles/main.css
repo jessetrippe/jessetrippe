@@ -482,19 +482,11 @@ textarea {
   resize: vertical;
 }
 
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #a0aec0;
-}
-
 input::-moz-placeholder, textarea::-moz-placeholder {
   color: #a0aec0;
 }
 
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  color: #a0aec0;
-}
-
-input::-ms-input-placeholder, textarea::-ms-input-placeholder {
   color: #a0aec0;
 }
 
@@ -634,7 +626,7 @@ video {
 /* Front matter is necessary for Jekyll */ {
 }
 
-.filter-shadow { -webkit-filter: drop-shadow(0 1px 1px rgba(0,0,0,.3)); filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
+.filter-shadow { filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
 }
 
 .grid-auto-row-min-content { grid-auto-rows: -webkit-min-content; grid-auto-rows: min-content;
@@ -1073,12 +1065,12 @@ video {
   border-width: 2px;
 }
 
-.border-t-16 {
-  border-top-width: 16px;
+.border-t-12 {
+  border-top-width: 12px;
 }
 
-.border-b-16 {
-  border-bottom-width: 16px;
+.border-b-12 {
+  border-bottom-width: 12px;
 }
 
 .block {

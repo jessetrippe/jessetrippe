@@ -1,7 +1,8 @@
 module.exports = {
-  purge: [
-    './site/**/*.html',
-  ],
+  purge: {
+    content: ["./_site/**/*.html"],
+    css: ["./_site/**/main.css"]
+  },
   theme: {
     fontFamily: {
       'sans': ["'IBM Plex Sans'", "-apple-system", "BlinkMacSystemFont", "'Segoe UI'", "Roboto", "'Helvetica Neue'", "Arial", "sans-serif"]
@@ -23,7 +24,6 @@ module.exports = {
         }
       },
       borderWidth: {
-        '12': '12px',
         '16': '16px',
       }
     }
@@ -31,5 +31,4 @@ module.exports = {
   variants: {
     zIndex: ['responsive', 'hover', 'focus'],
   },
-  plugins: [],
 }

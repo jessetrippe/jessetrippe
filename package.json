@@ -1,13 +1,14 @@
 {
 	"license": "MIT",
-	"devDependencies": {
-		"autoprefixer": "^9.7.6",
-		"postcss-cli": "^7.0.0",
-		"postcss-import": "^12.0.0",
-		"tailwindcss": "^1.4.5"
-	},
 	"scripts": {
 		"build": "NODE_ENV=production bundle exec jekyll build",
 		"serve": "bundle exec jekyll serve --livereload"
+	},
+	"dependencies": {
+		"autoprefixer": "^10.2.1",
+		"postcss": "^8.2.4",
+		"postcss-cli": "^8.3.1",
+		"postcss-import": "^14.0.0",
+		"tailwindcss": "^2.0.2"
 	}
 }

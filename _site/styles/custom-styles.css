@@ -1,10 +1,7 @@
 /* Front matter is necessary for Jekyll */ {
 } .filter-shadow { filter: drop-shadow(0 1px 1px rgba(0,0,0,.3));
 } .grid-auto-row-min-content { grid-auto-rows: -webkit-min-content; grid-auto-rows: min-content;
-} .text-gradient {
-  background: linear-gradient(145deg, #FF8BFD 0%, #BA01B7 80%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+} .text-fill-transparent { -webkit-text-fill-color: transparent;
 } [data-clipboard-content]:active {
   transform: scale(.98);
 } [data-clipboard-content].is-animating {

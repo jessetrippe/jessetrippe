@@ -6,11 +6,7 @@
 
 .grid-auto-row-min-content { grid-auto-rows: min-content; }
 
-.text-gradient {
-	background: linear-gradient(145deg, #FF8BFD 0%, #BA01B7 80%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
+.text-fill-transparent { -webkit-text-fill-color: transparent; }
 
 [data-clipboard-content]:active {
     transform: scale(.98);

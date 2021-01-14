@@ -1,18 +1,18 @@
 <section id="work" class="py-48">
-	<div class="px-8 container mx-auto">
+	<div class="px-8 container mx-auto max-w-7xl">
 		<div class="flex items-center mb-24 w-full xl:w-10/12 mx-auto" data-reveal data-reveal-from="top" data-reveal-delay="300">
 			<div class="flex-1 h-px bg-magenta-700" aria-hidden="true"></div>
 			<h2 class="px-4 text-5xl font-semibold whitespace-no-wrap">Some things I've built</h2>
 			<div class="flex-1 h-px bg-magenta-700" aria-hidden="true"></div>
 		</div>
-	</div>
-	<div class="work-items grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-20" style="grid-auto-rows: 1fr">
-		{% for work_item in site.work_items %}
-			<a href="{{ work_item.url }}" data-toggle="work-item-open" class="work-item-trigger transform hover:scale-105 hover:z-10 hover:shadow-xl w-full text-left px-16 py-24 transition-all duration-150 align-top relative text-magenta-100" data-reveal data-reveal-from="bottom" data-reveal-delay="600">
-				<h2 class="text-3xl mb-3 font-bold leading-tight">{{ work_item.title }}</h2>
-				<h2 class="text-xl">{{ work_item.description }}</h2>
-				{% if work_item.tag %}<h2 class="inline-block rounded font-bold text-magenta-200 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>{% endif %}
-			</a>
-		{% endfor %}
+		<div class="grid md:grid-cols-2 xl:grid-cols-3 gap-12">
+			{% for work_item in site.work_items %}
+				<a href="{{ work_item.url }}" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
+					<h2 class="text-3xl mb-3 font-bold leading-tight">{{ work_item.title }}</h2>
+					<h2 class="text-xl">{{ work_item.description }}</h2>
+					{% if work_item.tag %}<h2 class="opacity-90 inline-block rounded font-bold text-magenta-100 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>{% endif %}
+				</a>
+			{% endfor %}
+		</div>
 	</div>
 </section>

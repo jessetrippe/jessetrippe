@@ -76,6 +76,28 @@ module.exports = {
           700: '#565962',
           800: '#373b47',
           900: '#1c1e24',
+        },
+        carnelian: {
+          100: '#f5dedc',
+          200: '#e7b9b5',
+          300: '#d8958e',
+          400: '#ca7067',
+          500: '#b4392d',
+          600: '#9b2e23',
+          700: '#88291f',
+          800: '#74231a',
+          900: '#611e16',
+        },
+        gunmetal: {
+          900: '#10171b',
+          800: '#26353f',
+          700: '#3c5462',
+          600: '#527286',
+          500: '#6891aa',
+          400: '#88a8bc',
+          300: '#a7bfce',
+          200: '#c7d6df',
+          100: '#e6edf1',
         }
       },
       borderWidth: {
@@ -85,6 +107,9 @@ module.exports = {
     }
   },
   variants: {
-    zIndex: ['responsive', 'hover', 'focus'],
+    extend: {
+      width: ['group-hover'],
+      visibility: ['group-hover'],
+    }
   },
 }

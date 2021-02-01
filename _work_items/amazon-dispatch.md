@@ -4,10 +4,11 @@ title: "Amazon Dispatch"
 description: "Amazon's delivery partners needed a tool to track and monitor driver location, progress, route, and stop information."
 tag: case-study
 order: 2
+featured: amazon-dispatch-01.png
 ---
 <section class="grid grid-cols-12 gap-10 text-xl pb-20">
 	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded bg-magenta-200">
+		<aside class="p-8 rounded bg-illuminating-200">
 			<table>
 				<tbody>
 					<tr>

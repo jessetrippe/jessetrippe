@@ -1,0 +1,3 @@
+<svg {% if include.class %}class="{{ include.class }}"{% endif %} {% if include.id %}id="{{ include.id }}"{% endif %} viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path fill="currentColor" d="M92 10v52H8z"/>
+</svg>

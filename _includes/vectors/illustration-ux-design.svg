@@ -1,0 +1,8 @@
+<svg {% if include.class %}class="{{ include.class }}"{% endif %} {% if include.id %}id="{{ include.id }}"{% endif %} viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path fill="currentColor" d="M40 30a2 2 0 011.9 2.6l-4 12A2 2 0 0136 46H16a2 2 0 01-1.9-2.6l4-12A2 2 0 0120 30h20z"/>
+    <path fill="currentColor" d="M40 50a2 2 0 011.9 2.6l-4 12A2 2 0 0136 66H16a2 2 0 01-1.9-2.6l4-12A2 2 0 0120 50h20z"/>
+    <path fill="currentColor" d="M40 70a2 2 0 011.9 2.6l-4 12A2 2 0 0136 86H16a2 2 0 01-1.9-2.6l4-12A2 2 0 0120 70h20z"/>
+    <path fill="currentColor" d="M6 94h38a2 2 0 010 4H4a2 2 0 01-2-2V4c0-1.1.9-2 2-2h44c.5 0 1 .2 1.4.6l24 24c.4.4.6.9.6 1.4v28a2 2 0 11-4 0V28.8L47.2 6H6v88z"/>
+    <path fill="currentColor" d="M50 26h22a2 2 0 110 4H48a2 2 0 01-2-2V4a2 2 0 114 0v22zM50 38H38.8a2 2 0 110-4H52a2 2 0 012 2v40a2 2 0 01-2 2H38.8a2 2 0 110-4H50V38z"/>
+    <path fill="currentColor" d="M38.8 58a2 2 0 110-4H64a2 2 0 110 4H38.8zM87.6 54c.5 0 1 .2 1.4.6l8.4 8.4a2 2 0 010 2.8L68.2 95a2 2 0 01-1 .6L56.4 98a2 2 0 01-2.4-2.4l2.4-10.8c.1-.4.3-.7.6-1l29.2-29.2a2 2 0 011.4-.6zm0 4.8L60.2 86.2l-1.6 7.2 7.2-1.6 27.4-27.4-5.6-5.6z"/>
+</svg>

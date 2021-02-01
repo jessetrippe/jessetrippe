@@ -1,18 +1,19 @@
-<section id="work" class="py-48">
-	<div class="px-8 container mx-auto max-w-7xl">
-		<div class="flex items-center mb-24 w-full xl:w-10/12 mx-auto" data-reveal data-reveal-from="top" data-reveal-delay="300">
-			<div class="flex-1 h-px bg-magenta-700" aria-hidden="true"></div>
-			<h2 class="px-4 text-5xl font-semibold whitespace-no-wrap">Some things I've built</h2>
-			<div class="flex-1 h-px bg-magenta-700" aria-hidden="true"></div>
-		</div>
-		<div class="grid md:grid-cols-2 xl:grid-cols-3 gap-12">
-			{% for work_item in site.work_items %}
-				<a href="{{ work_item.url }}" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
-					<h2 class="text-3xl mb-3 font-bold leading-tight">{{ work_item.title }}</h2>
-					<h2 class="text-xl">{{ work_item.description }}</h2>
-					{% if work_item.tag %}<h2 class="opacity-90 inline-block rounded font-bold text-magenta-100 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>{% endif %}
-				</a>
-			{% endfor %}
-		</div>
+<section id="work" class="py-48 container mx-auto max-w-7xl">
+	<div class="flex items-center mb-24 w-full xl:w-10/12 mx-auto" data-reveal data-reveal-from="top" data-reveal-delay="300">
+		<div class="flex-1 h-0.5 bg-illuminating-500" aria-hidden="true"></div>
+		<h2 class="px-4 text-6xl font-semibold whitespace-no-wrap">Some things I've built</h2>
+		<div class="flex-1 h-0.5 bg-illuminating-500" aria-hidden="true"></div>
+	</div>
+	<div class="grid lg:grid-cols-2 gap-12 lg:gap-8 xl:grid-cols-3 xl:gap-12">
+		{% for work_item in site.work_items %}
+			<a href="{{ work_item.url }}" class="rounded pt-12 px-12 bg-illuminating-100 hover:bg-illuminating-200 hover:bg-opacity-75 transition-all duration-150 transform hover:scale-105 hover:z-10 relative work-item flex flex-col group max-w-2xl mx-auto">
+				<h2 class="text-5xl mb-8 font-bold">{{ work_item.title }}</h2>
+				<p class="mb-12 text-xl flex-1">{{ work_item.description }}</p>
+				<!-- {% if work_item.tag %}<h2 class="opacity-90 inline-block rounded font-bold bg-illuminating-500 px-1 uppercase">Case Study</h2>{% endif %} -->
+				<div class="w-full h-40 overflow-hidden rounded-t group-hover:opacity-100 opacity-95 transition-opacity duration-250">
+					<img class="rounded-t work-item-featured transition-all duration-150" src="/images/projects/{{ work_item.featured }}"/>
+				</div>
+			</a>
+		{% endfor %}
 	</div>
 </section>

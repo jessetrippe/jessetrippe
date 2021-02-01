@@ -4,11 +4,12 @@ title: "Coyote LTL Quote"
 description: "A less than truckload (LTL) quoting and shipping tool so Coyote Logistics could remain competitive in the market."
 tag: case-study
 order: 5
+featured: ltl-1.png
 ---
 
 <section class="grid grid-cols-12 gap-10 text-xl pb-20">
 	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded bg-magenta-200">
+		<aside class="text-black p-8 rounded bg-illuminating-200">
 			<table>
 				<tbody>
 					<tr>
@@ -75,7 +76,7 @@ order: 5
 		<p>This design also featured an unrefined version of the timeline that had navigation issue during user testing so a new design was implemented that improved on this slightly.</p>
 	</div>
 	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="" src="/images/projects/ltl-initial-3b.png" alt="LTL Quote Initial Design" height="1093" width="1200">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/ltl-initial-3b.png" alt="LTL Quote Initial Design" height="1093" width="1200">
 	</div>
 </section>
 
@@ -86,11 +87,11 @@ order: 5
 		<p>The tool was released first to a limited set of beta users and later to all of Coyote's shippers. It's now being used countless times daily.</p>
 	</div>
 	<div class="col-span-3 md:col-span-2 grid gap-10">
-		<img loading="lazy" class="" src="/images/projects/ltl-1.png" alt="LTL Quote Final Design 1" height="996" width="1200">
-		<img loading="lazy" class="" src="/images/projects/ltl-2.png" alt="LTL Quote Final Design 2" height="1033" width="1200">
-		<img loading="lazy" class="" src="/images/projects/ltl-3.png" alt="LTL Quote Final Design 3" height="1033" width="1200">
-		<img loading="lazy" class="" src="/images/projects/ltl-4.png" alt="LTL Quote Final Design 4" height="1033" width="1200">
-		<img loading="lazy" class="" src="/images/projects/ltl-5.png" alt="LTL Quote Final Design 5" height="1033" width="1200">
-		<img loading="lazy" class="" src="/images/projects/ltl-6.png" alt="LTL Quote Final Design 6" height="957" width="1200">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/ltl-1.png" alt="LTL Quote Final Design 1" height="996" width="1200">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/ltl-2.png" alt="LTL Quote Final Design 2" height="1033" width="1200">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/ltl-3.png" alt="LTL Quote Final Design 3" height="1033" width="1200">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/ltl-4.png" alt="LTL Quote Final Design 4" height="1033" width="1200">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/ltl-5.png" alt="LTL Quote Final Design 5" height="1033" width="1200">
+		<img loading="lazy" class="rounded shadow-xl" src="/images/projects/ltl-6.png" alt="LTL Quote Final Design 6" height="957" width="1200">
 	</div>
 </section>

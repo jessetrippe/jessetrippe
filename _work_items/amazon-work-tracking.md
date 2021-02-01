@@ -4,11 +4,12 @@ title: "Amazon Work Tracking"
 description: "Amazon needed a tool for delivery partners to submit hours, mileage, and route counts daily in order to get paid."
 tag: case-study
 order: 3
+featured: amazon-work-tracking-01.png
 ---
 
 <section class="grid grid-cols-12 gap-10 text-xl pb-20">
 	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded bg-magenta-200">
+		<aside class="text-black p-8 rounded bg-illuminating-200">
 			<table>
 				<tbody>
 					<tr>

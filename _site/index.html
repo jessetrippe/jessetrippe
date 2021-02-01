@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="bg-magenta-500 text-magenta-white">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -19,210 +19,264 @@
     <link rel="stylesheet" href="/styles/main.css">
 </head>
 
-<body class="font-sans text-lg bg-magenta-black">
+<body class="font-sans text-lg text-gunmetal-900 px-8">
 
-    <header class="flex justify-between py-5 px-8 items-center fixed z-20 top-0 inset-x-0 bg-magenta-black border-magenta-500 border-t-12">
-    <a class="text-2xl font-medium animated-underline relative" href="/#"  data-reveal="">Jesse Trippe</a>
-    <button id="nav-toggle" data-toggle="menu" class="flex lg:hidden items-center border-2 border-magenta-500 text-magenta-500 hover:bg-magenta-500 hover:text-magenta-black font-semibold rounded py-2 px-3 transition duration-150" aria-expanded="false">
+    <header class="flex justify-between py-5 items-center sticky top-0 bg-white font-medium z-10 px-8 -mx-8">
+    <a class="text-2xl font-medium group relative group transition duration-150" href="/#"  data-reveal="">
+        Jesse Trippe
+        <span class="absolute h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+    </a>
+    <button id="nav-toggle" data-toggle="menu" class="flex lg:hidden items-center border-2 border-illuminating-500 bg-illuminating-500 text-illuminating-500 text-gunmetal-900 font-semibold rounded py-2 px-3 transition duration-150 hover:border-gunmetal-900 hover:bg-gunmetal-900 hover:text-illuminating-500 focus:outline-none" aria-expanded="false">
         <svg class="w-5 h-5 fill-current"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 	<path d="M16.4 9H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1zm0 4H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1zM3.6 7h12.8c.55 0 .6-.45.6-1s-.05-1-.6-1H3.6c-.55 0-.6.45-.6 1s.05 1 .6 1z"/>
 </svg>
     </button>
-    <nav id="menu" class="hidden flex lg:flex bg-magenta-black fixed inset-0 z-10 lg:static">
-        <button id="nav-close" data-toggle="menu" class="p-3 fixed top-0 right-0 lg:hidden">
-            <svg class="w-10 h-10 fill-current filter-shadow"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+    <nav id="menu" class="hidden flex lg:flex bg-white fixed inset-0 z-10 lg:static">
+        <button id="nav-close" data-toggle="menu" class="p-3 fixed top-0 right-0 lg:hidden focus:outline-none">
+            <svg class="w-10 h-10"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
     <path fill="currentColor" d="M10.56 1.08l.36.36c.1.1.1.26 0 .37L6.73 6l4.2 4.2c.1.1.1.26 0 .36l-.37.36c-.1.1-.26.1-.37 0L6 6.73l-4.2 4.2c-.1.1-.26.1-.36 0l-.36-.37a.26.26 0 010-.37L5.27 6l-4.2-4.2a.26.26 0 010-.36l.37-.36c.1-.1.26-.1.37 0L6 5.27l4.2-4.2c.1-.1.26-.1.36 0z"/>
 </svg>
 
         </button>
         <div class="flex flex-col lg:flex-row lg:text-lg justify-center items-center w-full text-4xl">
-            <a data-close="menu" class="animated-underline relative block py-1 lg:mr-8" href="/#experience" data-reveal="" data-reveal-from="top" data-reveal-delay="100">Experience</a>
-            <a data-close="menu" class="animated-underline relative block py-1 lg:mr-8" href="/#work" data-reveal="" data-reveal-from="top" data-reveal-delay="200">Work</a>
-            <a data-close="menu" class="animated-underline relative block py-1 lg:mr-8" href="/#about" data-reveal="" data-reveal-from="top" data-reveal-delay="300">About</a>
-            <a data-close="menu" class="animated-underline relative block py-1 lg:mr-8" href="/#contact" data-reveal="" data-reveal-from="top" data-reveal-delay="400">Contact</a>
-            <a data-close="menu" class="animated-underline relative block py-1 flex items-center" href="/jesse-trippe-resume.pdf" data-reveal="" data-reveal-from="top" data-reveal-delay="500"><svg class="mr-2 lg:mr-1.5 h-6 w-6 lg:h-4 lg:w-4 text-white"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+            <a data-close="menu" class="group relative block py-2 lg:py-0 lg:mr-8" href="/#experience" data-reveal="" data-reveal-from="top" data-reveal-delay="100">
+                Experience
+                <span class="absolute h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+            </a>
+            <a data-close="menu" class="group relative block py-2 lg:py-0 lg:mr-8" href="/#work" data-reveal="" data-reveal-from="top" data-reveal-delay="200">
+                Work
+                <span class="absolute h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+            </a>
+            <a data-close="menu" class="group relative block py-2 lg:py-0 lg:mr-8" href="/#about" data-reveal="" data-reveal-from="top" data-reveal-delay="300">
+                About
+                <span class="absolute h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+            </a>
+            <a data-close="menu" class="group relative block py-2 lg:py-0 lg:mr-8" href="/#contact" data-reveal="" data-reveal-from="top" data-reveal-delay="400">
+                Contact
+                <span class="absolute h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+            </a>
+            <a data-close="menu" class="group relative block py-2 lg:py-0" href="/jesse-trippe-resume.pdf" data-reveal="" data-reveal-from="top" data-reveal-delay="500">
+                <span class="flex items-center">
+                <svg class="mr-2 lg:mr-1.5 h-6 w-6 lg:h-4 lg:w-4"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
     <path fill="currentColor" d="M14.9992115,7.00721669 L11.9993166,7.00721669 L11.9993166,1.01265823 L7.99945666,1.01265823 L7.99945666,7.00721669 L4.99956172,7.00721669 L9.99938663,12.0026821 L14.9992115,7.00721669 Z M19.3370596,13.5332927 C19.127067,13.3094958 17.726116,11.8118553 17.32613,11.4212099 C17.0611393,11.1624448 16.6821526,11.003589 16.2841665,11.003589 L14.5272281,11.003589 L17.5911208,13.9948737 L14.0472449,13.9948737 C13.9452484,13.9948737 13.8532517,14.0468265 13.8072533,14.127753 L12.9912818,15.9990544 L7.0074914,15.9990544 L6.19151998,14.127753 C6.14552159,14.0468265 6.05252485,13.9948737 5.95152838,13.9948737 L2.40765249,13.9948737 L5.47054523,11.003589 L3.71460672,11.003589 C3.31762062,11.003589 2.93863389,11.1624448 2.67264321,11.4212099 C2.27265722,11.8128544 0.871706278,13.3104949 0.661713632,13.5332927 C0.172730757,14.0538202 -0.0962598233,14.4684438 0.0317356943,14.9809785 L0.592716049,18.0521907 C0.720711566,18.5657245 1.28369185,18.9873418 1.84467221,18.9873418 L18.156101,18.9873418 C18.7170813,18.9873418 19.2800616,18.5657245 19.4080571,18.0521907 L19.9690375,14.9809785 C20.0950331,14.4684438 19.8270425,14.0538202 19.3370596,13.5332927 Z"/>
-</svg> Resume</a>
+</svg> Resume</span>
+                <span class="absolute h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+            </a>
         </div>
     </nav>
 </header>
 
-<header id="home" class="min-h-screen py-32 px-8 flex flex-col justify-center container mx-auto max-w-7xl">
-	<h2 class="text-2xl" data-reveal data-reveal-from="bottom" data-reveal-delay="800">Nice to meet you!</h2>
-	<h2 class="text-7xl font-bold leading-tight mb-12" data-reveal data-reveal-from="bottom" data-reveal-delay="800"><span class=" text-gradient bg-gradient-to-br from-magenta-200 to-magenta-600 bg-clip-text text-fill-transparent">I'm Jesse Trippe.</span></h2>
-	<p class="text-2xl mb-12 md:w-9/12 lg:w-8/12 xl:w-7/12" data-reveal data-reveal-from="bottom" data-reveal-delay="900">I'm a UX Designer building and designing phenomenal websites, complex web applications, and large-scale platforms based in Seattle, WA.</p>
-	<p class="pt-3" data-reveal data-reveal-from="bottom" data-reveal-delay="1000">
-    	<button class="border-2 border-magenta-500 text-magenta-500 hover:bg-magenta-500 hover:text-magenta-black font-semibold rounded py-4 px-6 transition duration-150 relative select-none focus:outline-none inline-flex items-center" data-clipboard-content="jesse@jessetrippe.com"><svg class="mr-2 h-5 w-5"  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<header id="home" class="py-24 lg:py-32 xl:py-40 px-8 bg-illuminating-500 -mx-8 overflow-hidden">
+	<div class="container mx-auto max-w-7xl">
+		<h2 class="text-3xl" data-reveal data-reveal-from="top" data-reveal-delay="800">Nice to meet you!</h2>
+		<h2 class="text-9xl font-bold leading-tight mb-12" data-reveal data-reveal-from="top" data-reveal-delay="800">I'm Jesse Trippe.</h2>
+		<p class="text-3xl mb-16 md:w-9/12 lg:w-8/12 xl:w-7/12 leading-normal" data-reveal data-reveal-from="top" data-reveal-delay="900">I'm a UX Designer building and designing websites, complex web applications, and large-scale platforms based in Seattle, WA.</p>
+		<p class="" data-reveal data-reveal-from="top" data-reveal-delay="1000">
+	    	<button class="border-2 border-gunmetal-900 hover:bg-gunmetal-900 hover:text-illuminating-500 font-semibold rounded py-4 px-6 transition duration-150 relative select-none focus:outline-none inline-flex items-center" data-clipboard-content="jesse@jessetrippe.com"><svg class="mr-2 h-5 w-5"  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
     <path fill="currentColor" d="M1.57 5.29l7.5 4.02c.26.14.58.2.91.2.33 0 .65-.06.9-.2l7.5-4.02c.5-.27.96-1.29.06-1.29H1.52c-.9 0-.43 1.02.05 1.29zm17.04 2.2l-7.72 4.03c-.34.17-.58.2-.91.2a1.7 1.7 0 01-.9-.2l-7.7-4.03C1 7.29 1 7.52 1 7.7V15c0 .42.57 1 1 1h16c.43 0 1-.58 1-1V7.7c0-.18 0-.42-.39-.21z"/>
 </svg>
  Get in touch</button>
-    </p>
+	    </p>
+	</div>
 </header>
 
-<section id="experience" class="py-48 px-8 container mx-auto max-w-7xl">
+<section id="experience" class="py-48 container mx-auto max-w-7xl">
 	<div class="flex items-center mb-24 w-full xl:w-10/12 mx-auto" data-reveal data-reveal-from="top" data-reveal-delay="300">
-		<div class="flex-1 h-px bg-magenta-700" aria-hidden="true"></div>
-		<h2 class="px-4 text-5xl font-semibold whitespace-no-wrap">The work I do</h2>
-		<div class="flex-1 h-px bg-magenta-700" aria-hidden="true"></div>
+		<div class="flex-1 h-0.5 bg-illuminating-500" aria-hidden="true"></div>
+		<h2 class="px-4 text-6xl font-semibold whitespace-no-wrap">The work I do</h2>
+		<div class="flex-1 h-0.5 bg-illuminating-500" aria-hidden="true"></div>
 	</div>
 	<div class="flex flex-col lg:flex-row text-xl">
-		<div class="flex-1 max-w-xl" data-reveal data-reveal-from="bottom" data-reveal-delay="500">
-			<svg    xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-	<rect fill="#fff" width="92" height="92" y="4" rx=".5"></rect>
-	<path fill="#000" d="M4 24h84v68H4z"></path>
-	<path fill="#fff" d="M42.704 51.872a2 2 0 1 1-1.408-3.744l32-12a2 2 0 0 1 1.408 3.744l-32 12z"></path>
-	<rect fill="#fff" width="12" height="12" x="32" y="44" rx=".5"></rect>
-	<rect fill="#fff" width="12" height="12" x="72" y="32" rx=".5"></rect>
-	<rect fill="#fff" width="16" height="40" x="8" y="32" rx=".5"></rect>
-	<path fill="#000" d="M4 8h84v12H4z"></path>
-	<path fill="#E1BFFF" d="M36 48h4v4h-4v-4zM12 36h8v8h-8v-8zm0 12h8v8h-8v-8zm0 12h8v8h-8v-8zm64-24h4v4h-4v-4z"></path>
-	<path fill="#80F" fill-opacity=".25" d="M56 76h20v4H56z"></path>
-	<path fill="#fff" d="M78 64a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H54a2 2 0 0 1-2-2V62a2 2 0 0 1 2-2h6a2 2 0 0 1 1.416.584L64.828 64H78z"></path>
-	<path fill="#000" d="M56 80h20V68H64a2 2 0 0 1-1.416-.584L59.172 64H56v16z"></path>
-	<path fill="#fff" d="M10 16a2 2 0 1 1 0-4h4a2 2 0 1 1 0 4h-4zm12 0a2 2 0 1 1 0-4h4a2 2 0 1 1 0 4h-4z"></path>
-	<rect fill="#fff" width="8" height="4" x="20" y="12" rx=".5"></rect>
-	<rect fill="#fff" width="8" height="4" x="8" y="12" rx=".5"></rect>
-	<path fill="#E1BFFF" d="M56 76h20v4H56z"></path>
+		<div class="flex-1 max-w-xl mx-auto" data-reveal data-reveal-from="bottom" data-reveal-delay="500">
+			<svg class="h-48 w-40 text-black"  viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path fill="currentColor" d="M95.5 4c.3 0 .5.2.5.5v91c0 .3-.2.5-.5.5h-91a.5.5 0 01-.5-.5v-91c0-.3.2-.5.5-.5h91zM92 24H8v68h84V24zm0-16H8v12h84V8z"/>
+    <path fill="currentColor" d="M46.7 51.9a2 2 0 11-1.4-3.8l32-12a2 2 0 011.4 3.8l-32 12z"/>
+    <rect fill="currentColor" x="36" y="44" width="12" height="12" rx=".5"/>
+    <rect fill="currentColor" x="76" y="32" width="12" height="12" rx=".5"/>
+    <rect fill="currentColor" x="12" y="32" width="16" height="40" rx=".5"/>
+    <path fill="currentColor" d="M64 60c.5 0 1 .2 1.4.6l3.4 3.4H82a2 2 0 012 2v16a2 2 0 01-2 2H58a2 2 0 01-2-2V62c0-1.1.9-2 2-2h6zm-.8 4H60v16h20V68H68a2 2 0 01-1.4-.6L63.2 64zM14 16a2 2 0 110-4h4a2 2 0 110 4h-4zm12 0a2 2 0 110-4h4a2 2 0 110 4h-4z"/>
+    <rect fill="currentColor" x="24" y="12" width="8" height="4" rx=".5"/>
+    <rect fill="currentColor" x="12" y="12" width="8" height="4" rx=".5"/>
 </svg>
 
-			<h2 class="font-semibold text-4xl mt-6 mb-4">UI Design</h2>
+			<svg class="h-48 w-40 text-illuminating-300 transform -translate-y-full absolute"  viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path fill="currentColor" d="M40 48h4v4h-4v-4zM16 36h8v8h-8v-8zm0 12h8v8h-8v-8zm0 12h8v8h-8v-8zm64-24h4v4h-4v-4z"/>
+    <path fill="currentColor" d="M60 76h20v4H60z"/>
+</svg>
+
+			<h2 class="font-semibold text-4xl mt-6 mb-5">UI Design</h2>
 			<p>I discover a creative direction and build design systems that result in delightful and intuitive experiences that fit perfectly with what users hope to accomplish.</p>
 		</div>
-		<div class="flex-1 max-w-xl my-16 lg:my-0 lg:mx-12" data-reveal data-reveal-from="bottom" data-reveal-delay="700">
-			<svg   xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-	<path fill="#E1BFFF" d="M38 4h8v24h-8z"></path>
-	<path fill="#FFF" d="M38 30a2 2 0 0 1 1.896 2.632l-4 12A2 2 0 0 1 34 46H14a2 2 0 0 1-1.896-2.632l4-12A2 2 0 0 1 18 30h20z"></path>
-	<path fill="#E1BFFF" d="M35.224 34H19.44l-2.664 8H32.56z"></path>
-	<path fill="#FFF" d="M38 50a2 2 0 0 1 1.896 2.632l-4 12A2 2 0 0 1 34 66H14a2 2 0 0 1-1.896-2.632l4-12A2 2 0 0 1 18 50h20z"></path>
-	<path fill="#E1BFFF" d="M19.44 54l-2.664 8H32.56l2.664-8z"></path>
-	<path fill="#FFF" d="M38 70a2 2 0 0 1 1.896 2.632l-4 12A2 2 0 0 1 34 86H14a2 2 0 0 1-1.896-2.632l4-12A2 2 0 0 1 18 70h20z"></path>
-	<path fill="#E1BFFF" d="M19.44 74l-2.664 8H32.56l2.664-8z"></path>
-	<path fill="#FFF" d="M4 94h38a2 2 0 1 1 0 4H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h44a2 2 0 0 1 1.416.584l24 24A2 2 0 0 1 72 28v28a2 2 0 1 1-4 0V28.828L45.172 6H4v88z"></path>
-	<path fill="#FFF" d="M48 26h22a2 2 0 1 1 0 4H46a2 2 0 0 1-2-2V4a2 2 0 1 1 4 0v22zm0 12H36.8a2 2 0 1 1 0-4H50a2 2 0 0 1 2 2v40a2 2 0 0 1-2 2H36.8a2 2 0 1 1 0-4H48V38z"></path>
-	<path fill="#FFF" d="M36.8 58a2 2 0 1 1 0-4H62a2 2 0 1 1 0 4H36.8zm18.184 25.784l29.2-29.2a2 2 0 0 1 2.832 0l8.4 8.4a2 2 0 0 1 0 2.832l-29.2 29.2a2 2 0 0 1-.984.536l-10.8 2.4a2 2 0 0 1-2.384-2.384l2.4-10.8a2 2 0 0 1 .536-.984z"></path>
-	<path fill="#000" d="M56.636 93.364l7.16-1.592L91.172 64.4 85.6 58.828 58.228 86.204z"></path>
-	<path fill="#E1BFFF" d="M88.384 61.616l2.788 2.784-27.376 27.372-7.16 1.592z"></path>
-</svg>
-			<h2 class="font-semibold text-4xl mt-6 mb-4">UX Design</h2>
-			<p>I define user flows of a product and deliver meaningful user experiences through prototyping with the goal to fail fast and iterate.</p>
-		</div>
-		<div class="flex-1 max-w-xl" data-reveal data-reveal-from="bottom" data-reveal-delay="900">
-			<svg   xmlns="http://www.w3.org/2000/svg" width="100" height="100">
-	<rect fill="#FFF" width="92" height="76" y="6" rx=".5"></rect>
-	<rect fill="#FFF" width="36" height="4" x="28" y="90" rx=".5"></rect>
-	<path fill="#000" d="M4 10h84v52H4V10zm0 56h84v12H4V66z"></path>
-	<path fill="#FFF" d="M44 78h4v16h-4z"></path>
-	<path fill="#E1BFFF" d="M88 10v52H4z"></path>
-	<path fill="#FFF" d="M42 74a2 2 0 1 1 0-4h8a2 2 0 1 1 0 4h-8z"></path>
-	<rect fill="#FFF" width="12" height="4" x="40" y="70" rx=".5"></rect>
-	<path fill="#FFF" d="M22 29.968L23.696 27 22 24.032 20.304 27 22 29.968zm-5.736-3.96l4-7a2 2 0 0 1 3.472 0l4 7a2 2 0 0 1 0 1.984l-4 7a2 2 0 0 1-3.472 0l-4-7a2 2 0 0 1 0-1.984zM34 49.968L35.696 47 34 44.032 32.304 47 34 49.968zm-5.736-3.96l4-7a2 2 0 0 1 3.472 0l4 7a2 2 0 0 1 0 1.984l-4 7a2 2 0 0 1-3.472 0l-4-7a2 2 0 0 1 0-1.984zM62 49.968L63.696 47 62 44.032 60.304 47 62 49.968zm-5.736-3.96l4-7a2 2 0 0 1 3.472 0l4 7a2 2 0 0 1 0 1.984l-4 7a2 2 0 0 1-3.472 0l-4-7a2 2 0 0 1 0-1.984zm-8.432-16.04L49.528 27l-1.696-2.968L46.136 27l1.696 2.968zm-5.736-3.96l4-7a2 2 0 0 1 3.472 0l4 7a2 2 0 0 1 0 1.984l-4 7a2 2 0 0 1-3.472 0l-4-7a2 2 0 0 1 0-1.984zM58.6 20.576l2-2a2 2 0 0 1 3.416 1.416v14h-4v-10a2 2 0 0 1-1.412-3.416H58.6zm3.416-.584a2 2 0 0 1 2 2v12c0 2.664-4 2.664-4 0v-14h2zm-31.416.584l2-2a2 2 0 0 1 3.416 1.416v14h-4v-10a2 2 0 0 1-1.412-3.416H30.6zm3.416-.584a2 2 0 0 1 2 2v12c0 2.664-4 2.664-4 0v-14h2zm36.584.584l2-2a2 2 0 0 1 3.416 1.416v14h-4v-10a2 2 0 0 1-1.412-3.416H70.6zm3.416-.584a2 2 0 0 1 2 2v12c0 2.664-4 2.664-4 0v-14h2zM70.6 40.576l2-2a2 2 0 0 1 3.416 1.416v14h-4v-10a2 2 0 0 1-1.412-3.416H70.6zm3.416-.584a2 2 0 0 1 2 2v12c0 2.664-4 2.664-4 0v-14h2zm-29.576.584l2-2a2 2 0 0 1 3.416 1.416v14h-4v-10a2 2 0 0 1-1.416-3.416zm3.416-.584a2 2 0 0 1 2 2v12c0 2.668-4 2.668-4 0v-14h2zm-29.416.584l2-2a2 2 0 0 1 3.416 1.416v14h-4v-10a2 2 0 0 1-1.416-3.416zm3.416-.584a2 2 0 0 1 2 2v12c0 2.668-4 2.668-4 0v-14h2z"></path>
+		<div class="flex-1 max-w-xl mx-auto my-16 lg:my-0 lg:mx-12" data-reveal data-reveal-from="bottom" data-reveal-delay="700">
+			<svg class="h-48 w-40 text-black"  viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path fill="currentColor" d="M40 30a2 2 0 011.9 2.6l-4 12A2 2 0 0136 46H16a2 2 0 01-1.9-2.6l4-12A2 2 0 0120 30h20z"/>
+    <path fill="currentColor" d="M40 50a2 2 0 011.9 2.6l-4 12A2 2 0 0136 66H16a2 2 0 01-1.9-2.6l4-12A2 2 0 0120 50h20z"/>
+    <path fill="currentColor" d="M40 70a2 2 0 011.9 2.6l-4 12A2 2 0 0136 86H16a2 2 0 01-1.9-2.6l4-12A2 2 0 0120 70h20z"/>
+    <path fill="currentColor" d="M6 94h38a2 2 0 010 4H4a2 2 0 01-2-2V4c0-1.1.9-2 2-2h44c.5 0 1 .2 1.4.6l24 24c.4.4.6.9.6 1.4v28a2 2 0 11-4 0V28.8L47.2 6H6v88z"/>
+    <path fill="currentColor" d="M50 26h22a2 2 0 110 4H48a2 2 0 01-2-2V4a2 2 0 114 0v22zM50 38H38.8a2 2 0 110-4H52a2 2 0 012 2v40a2 2 0 01-2 2H38.8a2 2 0 110-4H50V38z"/>
+    <path fill="currentColor" d="M38.8 58a2 2 0 110-4H64a2 2 0 110 4H38.8zM87.6 54c.5 0 1 .2 1.4.6l8.4 8.4a2 2 0 010 2.8L68.2 95a2 2 0 01-1 .6L56.4 98a2 2 0 01-2.4-2.4l2.4-10.8c.1-.4.3-.7.6-1l29.2-29.2a2 2 0 011.4-.6zm0 4.8L60.2 86.2l-1.6 7.2 7.2-1.6 27.4-27.4-5.6-5.6z"/>
 </svg>
 
-			<h2 class="font-semibold text-4xl mt-6 mb-4">Development</h2>
+			<svg class="h-48 w-40 text-illuminating-300 transform -translate-y-full absolute"  viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path fill="currentColor" d="M37.2 34H21.4l-2.6 8h15.8z"/>
+    <path fill="currentColor" d="M21.4 54l-2.6 8h15.8l2.6-8z"/>
+    <path fill="currentColor" d="M21.4 74l-2.6 8h15.8l2.6-8z"/>/>
+    <path fill="currentColor" d="M90.4 61.6l2.8 2.8-27.4 27.4-7.2 1.6z"/>
+    <polygon fill="currentColor" points="40 5.999 46 5.999 46 28 40 28"/>
+</svg>
+
+			<h2 class="font-semibold text-4xl mt-6 mb-5">UX Design</h2>
+			<p>I define user flows of a product and deliver meaningful user experiences through prototyping with the goal to fail fast and iterate.</p>
+		</div>
+		<div class="flex-1 max-w-xl mx-auto" data-reveal data-reveal-from="bottom" data-reveal-delay="900">
+			<svg class="h-48 w-40 text-illuminating-300"  viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path fill="currentColor" d="M92 10v52H8z"/>
+</svg>
+
+			<svg class="h-48 w-40 text-black transform -translate-y-full absolute"  viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path fill="currentColor" d="M95.5 6c.28 0 .5.22.5.5v75a.5.5 0 01-.5.5H52v8h15.5c.28 0 .5.22.5.5v3a.5.5 0 01-.5.5h-35a.5.5 0 01-.5-.5v-3c0-.28.22-.5.5-.5H48v-8H4.5a.5.5 0 01-.5-.5v-75c0-.28.22-.5.5-.5h91zM92 66H8v12h84V66zm0-56H8v52h84V10z"/>
+    <path fill="currentColor" d="M46 74a2 2 0 110-4h8a2 2 0 110 4h-8z"/>
+    <rect fill="currentColor" x="44" y="70" width="12" height="4" rx=".5"/>
+    <path fill="currentColor" d="M26 29.97L27.7 27 26 24.03 24.3 27l1.7 2.97zM20.26 26l4-7a2 2 0 013.48 0l4 7a2 2 0 010 1.98l-4 7a2 2 0 01-3.48 0l-4-7a2 2 0 010-1.98zM38 49.97L39.7 47 38 44.03 36.3 47l1.7 2.97zM32.26 46l4-7a2 2 0 013.48 0l4 7a2 2 0 010 1.98l-4 7a2 2 0 01-3.48 0l-4-7a2 2 0 010-1.98zM66 49.97L67.7 47 66 44.03 64.3 47l1.7 2.97zM60.26 46l4-7a2 2 0 013.48 0l4 7a2 2 0 010 1.98l-4 7a2 2 0 01-3.48 0l-4-7a2 2 0 010-1.98zm-8.43-16.04l1.7-2.97-1.7-2.97-1.7 2.97 1.7 2.97zM46.1 26l4-7a2 2 0 013.47 0l4 7a2 2 0 010 1.98l-4 7a2 2 0 01-3.47 0l-4-7a2 2 0 010-1.98zm16.5-5.43l2-2a2 2 0 013.42 1.41v14h-4V24a2 2 0 01-1.42-3.41zm3.42-.59a2 2 0 012 2v12c0 2.67-4 2.67-4 0V20h2zm-31.42.59l2-2a2 2 0 013.42 1.41v14h-4V24a2 2 0 01-1.42-3.41zm3.42-.59a2 2 0 012 2v12c0 2.67-4 2.67-4 0V20h2zm36.58.59l2-2a2 2 0 013.42 1.41v14h-4V24a2 2 0 01-1.42-3.41zm3.42-.59a2 2 0 012 2v12c0 2.67-4 2.67-4 0V20h2zM74.6 40.58l2-2a2 2 0 013.42 1.41v14h-4V44a2 2 0 01-1.42-3.41zm3.42-.59a2 2 0 012 2v12c0 2.67-4 2.67-4 0V40h2zm-29.58.59l2-2a2 2 0 013.42 1.41v14h-4V44a2 2 0 01-1.42-3.41zm3.42-.59a2 2 0 012 2v12c0 2.67-4 2.67-4 0V40h2zm-29.42.59l2-2a2 2 0 013.42 1.41v14h-4V44a2 2 0 01-1.42-3.41zm3.42-.59a2 2 0 012 2v12c0 2.67-4 2.67-4 0V40h2z"/>
+</svg>
+
+			<h2 class="font-semibold text-4xl mt-6 mb-5">Development</h2>
 			<p>With a strong focus on reliability, performance, and accessibility, I build scalable solutions for the Web using current and modern standards.</p>
 		</div>
 	</div>
 </section>
+<section id="work" class="py-48 container mx-auto max-w-7xl">
+	<div class="flex items-center mb-24 w-full xl:w-10/12 mx-auto" data-reveal data-reveal-from="top" data-reveal-delay="300">
+		<div class="flex-1 h-0.5 bg-illuminating-500" aria-hidden="true"></div>
+		<h2 class="px-4 text-6xl font-semibold whitespace-no-wrap">Some things I've built</h2>
+		<div class="flex-1 h-0.5 bg-illuminating-500" aria-hidden="true"></div>
+	</div>
+	<div class="grid lg:grid-cols-2 gap-12 lg:gap-8 xl:grid-cols-3 xl:gap-12">
+		
+			<a href="/amazon-scheduling/" class="rounded pt-12 px-12 bg-illuminating-100 hover:bg-illuminating-200 hover:bg-opacity-75 transition-all duration-150 transform hover:scale-105 hover:z-10 relative work-item flex flex-col group max-w-2xl mx-auto">
+				<h2 class="text-5xl mb-8 font-bold">Amazon Scheduling</h2>
+				<p class="mb-12 text-xl flex-1">Amazon Logistics' 3rd-party delivery partners needed a driver scheduling tool that adhered to industry best-practices.</p>
+				<!-- <h2 class="opacity-90 inline-block rounded font-bold bg-illuminating-500 px-1 uppercase">Case Study</h2> -->
+				<div class="w-full h-40 overflow-hidden rounded-t group-hover:opacity-100 opacity-95 transition-opacity duration-250">
+					<img class="rounded-t work-item-featured transition-all duration-150" src="/images/projects/amazon-scheduling-final-01.png"/>
+				</div>
+			</a>
+		
+			<a href="/amazon-dispatch/" class="rounded pt-12 px-12 bg-illuminating-100 hover:bg-illuminating-200 hover:bg-opacity-75 transition-all duration-150 transform hover:scale-105 hover:z-10 relative work-item flex flex-col group max-w-2xl mx-auto">
+				<h2 class="text-5xl mb-8 font-bold">Amazon Dispatch</h2>
+				<p class="mb-12 text-xl flex-1">Amazon's delivery partners needed a tool to track and monitor driver location, progress, route, and stop information.</p>
+				<!-- <h2 class="opacity-90 inline-block rounded font-bold bg-illuminating-500 px-1 uppercase">Case Study</h2> -->
+				<div class="w-full h-40 overflow-hidden rounded-t group-hover:opacity-100 opacity-95 transition-opacity duration-250">
+					<img class="rounded-t work-item-featured transition-all duration-150" src="/images/projects/amazon-dispatch-01.png"/>
+				</div>
+			</a>
+		
+			<a href="/amazon-work-tracking/" class="rounded pt-12 px-12 bg-illuminating-100 hover:bg-illuminating-200 hover:bg-opacity-75 transition-all duration-150 transform hover:scale-105 hover:z-10 relative work-item flex flex-col group max-w-2xl mx-auto">
+				<h2 class="text-5xl mb-8 font-bold">Amazon Work Tracking</h2>
+				<p class="mb-12 text-xl flex-1">Amazon needed a tool for delivery partners to submit hours, mileage, and route counts daily in order to get paid.</p>
+				<!-- <h2 class="opacity-90 inline-block rounded font-bold bg-illuminating-500 px-1 uppercase">Case Study</h2> -->
+				<div class="w-full h-40 overflow-hidden rounded-t group-hover:opacity-100 opacity-95 transition-opacity duration-250">
+					<img class="rounded-t work-item-featured transition-all duration-150" src="/images/projects/amazon-work-tracking-01.png"/>
+				</div>
+			</a>
+		
+			<a href="/coyote-howl/" class="rounded pt-12 px-12 bg-illuminating-100 hover:bg-illuminating-200 hover:bg-opacity-75 transition-all duration-150 transform hover:scale-105 hover:z-10 relative work-item flex flex-col group max-w-2xl mx-auto">
+				<h2 class="text-5xl mb-8 font-bold">Coyote Howl</h2>
+				<p class="mb-12 text-xl flex-1">Coyote needed a customer-focused mobile app to give shippers visibility and insight into their freight network.</p>
+				<!-- <h2 class="opacity-90 inline-block rounded font-bold bg-illuminating-500 px-1 uppercase">Case Study</h2> -->
+				<div class="w-full h-40 overflow-hidden rounded-t group-hover:opacity-100 opacity-95 transition-opacity duration-250">
+					<img class="rounded-t work-item-featured transition-all duration-150" src="/images/projects/howl-3.png"/>
+				</div>
+			</a>
+		
+			<a href="/coyote-ltl-quote/" class="rounded pt-12 px-12 bg-illuminating-100 hover:bg-illuminating-200 hover:bg-opacity-75 transition-all duration-150 transform hover:scale-105 hover:z-10 relative work-item flex flex-col group max-w-2xl mx-auto">
+				<h2 class="text-5xl mb-8 font-bold">Coyote LTL Quote</h2>
+				<p class="mb-12 text-xl flex-1">A less than truckload (LTL) quoting and shipping tool so Coyote Logistics could remain competitive in the market.</p>
+				<!-- <h2 class="opacity-90 inline-block rounded font-bold bg-illuminating-500 px-1 uppercase">Case Study</h2> -->
+				<div class="w-full h-40 overflow-hidden rounded-t group-hover:opacity-100 opacity-95 transition-opacity duration-250">
+					<img class="rounded-t work-item-featured transition-all duration-150" src="/images/projects/ltl-1.png"/>
+				</div>
+			</a>
+		
+			<a href="/shuffl/" class="rounded pt-12 px-12 bg-illuminating-100 hover:bg-illuminating-200 hover:bg-opacity-75 transition-all duration-150 transform hover:scale-105 hover:z-10 relative work-item flex flex-col group max-w-2xl mx-auto">
+				<h2 class="text-5xl mb-8 font-bold">Shuffl</h2>
+				<p class="mb-12 text-xl flex-1">Website and branding for a small Slack app aimed to keep remote teams connected by pairing random employees up for lunch.</p>
+				<!--  -->
+				<div class="w-full h-40 overflow-hidden rounded-t group-hover:opacity-100 opacity-95 transition-opacity duration-250">
+					<img class="rounded-t work-item-featured transition-all duration-150" src="/images/projects/shuffl-1.png"/>
+				</div>
+			</a>
+		
+			<a href="/coyote-my-tasks/" class="rounded pt-12 px-12 bg-illuminating-100 hover:bg-illuminating-200 hover:bg-opacity-75 transition-all duration-150 transform hover:scale-105 hover:z-10 relative work-item flex flex-col group max-w-2xl mx-auto">
+				<h2 class="text-5xl mb-8 font-bold">Coyote My Tasks</h2>
+				<p class="mb-12 text-xl flex-1">A dashboard that presents Coyote customers with high level freight information, tasks and todo items, and a quick way to complete them.</p>
+				<!-- <h2 class="opacity-90 inline-block rounded font-bold bg-illuminating-500 px-1 uppercase">Case Study</h2> -->
+				<div class="w-full h-40 overflow-hidden rounded-t group-hover:opacity-100 opacity-95 transition-opacity duration-250">
+					<img class="rounded-t work-item-featured transition-all duration-150" src="/images/projects/my-tasks-1.png"/>
+				</div>
+			</a>
+		
+			<a href="/coyote-tms/" class="rounded pt-12 px-12 bg-illuminating-100 hover:bg-illuminating-200 hover:bg-opacity-75 transition-all duration-150 transform hover:scale-105 hover:z-10 relative work-item flex flex-col group max-w-2xl mx-auto">
+				<h2 class="text-5xl mb-8 font-bold">Coyote TMS</h2>
+				<p class="mb-12 text-xl flex-1">Large web platform and application for shippers and trucking companies to manage freight.</p>
+				<!--  -->
+				<div class="w-full h-40 overflow-hidden rounded-t group-hover:opacity-100 opacity-95 transition-opacity duration-250">
+					<img class="rounded-t work-item-featured transition-all duration-150" src="/images/projects/coyote-tms-1.png"/>
+				</div>
+			</a>
+		
+			<a href="/tech-for-campaigns/" class="rounded pt-12 px-12 bg-illuminating-100 hover:bg-illuminating-200 hover:bg-opacity-75 transition-all duration-150 transform hover:scale-105 hover:z-10 relative work-item flex flex-col group max-w-2xl mx-auto">
+				<h2 class="text-5xl mb-8 font-bold">Tech for Campaigns</h2>
+				<p class="mb-12 text-xl flex-1">A sign-up form to collect volunteers' basic contact information, specific market expertise, and their technical background.</p>
+				<!-- <h2 class="opacity-90 inline-block rounded font-bold bg-illuminating-500 px-1 uppercase">Case Study</h2> -->
+				<div class="w-full h-40 overflow-hidden rounded-t group-hover:opacity-100 opacity-95 transition-opacity duration-250">
+					<img class="rounded-t work-item-featured transition-all duration-150" src="/images/projects/tfc-two-01.png"/>
+				</div>
+			</a>
+		
+			<a href="/barack-obamas-tumblr/" class="rounded pt-12 px-12 bg-illuminating-100 hover:bg-illuminating-200 hover:bg-opacity-75 transition-all duration-150 transform hover:scale-105 hover:z-10 relative work-item flex flex-col group max-w-2xl mx-auto">
+				<h2 class="text-5xl mb-8 font-bold">Barack Obama's Tumblr</h2>
+				<p class="mb-12 text-xl flex-1">Desktop and mobile template designs for Barack Obama's 2012 reelection campaign's Tumblr page.</p>
+				<!--  -->
+				<div class="w-full h-40 overflow-hidden rounded-t group-hover:opacity-100 opacity-95 transition-opacity duration-250">
+					<img class="rounded-t work-item-featured transition-all duration-150" src="/images/projects/barack-obama-tumblr-1.png"/>
+				</div>
+			</a>
+		
+			<a href="/bauer-latoza-studio/" class="rounded pt-12 px-12 bg-illuminating-100 hover:bg-illuminating-200 hover:bg-opacity-75 transition-all duration-150 transform hover:scale-105 hover:z-10 relative work-item flex flex-col group max-w-2xl mx-auto">
+				<h2 class="text-5xl mb-8 font-bold">Bauer Latoza Studio</h2>
+				<p class="mb-12 text-xl flex-1">Brochure and portfolio website for Chicago architecture firm specializing in historic preservation.</p>
+				<!--  -->
+				<div class="w-full h-40 overflow-hidden rounded-t group-hover:opacity-100 opacity-95 transition-opacity duration-250">
+					<img class="rounded-t work-item-featured transition-all duration-150" src="/images/projects/bauer-latoza-1.png"/>
+				</div>
+			</a>
+		
+	</div>
+</section>
 
-<section id="work" class="py-48">
-	<div class="px-8 container mx-auto max-w-7xl">
-		<div class="flex items-center mb-24 w-full xl:w-10/12 mx-auto" data-reveal data-reveal-from="top" data-reveal-delay="300">
-			<div class="flex-1 h-px bg-magenta-700" aria-hidden="true"></div>
-			<h2 class="px-4 text-5xl font-semibold whitespace-no-wrap">Some things I've built</h2>
-			<div class="flex-1 h-px bg-magenta-700" aria-hidden="true"></div>
+<section id="about" class="py-24 lg:py-32 xl:py-40 px-8 bg-illuminating-500 -mx-8">
+	<div class="container mx-auto max-w-7xl">
+		<div class="flex items-center mb-24 w-full xl:w-10/12" data-reveal data-reveal-from="top" data-reveal-delay="300">
+			<h2 class="pr-4 text-6xl font-semibold">A few things about me</h2>
+			<div class="flex-1 h-0.5 bg-gunmetal-900" aria-hidden="true"></div>
 		</div>
-		<div class="grid md:grid-cols-2 xl:grid-cols-3 gap-12">
-			
-				<a href="/amazon-scheduling/" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
-					<h2 class="text-3xl mb-3 font-bold leading-tight">Amazon Scheduling</h2>
-					<h2 class="text-xl">Case study of Amazon's 3rd party driver scheduling tool.</h2>
-					<h2 class="opacity-90 inline-block rounded font-bold text-magenta-100 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
-				</a>
-			
-				<a href="/amazon-dispatch/" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
-					<h2 class="text-3xl mb-3 font-bold leading-tight">Amazon Dispatch</h2>
-					<h2 class="text-xl">Amazon's delivery partners needed a tool to track and monitor driver location, progress, route, and stop information.</h2>
-					<h2 class="opacity-90 inline-block rounded font-bold text-magenta-100 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
-				</a>
-			
-				<a href="/amazon-work-tracking/" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
-					<h2 class="text-3xl mb-3 font-bold leading-tight">Amazon Work Tracking</h2>
-					<h2 class="text-xl">Amazon needed a tool for delivery partners to submit hours, mileage, and route counts daily in order to get paid.</h2>
-					<h2 class="opacity-90 inline-block rounded font-bold text-magenta-100 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
-				</a>
-			
-				<a href="/coyote-howl/" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
-					<h2 class="text-3xl mb-3 font-bold leading-tight">Coyote Howl</h2>
-					<h2 class="text-xl">Coyote needed a customer-focused mobile app to give shippers visibility and insight into their freight network.</h2>
-					<h2 class="opacity-90 inline-block rounded font-bold text-magenta-100 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
-				</a>
-			
-				<a href="/coyote-ltl-quote/" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
-					<h2 class="text-3xl mb-3 font-bold leading-tight">Coyote LTL Quote</h2>
-					<h2 class="text-xl">A less than truckload (LTL) quoting and shipping tool so Coyote Logistics could remain competitive in the market.</h2>
-					<h2 class="opacity-90 inline-block rounded font-bold text-magenta-100 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
-				</a>
-			
-				<a href="/shuffl/" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
-					<h2 class="text-3xl mb-3 font-bold leading-tight">Shuffl</h2>
-					<h2 class="text-xl">Website and branding for a small Slack app aimed to keep remote teams connected by pairing random employees up for lunch.</h2>
-					
-				</a>
-			
-				<a href="/coyote-my-tasks/" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
-					<h2 class="text-3xl mb-3 font-bold leading-tight">Coyote My Tasks</h2>
-					<h2 class="text-xl">A dashboard that presents Coyote customers with high level freight information, tasks and todo items, and a quick way to complete them.</h2>
-					<h2 class="opacity-90 inline-block rounded font-bold text-magenta-100 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
-				</a>
-			
-				<a href="/coyote-tms/" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
-					<h2 class="text-3xl mb-3 font-bold leading-tight">Coyote TMS</h2>
-					<h2 class="text-xl">Large web platform and application for shippers and trucking companies to manage freight.</h2>
-					
-				</a>
-			
-				<a href="/tech-for-campaigns/" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
-					<h2 class="text-3xl mb-3 font-bold leading-tight">Tech for Campaigns</h2>
-					<h2 class="text-xl">A sign-up form to collect volunteers' basic contact information, specific market expertise, and their technical background.</h2>
-					<h2 class="opacity-90 inline-block rounded font-bold text-magenta-100 bg-magenta-800 px-1 uppercase mt-5">Case Study</h2>
-				</a>
-			
-				<a href="/barack-obamas-tumblr/" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
-					<h2 class="text-3xl mb-3 font-bold leading-tight">Barack Obama's Tumblr</h2>
-					<h2 class="text-xl">Desktop and mobile template designs for Barack Obama's 2012 reelection campaign's Tumblr page.</h2>
-					
-				</a>
-			
-				<a href="/bauer-latoza-studio/" class="rounded p-8 bg-gradient-to-br from-magenta-900 to-black opacity-95 transition hover:opacity-100 duration-150 transform hover:scale-105 hover:z-10 relative">
-					<h2 class="text-3xl mb-3 font-bold leading-tight">Bauer Latoza Studio</h2>
-					<h2 class="text-xl">Brochure and portfolio website for Chicago architecture firm specializing in historic preservation.</h2>
-					
-				</a>
-			
+		<div class="md:flex items-start justify-between">
+			<div class="max-w-2xl text-xl" data-reveal data-reveal-from="bottom" data-reveal-delay="700">
+				<p class="mb-6">Computer dork meets social butterfly. This unique personality of opposites allows me to successfully combine serious work skills while multi-tasking with style and ease. Combine the diplomacy of Madeline Albright with the humanitarian vision of President Jimmy Carter and add the flexibility of Spider-Man and you've got me.</p>
+				<p class="mb-6">You've heard it all before&mdash;a young guy with small town Michigan roots moves to the big city to chase his dreams and mostly finds jobs stuffing envelopes and foaming lattes. So I hit the books and keyboard at The School of the Art Institute of Chicago for a BA in Fine Arts, and now I design and redesign in my sleep.</p>
+				<p class="mb-6">I taught myself HTML & CSS, applied my knowledge to front-end web design and fell in love with building websites. After years of freelance work and a brief period with the Obama Reelection Campaign, I joined Coyote Logistics in 2011 and eventually grew into Lead Product Designer, building a massive web app and several mobile apps for Coyote's customer's.</p>
+				<p>In 2016 I joined Amazon in Seattle, WA, designing delivery tools for drivers and partner companies. 4 years later I transferred to the Amazon Explore team - designing in-session, streaming interfaces for customers and hosts.</p>
+			</div>
+			<img loading="lazy" data-reveal data-reveal-from="bottom" data-reveal-delay="500" src="/images/avatar.jpg" alt="Jesse Trippe" class="rounded w-1/2 mx-auto mt-12 md:w-1/4 md:mt-0 md:ml-12 md:mr-0" height="400" width="400">
 		</div>
 	</div>
 </section>
 
-<section id="about" class="py-48 px-8 container mx-auto max-w-7xl">
-	<div class="flex items-center mb-24 w-full xl:w-10/12" data-reveal data-reveal-from="top" data-reveal-delay="300">
-		<h2 class="pr-4 text-5xl font-semibold">A few things about me</h2>
-		<div class="flex-1 h-px bg-magenta-700" aria-hidden="true"></div>
-	</div>
-	<div class="md:flex items-start justify-between">
-		<div class="max-w-2xl" data-reveal data-reveal-from="bottom" data-reveal-delay="700">
-			<p class="mb-6">Computer dork meets social butterfly. This unique personality of opposites allows me to successfully combine serious work skills while multi-tasking with style and ease. Combine the diplomacy of Madeline Albright with the humanitarian vision of President Jimmy Carter and add the flexibility of Spider-Man and you've got me.</p>
-			<p class="mb-6">You've heard it all before&mdash;a young guy with small town Michigan roots moves to the big city to chase his dreams and mostly finds jobs stuffing envelopes and foaming lattes. So I hit the books and keyboard at The School of the Art Institute of Chicago for a BA in Fine Arts, and now I design and redesign in my sleep.</p>
-			<p class="mb-6">I taught myself HTML & CSS, applied my knowledge to front-end web design and fell in love with building websites. After years of freelance work and a brief period with the Obama Reelection Campaign, I joined Coyote Logistics in 2011 and eventually grew into Lead Product Designer, building a massive web app and several mobile apps for Coyote's customer's.</p>
-			<p>In 2016 I joined Amazon in Seattle, WA, designing delivery tools for drivers and partner companies.</p>
-		</div>
-		<img loading="lazy" data-reveal data-reveal-from="bottom" data-reveal-delay="500" src="/images/avatar.jpg" alt="Jesse Trippe" class="rounded w-1/2 mx-auto mt-12 md:w-1/4 md:mt-0 md:ml-12 md:mr-0" height="400" width="400">
-	</div>
-</section>
-
-<footer id="contact" class="py-48 px-8 text-center border-magenta-500 border-b-12" data-reveal data-reveal-from="bottom" data-reveal-delay="500">
+<footer id="contact" class="py-48 text-center" data-reveal data-reveal-from="bottom" data-reveal-delay="500">
 	<h1 class="text-7xl font-bold mb-8 text-gradient">Get In Touch</h1>
 	<p class="mx-auto max-w-2xl mb-12 text-xl">Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!</p>
-	<button data-clipboard-content="jesse@jessetrippe.com" class="border-2 border-magenta-500 text-magenta-500 hover:bg-magenta-500 hover:text-magenta-black font-semibold rounded py-4 px-8 transition duration-150 relative select-none focus:outline-none inline-flex items-center"><svg class="mr-2 h-5 w-5"  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+	<button data-clipboard-content="jesse@jessetrippe.com" class="border-2 border-illuminating-500 bg-illuminating-500 hover:bg-gunmetal-900 hover:text-illuminating-500 hover:border-gunmetal-900 font-semibold rounded py-4 px-8 transition duration-150 relative select-none focus:outline-none inline-flex items-center"><svg class="mr-2 h-5 w-5"  viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
     <path fill="currentColor" d="M1.57 5.29l7.5 4.02c.26.14.58.2.91.2.33 0 .65-.06.9-.2l7.5-4.02c.5-.27.96-1.29.06-1.29H1.52c-.9 0-.43 1.02.05 1.29zm17.04 2.2l-7.72 4.03c-.34.17-.58.2-.91.2a1.7 1.7 0 01-.9-.2l-7.7-4.03C1 7.29 1 7.52 1 7.7V15c0 .42.57 1 1 1h16c.43 0 1-.58 1-1V7.7c0-.18 0-.42-.39-.21z"/>
 </svg>
  Say hello</button>

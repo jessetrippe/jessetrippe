@@ -3,11 +3,12 @@ layout: work-item
 title: "Bauer Latoza Studio"
 description: "Brochure and portfolio website for Chicago architecture firm specializing in historic preservation."
 order: 12
+featured: bauer-latoza-1.png
 ---
 
 <section class="grid grid-cols-12 gap-10 text-xl pb-20">
 	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded bg-magenta-200">
+		<aside class="text-black p-8 rounded bg-illuminating-200">
 			<table>
 				<tbody>
 					<tr>

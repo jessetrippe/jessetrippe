@@ -2,7 +2,7 @@
 ---
 /* Front matter is necessary for Jekyll */ {}
 
-.filter-shadow { filter: drop-shadow(0 1px 1px rgba(0,0,0,.3)); }
+.filter-shadow { filter: drop-shadow(0 1px 1px rgba(0,0,0,.25)); }
 
 .grid-auto-row-min-content { grid-auto-rows: min-content; }
 
@@ -55,21 +55,4 @@
     100% {
         box-shadow: 0 0 0 1em transparent;
     }
-}
-
-.animated-underline:after {
-	content: "";
-	position: absolute;
-	width: 0;
-	height: 2px;
-	bottom:	2px;
-	left: 0;
-	background-color: #FF01FB;
-	visibility: hidden;
-	transition: all 0.15s ease-in-out 0s;
-}
-
-.animated-underline:hover:after {
-	visibility: visible;
-	width: 100%;
 }

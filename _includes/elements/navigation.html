@@ -1,18 +1,37 @@
-<header class="flex justify-between py-5 px-8 items-center fixed z-20 top-0 inset-x-0 bg-magenta-black border-magenta-500 border-t-12">
-    <a class="text-2xl font-medium animated-underline relative" href="/#"  data-reveal="">Jesse Trippe</a>
-    <button id="nav-toggle" data-toggle="menu" class="flex lg:hidden items-center border-2 border-magenta-500 text-magenta-500 hover:bg-magenta-500 hover:text-magenta-black font-semibold rounded py-2 px-3 transition duration-150" aria-expanded="false">
+<header class="flex justify-between py-5 items-center sticky top-0 bg-white font-medium z-10 px-8 -mx-8">
+    <a class="text-2xl font-medium group relative group transition duration-150" href="/#"  data-reveal="">
+        Jesse Trippe
+        <span class="absolute h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+    </a>
+    <button id="nav-toggle" data-toggle="menu" class="flex lg:hidden items-center border-2 border-illuminating-500 bg-illuminating-500 text-illuminating-500 text-gunmetal-900 font-semibold rounded py-2 px-3 transition duration-150 hover:border-gunmetal-900 hover:bg-gunmetal-900 hover:text-illuminating-500 focus:outline-none" aria-expanded="false">
         {% include vectors/icon-hamburger.svg class="w-5 h-5 fill-current" %}
     </button>
-    <nav id="menu" class="hidden flex lg:flex bg-magenta-black fixed inset-0 z-10 lg:static">
-        <button id="nav-close" data-toggle="menu" class="p-3 fixed top-0 right-0 lg:hidden">
-            {% include vectors/icon-menu-close-thin.svg class="w-10 h-10 fill-current filter-shadow" %}
+    <nav id="menu" class="hidden flex lg:flex bg-white fixed inset-0 z-10 lg:static">
+        <button id="nav-close" data-toggle="menu" class="p-3 fixed top-0 right-0 lg:hidden focus:outline-none">
+            {% include vectors/icon-menu-close-thin.svg class="w-10 h-10" %}
         </button>
         <div class="flex flex-col lg:flex-row lg:text-lg justify-center items-center w-full text-4xl">
-            <a data-close="menu" class="animated-underline relative block py-1 lg:mr-8" href="/#experience" data-reveal="" data-reveal-from="top" data-reveal-delay="100">Experience</a>
-            <a data-close="menu" class="animated-underline relative block py-1 lg:mr-8" href="/#work" data-reveal="" data-reveal-from="top" data-reveal-delay="200">Work</a>
-            <a data-close="menu" class="animated-underline relative block py-1 lg:mr-8" href="/#about" data-reveal="" data-reveal-from="top" data-reveal-delay="300">About</a>
-            <a data-close="menu" class="animated-underline relative block py-1 lg:mr-8" href="/#contact" data-reveal="" data-reveal-from="top" data-reveal-delay="400">Contact</a>
-            <a data-close="menu" class="animated-underline relative block py-1 flex items-center" href="/jesse-trippe-resume.pdf" data-reveal="" data-reveal-from="top" data-reveal-delay="500">{% include /vectors/icon-download.svg class="mr-2 lg:mr-1.5 h-6 w-6 lg:h-4 lg:w-4 text-white" %} Resume</a>
+            <a data-close="menu" class="group relative block py-2 lg:py-0 lg:mr-8" href="/#experience" data-reveal="" data-reveal-from="top" data-reveal-delay="100">
+                Experience
+                <span class="absolute h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+            </a>
+            <a data-close="menu" class="group relative block py-2 lg:py-0 lg:mr-8" href="/#work" data-reveal="" data-reveal-from="top" data-reveal-delay="200">
+                Work
+                <span class="absolute h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+            </a>
+            <a data-close="menu" class="group relative block py-2 lg:py-0 lg:mr-8" href="/#about" data-reveal="" data-reveal-from="top" data-reveal-delay="300">
+                About
+                <span class="absolute h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+            </a>
+            <a data-close="menu" class="group relative block py-2 lg:py-0 lg:mr-8" href="/#contact" data-reveal="" data-reveal-from="top" data-reveal-delay="400">
+                Contact
+                <span class="absolute h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+            </a>
+            <a data-close="menu" class="group relative block py-2 lg:py-0" href="/jesse-trippe-resume.pdf" data-reveal="" data-reveal-from="top" data-reveal-delay="500">
+                <span class="flex items-center">
+                {% include /vectors/icon-download.svg class="mr-2 lg:mr-1.5 h-6 w-6 lg:h-4 lg:w-4" %} Resume</span>
+                <span class="absolute h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+            </a>
         </div>
     </nav>
 </header>

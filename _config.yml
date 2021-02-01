@@ -29,15 +29,16 @@ author: "Jesse Trippe"
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
+  - .gitignore
+  - bin
   - Gemfile
   - Gemfile.lock
+  - netlify.toml
   - node_modules
-  - yarn.lock
   - package-lock.json
   - package.json
-  - README.md
   - postcss.config.js
   - purgecss.config.js
-  - netlify.toml
-  - bin
-  - .gitignore
+  - README.md
+  - tailwind.config.js
+  - yarn.lock

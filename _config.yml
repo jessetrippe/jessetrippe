@@ -29,7 +29,10 @@ author: "Jesse Trippe"
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
+  - .DS_Store
   - .gitignore
+  - .jekyll-cache
+  - .sass-cache
   - bin
   - Gemfile
   - Gemfile.lock
@@ -41,4 +44,5 @@ exclude:
   - purgecss.config.js
   - README.md
   - tailwind.config.js
+  - yarn-error.log
   - yarn.lock

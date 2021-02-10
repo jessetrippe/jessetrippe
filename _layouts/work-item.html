@@ -4,11 +4,11 @@ layout: default
 
 {% include elements/navigation.html %}
 
-<a href="/" class="p-3 fixed top-0 right-0 text-gunmetal-800 hover:text-gunmetal-900 transition duration-150" id="close-work-item" data-toggle="work-item">
+<a href="/" class="p-3 fixed top-0 right-0 text-gray-800 hover:text-gray-900 transition duration-150" id="close-work-item" data-toggle="work-item">
 	{% include vectors/icon-menu-close-thin.svg class="h-10 w-10" %}
 </a>
 <div class="container mx-auto px-8 pt-24">
-	<h2 class="text-6xl mb-8 font-bold leading-tight">{{ page.title }}{% if page.tag %} <span class="align-middle bg-illuminating-500 font-bold inline-block py-0.5 px-1.5 rounded text-xl uppercase whitespace-no-wrap">Case Study</span>{% endif %}</h2>
+	<h2 class="text-6xl lg:text-7xl mb-12 font-bold leading-tight">{{ page.title }}{% if page.tag %} <span class="align-middle bg-illuminating-200 font-bold inline-block py-0.5 px-1.5 rounded text-xl uppercase whitespace-no-wrap">Case Study</span>{% endif %}</h2>
 	{{ content }}
 	{% include elements/pagination.html %}
 </div>

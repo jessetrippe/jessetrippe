@@ -17,11 +17,19 @@
     {% endif %}
 {% endfor %}
 
-<nav class="py-20 flex items-center justify-between text-2xl">
+<nav class="py-16 mt-20 flex leading-6 font-medium border-t-2 border-illuminating-500">
     {% if next %}
-        <a href="{{ next.url }}" class="flex items-center text-gunmetal-800 hover:text-gunmetal-900 transition duration-150">{% include vectors/icon-arrow-xlong-left.svg class="mr-2 h-6 w-6" %} Previous</a>
+        <a class="relative group flex mr-8 pb-1" href="{{ next.url }}">
+            <span aria-hidden="true" class="mr-2">&larr;</span>
+            Previous Project
+            <span class="absolute bottom-0 h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+        </a>
     {% endif %}
     {% if prev %}
-        <a href="{{ prev.url }}" class="ml-auto flex items-center text-gunmetal-800 hover:text-gunmetal-900 transition duration-150">Next {% include vectors/icon-arrow-xlong-right.svg class="ml-2 h-6 w-6" %}</a>
+        <a class="relative group flex text-right ml-auto pb-1" href="{{ prev.url }}">
+            Next Project
+            <span aria-hidden="true" class="ml-2">&rarr;</span>
+            <span class="absolute bottom-0 h-0.5 w-0 block bg-illuminating-500 group-hover:w-full transition-all duration-150 invisible group-hover:visible" aria-hidden="true"></span>
+        </a>
     {% endif %}
 </nav>

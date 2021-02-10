@@ -14,6 +14,9 @@ plugins:
   
 css_dir: "styles"
 
+include:
+  - "_pages"
+
 collections:
   work_items:
     output: true

@@ -14,13 +14,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        orange: colors.orange,
-        lime: colors.lime,
-        rose: colors.rose,
         warmGray: colors.warmGray,
-        blueGray: colors.blueGray,
         teal: colors.teal,
-        emerald: colors.emerald,
         cyan: colors.cyan,
       }
     }

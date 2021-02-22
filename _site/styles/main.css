@@ -806,10 +806,6 @@ video {
      object-fit: cover;
 }
 
-.opacity-25 {
-  opacity: 0.25;
-}
-
 .opacity-60 {
   opacity: 0.6;
 }
@@ -888,11 +884,6 @@ video {
 .text-yellow-100 {
   --tw-text-opacity: 1;
   color: rgba(254, 243, 199, var(--tw-text-opacity));
-}
-
-.text-warmGray-800 {
-  --tw-text-opacity: 1;
-  color: rgba(41, 37, 36, var(--tw-text-opacity));
 }
 
 .text-teal-200 {
@@ -982,10 +973,6 @@ video {
 
 .-translate-y-px {
   --tw-translate-y: -1px;
-}
-
-.-translate-y-full {
-  --tw-translate-y: -100%;
 }
 
 .transition-all {

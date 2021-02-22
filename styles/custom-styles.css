@@ -6,6 +6,10 @@
 	font-family: 'Windsor';
 }
 
+.font-robotoMono {
+	font-family: 'Roboto Mono';
+}
+
 .underline {
 	text-underline-offset: 0.2em;
 }

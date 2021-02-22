@@ -1,93 +1,40 @@
 ---
-layout: work-item
-title: "Coyote Howl"
+layout: default
+title: "Coyote Howl Customer App"
 description: "Coyote needed a customer-focused mobile app to give shippers visibility and insight into their freight network."
-tag: case-study
 order: 4
 featured: howl-3.png
+meta: [Coyote Logistics, Design, Development, 2014–2015]
 ---
 
-<section class="grid grid-cols-12 gap-10 text-xl pb-20">
-	<div class="col-span-12 md:order-last md:col-span-5 lg:col-span-4 lg:col-start-9">
-		<aside class="text-black p-8 rounded bg-illuminating-200">
-			<table>
-				<tbody>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Client</th>
-						<td>Coyote Logistics</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Media</th>
-						<td>Mobile App</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Role</th>
-						<td>Designer, Front-End Developer</td>
-					</tr>
-					<tr>
-						<th class="font-bold pr-6 text-right align-top">Date</th>
-						<td>2014–2015</td>
-					</tr>
-				</tbody>
-			</table>
-		</aside>
-	</div>
-	<div class="col-span-12 md:col-span-7">
-		<p class="mb-6">Along with Coyote's mobile development team, a Product Manager, and a Stakeholder, I designed and help build Coyote Howl&mdash;a customer-focused mobile app to give shippers visibility and insight into their freight network. The app was built from start to finish in about 3 months, launching first internally to sales reps and later externally to customers.</p>
-		<p>Howl's purpose was twofold: first, to give shippers a tool to help manage and view their day-to-day freight; and secondly, to provide customer sales reps with a tool to help sell Coyote to potential customers.</p>
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 lg:col-span-1">
-		<h2 class="text-4xl font-bold mb-6">Sketches</h2>
-		<p class="mb-6">The requirements asked for an already established set of features (tracking information, filtering and searching of shipments, Coyote rep contact information, and notifications on shipment status changes (e.g. when a load has been delivered) as well as some aspect to that could be highlighted during sales demos. For the latter request, we initially focused on a new type of navigation which would provide a fun interactive element throughout the app.</p>
-		<p>After minimal user testing, we found the navigation hard to use and not very discoverable. We talked through the problem more and came to the conclusion that gambling on the design of the navigation was too risky. Instead, we built a new tab called Visibility to show larger trends of a customer's freight network. The charts and map on this page made for a great demo.</p>
-	</div>
-	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-cols-2">
-		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-sketch-1.jpg" alt="Howl Sketch 1" height="2000" width="1328">
-			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-sketch-3.jpg" alt="Howl Sketch 3" height="2000" width="1316">
-		</div>
-		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-sketch-2.jpg" alt="Howl Sketch 2" height="2000" width="1270">
-			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-sketch-4.jpg" alt="Howl Sketch 4" height="2000" width="1181">
-		</div>
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 py-20">
-	<div class="col-span-3 lg:col-span-1">
-		<h2 class="text-4xl font-bold mb-6">Wireframes</h2>
-		<p class="mb-6">I built wireframes and presented it to the user stakeholders, sales stakeholders, and development team to make sure everyone was aware of the content and functionality being asked for and built.</p>
-		<p>While the development team started building out the backend services and the framework in Ionic and AngularJS, I built a working prototype with actual content and started testing it with users. Eventually, this code was merged with the development team's framework, as it was also built on Ionic, and is now in the production version of the app. During this round of user testing, I discovered our menus were way too deep for external customer users and vital load information was far too many taps away for it to be useful. I modified the prototype and final design to feature contact information and primary load information directly on the load details screen.</p>
-	</div>
-	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-cols-2">
-		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-moqup-1.png" alt="Howl Moqup 1" height="504" width="318">
-			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-moqup-3.png" alt="Howl Moqup 3" height="504" width="318">
-		</div>
-		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-moqup-2.png" alt="Howl Moqup 2" height="504" width="318">
-			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-moqup-4.png" alt="Howl Moqup 4" height="504" width="318">
-		</div>
-	</div>
-</section>
-
-<section class="grid grid-cols-3 gap-10 pt-20">
-	<div class="col-span-3 lg:col-span-1">
-		<h2 class="text-4xl font-bold mb-6">Final Design</h2>
-		<p>The final app features Coyote's signature green along with bright charts, graphs, and maps. It features a familiar, easily discoverable menu and each section of the app has been simplified to eliminate unnecessary depth in the navigation.</p>
-	</div>
-	<div class="col-span-3 lg:col-span-2 grid gap-10 grid-cols-2">
-		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-1.png" alt="Howl Final Design 1" height="1334" width="750">
-			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-3.png" alt="Howl Final Design 3" height="1334" width="750">
-		</div>
-		<div class="grid gap-10 grid-auto-row-min-content">
-			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-2.png" alt="Howl Final Design 2" height="1334" width="750">
-			<img loading="lazy" class="rounded shadow-xl" src="/images/projects/howl-4.png" alt="Howl Final Design 4" height="1334" width="750">
-		</div>
-	</div>
-</section>
-
+<p class="max-w-2xl mb-6">Along with Coyote's mobile development team, a Product Manager, and a Stakeholder, I designed and help build Coyote Howl&mdash;a customer-focused mobile app to give shippers visibility and insight into their freight network. The app was built from start to finish in about 3 months, launching first internally to sales reps and later externally to customers.</p>
+<p class="max-w-2xl mb-6">Howl's purpose was twofold: first, to give shippers a tool to help manage and view their day-to-day freight; and secondly, to provide customer sales reps with a tool to help sell Coyote to potential customers.</p>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Sketches</h2>
+<p class="max-w-2xl mb-6">The requirements asked for an already established set of features (tracking information, filtering and searching of shipments, Coyote rep contact information, and notifications on shipment status changes (e.g. when a load has been delivered) as well as some aspect to that could be highlighted during sales demos. For the latter request, we initially focused on a new type of navigation which would provide a fun interactive element throughout the app.</p>
+<p class="max-w-2xl mb-6">After minimal user testing, we found the navigation hard to use and not very discoverable. We talked through the problem more and came to the conclusion that gambling on the design of the navigation was too risky. Instead, we built a new tab called Visibility to show larger trends of a customer's freight network. The charts and map on this page made for a great demo.</p>
+<div class="grid gap-10 grid-cols-3">
+	<img loading="lazy" class="" src="/images/projects/howl-sketch-1.jpg" alt="Howl Sketch 1" height="2000" width="1328">
+	<img loading="lazy" class="" src="/images/projects/howl-sketch-3.jpg" alt="Howl Sketch 3" height="2000" width="1316">
+	<img loading="lazy" class="" src="/images/projects/howl-sketch-2.jpg" alt="Howl Sketch 2" height="2000" width="1270">
+	<img loading="lazy" class="" src="/images/projects/howl-sketch-4.jpg" alt="Howl Sketch 4" height="2000" width="1181">
+</div>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Wireframes</h2>
+<p class="max-w-2xl mb-6">I built wireframes and presented it to the user stakeholders, sales stakeholders, and development team to make sure everyone was aware of the content and functionality being asked for and built.</p>
+<p class="max-w-2xl mb-6">While the development team started building out the backend services and the framework in Ionic and AngularJS, I built a working prototype with actual content and started testing it with users. Eventually, this code was merged with the development team's framework, as it was also built on Ionic, and is now in the production version of the app. During this round of user testing, I discovered our menus were way too deep for external customer users and vital load information was far too many taps away for it to be useful. I modified the prototype and final design to feature contact information and primary load information directly on the load details screen.</p>
+<div class="grid gap-10 grid-cols-3">
+	<img loading="lazy" class="" src="/images/projects/howl-moqup-1.png" alt="Howl Moqup 1" height="504" width="318">
+	<img loading="lazy" class="" src="/images/projects/howl-moqup-3.png" alt="Howl Moqup 3" height="504" width="318">
+	<img loading="lazy" class="" src="/images/projects/howl-moqup-2.png" alt="Howl Moqup 2" height="504" width="318">
+	<img loading="lazy" class="" src="/images/projects/howl-moqup-4.png" alt="Howl Moqup 4" height="504" width="318">
+</div>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Final Design</h2>
+<p class="max-w-2xl mb-6">The final app features Coyote's signature green along with bright charts, graphs, and maps. It features a familiar, easily discoverable menu and each section of the app has been simplified to eliminate unnecessary depth in the navigation.</p>
+<div class="grid gap-10 grid-cols-2">
+	<img loading="lazy" class="" src="/images/projects/howl-1.png" alt="Howl Final Design 1" height="1334" width="750">
+	<img loading="lazy" class="" src="/images/projects/howl-2.png" alt="Howl Final Design 2" height="1334" width="750">
+	<img loading="lazy" class="" src="/images/projects/howl-3.png" alt="Howl Final Design 3" height="1334" width="750">
+	<img loading="lazy" class="" src="/images/projects/howl-4.png" alt="Howl Final Design 4" height="1334" width="750">
+</div>

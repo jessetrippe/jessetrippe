@@ -1,30 +1,56 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ page.description }}" />
+    <link rel="author" href="/humans.txt" />
+    <title>
+    	{% if page.title == "Home" %}
+    		{{ site.title }} / {{ site.description }} / 
+    	{% else %}
+	    	{{ site.title }} / {{ page.title }}
+	    {% endif %}
+    </title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 
-    <title>{{ site.title }}</title>
-    <meta name="author" content="{{ site.author }}">
-    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="/styles/main.css" />
 
-    <link rel="icon" type="image/x-icon" href="/images/favicons/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+	<link rel="icon" href="/images/favicon.ico">
+	<link rel="icon" href="/images/icon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+	<link rel="manifest" href="/site.webmanifest">
 
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="/styles/main.css">
 </head>
+<body class="font-mono md:text-lg
+	{% if page.title == 'Home' %}
+		bg-warmGray-800 text-yellow-100
+	{% elsif page.title == 'Work' %}
+		bg-cyan-900 text-teal-200
+	{% elsif page.title == 'About' %}
+		bg-warmGray-100 text-cyan-700
+	{% elsif page.collection == 'work_items' %}
+		bg-gray-100 text-gray-900
+	{% endif %}
+">
+	<div class="container mx-auto px-5 sm:px-6 md:px-7 lg:px-10 max-w-7xl">
+		{% include header.html %}
 
-<body class="font-sans text-lg text-gray-900 px-8">
+		{% if page.collection == 'work_items' %}
+			
+			{% include work_content.html %}
 
-    {{ content }}
+		{% else %}
+			<main>
+				<h1 class="max-w-5xl font-windsor leading-tight text-7xl mb-24">{{ page.blurb}}</h1>
+				{{ content }}
+			</main>
+		{% endif %}
 
-    <script src="/scripts/jquery-3.4.1.min.js"></script>
-    <script>{% include scripts/main.js %}</script>
-    <script>{% include scripts/analytics.js %}</script>
-    <script src="https://www.google-analytics.com/analytics.js" defer></script>
+		{% include footer.html %}
+	</div>
+
 </body>
 </html>

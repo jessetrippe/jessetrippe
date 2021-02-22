@@ -1,0 +1,25 @@
+---
+layout: default
+permalink: /work/
+description: "View some selected websites and apps that Jesse Trippe has designed and coded."
+title: "Work"
+blurb: "Some things I've built."
+---
+
+<section class="mt-6 mb-32">
+	<h4 class="font-bold text-xl mb-16">Featured projects</h4>
+	<ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-16 xl:gap-20 mb-12">
+		{% assign items = site.work_items | sort: 'order' %}
+		{% for item in items %}
+			<li>
+				<a href="{{ item.url }}" class="block h-full hover:opacity-70 transition-opacity">
+					<div class="bg-cyan-400 relative h-40 overflow-hidden">
+						<img class="min-w-full min-h-full transition-all" src="/images/projects/{{ item.featured }}" style="filter: grayscale(100%); mix-blend-mode: multiply;">
+					</div>
+					<h4 class="text-xl font-bold my-7 underline leading-relaxed">{{ item.title }}</h4>
+					<p>{{ item.description }}</p>
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+</section>

@@ -2,14 +2,14 @@
 ---
 /* Front matter is necessary for Jekyll */ {}
 
-.font-windsor {
-	font-family: 'Windsor';
+.underline {
+	text-underline-offset: 0.2em;
 }
 
 .font-robotoMono {
 	font-family: 'Roboto Mono';
 }
 
-.underline {
-	text-underline-offset: 0.2em;
+.font-windsor {
+	font-family: 'Windsor';
 }

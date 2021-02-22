@@ -3,11 +3,11 @@
 /* Front matter is necessary for Jekyll */
 
 @font-face {
-	font-family: 'Windsor';
+	font-family: 'Windsor', serif;
 	font-style: normal;
 	font-weight: 700;
 	font-display: swap;
 	src: url('/fonts/Windsor.woff2') format("woff2"),
-	     url('/fonts/Windsor.woff') format("woff"),
-	     url('/fonts/Windsor.ttf') format("truetype");
+		 url('/fonts/Windsor.woff') format("woff"),
+		 url('/fonts/Windsor.ttf') format("truetype");
 }

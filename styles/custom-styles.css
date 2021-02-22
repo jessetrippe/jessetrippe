@@ -2,6 +2,14 @@
 ---
 /* Front matter is necessary for Jekyll */ {}
 
-body {
+.font-windsor {
+	font-family: 'Windsor', Georgia, serif;
+}
+
+.font-mono {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.underline {
 	background: blue;
 }

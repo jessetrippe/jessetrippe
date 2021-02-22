@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A less than truckload (LTL) quoting and shipping tool so Coyote Logistics could remain competitive in the market." />
+    <link rel="author" href="/humans.txt" />
+    <title>
+    	
+	    	Jesse Trippe / Coyote LTL Quote
+	    
+    </title>
+
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+
+	<link rel="icon" href="/images/favicon.ico">
+	<link rel="icon" href="/images/icon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="font-robotoMono md:text-lg
+	
+		bg-gray-100 text-gray-900
+	
+">
+	<div class="container max-w-7xl mx-auto px-5 sm:px-6 md:px-7 lg:px-10">
+		<header class="pt-12 pb-24 flex justify-between items-center">
+    <a href="/" class="hover:opacity-70 transition-opacity">
+      <svg class="h-10 w-10" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" d="M90,0 C139.705627,0 180,40.2943725 180,90 C180,139.705627 139.705627,180 90,180 C40.2943725,180 0,139.705627 0,90 C0,40.2943725 40.2943725,0 90,0 Z M83,57 L48,57 L48,68 L70,68 L70,106.993 L69.9882675,106.999204 C69.99606,107.165157 70,107.332119 70,107.5 C70,113.29899 65.2989899,118 59.5,118 C53.7010101,118 49,113.29899 49,107.5 L49.002944,107.248879 L49.002944,107.248879 L49.0117325,106.999204 L35,107 C35,119.150264 45.745166,129 59,129 C72.1222857,129 82.7848457,119.346274 82.9967847,107.36381 L83,107 L83,57 Z M145,57 L89,57 L89,68 L111,68 L111,128 L123,128 L123,68 L145,68 L145,57 Z"></path>
+      </svg>
+    </a>
+    <nav class="nav text-xl">
+      <ul class="flex">
+        <li class="ml-5 md:ml-7 xl:ml-8">
+          <a href="/work/" class="hover:opacity-70 transition-opacity">Work</a>
+        </li>
+        <li class="ml-5 md:ml-7 xl:ml-8">
+          <a href="/about/" class="hover:opacity-70 transition-opacity">About</a>
+        </li>
+      </ul>
+    </nav>
+</header>
+
+		
+			
+			<article class="grid lg:grid-cols-4 gap-10">
+  <h1 class="font-windsor leading-tight text-6xl mb-12 col-span-full">Coyote LTL Quote</h1>
+  <section class="lg:col-span-3">
+    <p class="max-w-2xl mb-6">Coyote was losing significant business because it lacked a less than truckload (LTL) quoting and shipping tool. I worked with a Business Analyst, a Product Manager, an overseas development team, and various stakeholders&mdash;some familiar and others brand new to the world of LTL. The tool was built over the course of 4 months within Coyote.com, Coyote's web app for shippers and carriers.</p>
+<p class="max-w-2xl mb-6">The requirements shifted often, first as a tool for potential customers to quote shipments, and later restricted to customers already partnered with Coyote to quote and book LTL shipments. My role included requirements gathering, user testing, front-end development, and design.</p>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Sketches</h2>
+<p class="max-w-2xl mb-6">Even though the business had a tight timeline of three months for development, walking stakeholders through paper and pen sketches exposed the lack of shared knowledge and unified vision for this tool. It forced the stakeholders to come to an agreement on what would and would not be included. Eventually, the quick quote for unauthorized users was cut from this project.</p>
+<div class="grid gap-10 grid-cols-3">
+	<img loading="lazy" src="/images/projects/ltl-sketch-1.jpg" alt="LTL Quote Sketch 1" height="2000" width="1467" />
+	<img loading="lazy" src="/images/projects/ltl-sketch-2.jpg" alt="LTL Quote Sketch 2" height="2000" width="1533" />
+	<img loading="lazy" src="/images/projects/ltl-sketch-3.jpg" alt="LTL Quote Sketch 3" height="2000" width="1534" />
+	<img loading="lazy" src="/images/projects/ltl-sketch-4.jpg" alt="LTL Quote Sketch 4" height="2000" width="1539" />
+</div>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Wireframes</h2>
+<p class="max-w-2xl mb-6">Early on we decided on a step form wizard. While I was designing workflow for this, our in-house development team started work on implementing a 3rd party API to collect and present carrier quotes. Combining the team's API findings and the stakeholders' evolving requirements based on mockup discussion and feedback meant much time was spent adding, moving, and removing fields from our form.</p>
+<div class="grid gap-10 grid-cols-3">
+	<img loading="lazy" src="/images/projects/ltl-moqup-0.png" alt="LTL Quote Moqup 1" height="768" width="839" />
+	<img loading="lazy" src="/images/projects/ltl-moqup-1.png" alt="LTL Quote Moqup 2" height="768" width="839" />
+	<img loading="lazy" src="/images/projects/ltl-moqup-2.png" alt="LTL Quote Moqup 3" height="768" width="839" />
+	<img loading="lazy" src="/images/projects/ltl-moqup-3.png" alt="LTL Quote Moqup 4" height="768" width="839" />
+	<img loading="lazy" src="/images/projects/ltl-moqup-4.png" alt="LTL Quote Moqup 5" height="768" width="839" />
+	<img loading="lazy" src="/images/projects/ltl-moqup-5.png" alt="LTL Quote Moqup 6" height="768" width="839" />
+	<img loading="lazy" src="/images/projects/ltl-moqup-6.png" alt="LTL Quote Moqup 7" height="768" width="839" />
+	<img loading="lazy" src="/images/projects/ltl-moqup-7.png" alt="LTL Quote Moqup 8" height="768" width="839" />
+	<img loading="lazy" src="/images/projects/ltl-moqup-8.png" alt="LTL Quote Moqup 9" height="768" width="839" />
+</div>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Early Design</h2>
+<p class="max-w-2xl mb-6">I built a working prototype on Bootstrap that roughly matched our app and began user testing various form designs. Initially, I designed a step that combined pickup and delivery details with the summary but user testing proved this to be quite confusing so each step was moved to its own page.</p>
+<p class="max-w-2xl mb-6">This design also featured an unrefined version of the timeline that had navigation issue during user testing so a new design was implemented that improved on this slightly.</p>
+<p><img loading="lazy" src="/images/projects/ltl-initial-3b.png" alt="LTL Quote Initial Design" height="1093" width="1200" /></p>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Final Design</h2>
+<p class="max-w-2xl mb-6">Once the API requirements had been resolved, the Pune team built out a rough version of the step form wizard which I later refined and added animations and transitions to. I also ran a few user tests and revealed usability issues regarding shipping to an already saved address verse creating a new one which was worked out.</p>
+<p class="max-w-2xl mb-6">The tool was released first to a limited set of beta users and later to all of Coyote's shippers. It's now being used countless times daily.</p>
+<div class="grid gap-10">
+	<img loading="lazy" class="border border-gray-200" src="/images/projects/ltl-1.png" alt="LTL Quote Final Design 1" height="996" width="1200" />
+	<img loading="lazy" class="border border-gray-200" src="/images/projects/ltl-2.png" alt="LTL Quote Final Design 2" height="1033" width="1200" />
+	<img loading="lazy" class="border border-gray-200" src="/images/projects/ltl-3.png" alt="LTL Quote Final Design 3" height="1033" width="1200" />
+	<img loading="lazy" class="border border-gray-200" src="/images/projects/ltl-4.png" alt="LTL Quote Final Design 4" height="1033" width="1200" />
+	<img loading="lazy" class="border border-gray-200" src="/images/projects/ltl-5.png" alt="LTL Quote Final Design 5" height="1033" width="1200" />
+	<img loading="lazy" class="border border-gray-200" src="/images/projects/ltl-6.png" alt="LTL Quote Final Design 6" height="957" width="1200" />
+</div>
+
+  </section>
+  <aside class="opacity-60">
+    <ul>
+      
+        <li class="flex">
+          <span class="mr-2">#</span>
+          <span>Coyote Logistics</span>
+        </li>
+      
+        <li class="flex">
+          <span class="mr-2">#</span>
+          <span>Design</span>
+        </li>
+      
+        <li class="flex">
+          <span class="mr-2">#</span>
+          <span>Development</span>
+        </li>
+      
+        <li class="flex">
+          <span class="mr-2">#</span>
+          <span>Summer 2015</span>
+        </li>
+      
+    </ul>
+  </aside>
+  <nav class="col-span-full mt-10 mb-20 grid grid-cols-8 gap-10 uppercase text-base font-bold tracking-wider">
+    
+
+
+
+
+
+
+
+
+
+  <div class="col-span-4 lg:col-span-3">
+    <a class="inline-flex opacity-60 hover:opacity-100 transition-opacity" href="/work/coyote-howl/">
+      <span class="transform -translate-y-px mr-1">&larr;</span>
+      <span class="">Prev<span class="hidden md:inline">: Coyote Howl Customer App</span></span>
+    </a>
+  </div>
+
+
+  <div class="col-span-4 lg:col-span-3 lg:col-start-4 text-right">
+    <a class="inline-flex ml-auto opacity-60 hover:opacity-100 transition-opacity" href="/work/shuffl/">
+      <span class="">Next<span class="hidden md:inline">: Shuffl Marketing Site</span></span>
+      <span class="transform -translate-y-px ml-1">&rarr;</span>
+    </a>
+  </div>
+
+<div class="col-span-full text-left lg:col-start-7 lg:col-span-2">
+  <a href="/work/" class="opacity-60 hover:opacity-100 transition-opacity">View all work</a>
+</div>
+
+  </nav>
+</article>
+
+
+		
+
+		<footer class="border-t border-current">
+  <section class="mt-10 mb-12 grid md:grid-cols-3 gap-10 xl:gap-x-24">
+    <p class="md:col-span-2">
+      Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, please reach out!
+    </p>
+    <p class="md:row-start-2">
+      <span class="flex uppercase tracking-wider font-bold">
+        <span class="transform -translate-y-px mr-1">&rarr;</span>
+        <span class="">Site info</span>
+      </span>
+      Made by Jesse Trippe, powered by <a class="hover:opacity-70 transition-opacity" href="https://jekyllrb.com">Jekyll</a> &amp; <a class="hover:opacity-70 transition-opacity" href="http://tailwindcss.com" class="whitespace-nowrap">Tailwind CSS</a>
+    </p>
+    <p class="md:row-start-2">
+      <span class="flex uppercase tracking-wider font-bold">
+        <span class="transform -translate-y-px mr-1">&rarr;</span>
+        <span class="">Contact</span>
+      </span>
+      <a class="hover:opacity-70 transition-opacity" href="tel:7346496602">(734) 649-6602</a><br>
+      <a class="hover:opacity-70 transition-opacity" href="mailto:jesse@madebyjesse.com">jesse@madebyjesse.com</a>
+    </p>
+    <p class="md:row-start-2">
+      <span class="flex uppercase tracking-wider font-bold">
+        <span class="transform -translate-y-px mr-1">&rarr;</span>
+        <span class="">Follow</span>
+      </span>
+      <a class="hover:opacity-70 transition-opacity" href="https://twitter.com/jessetrippe">Twitter</a>, <a class="hover:opacity-70 transition-opacity" href="https://www.linkedin.com/in/jessetrippe">LinkedIn</a>, <a class="hover:opacity-70 transition-opacity" href="https://github.com/jessetrippe">GitHub</a>
+    </p>
+  </section>
+</footer>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Coyote needed a customer-focused mobile app to give shippers visibility and insight into their freight network." />
+    <link rel="author" href="/humans.txt" />
+    <title>
+    	
+	    	Jesse Trippe / Coyote Howl Customer App
+	    
+    </title>
+
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+
+	<link rel="icon" href="/images/favicon.ico">
+	<link rel="icon" href="/images/icon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="font-robotoMono md:text-lg
+	
+		bg-gray-100 text-gray-900
+	
+">
+	<div class="container max-w-7xl mx-auto px-5 sm:px-6 md:px-7 lg:px-10">
+		<header class="pt-12 pb-24 flex justify-between items-center">
+    <a href="/" class="hover:opacity-70 transition-opacity">
+      <svg class="h-10 w-10" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" d="M90,0 C139.705627,0 180,40.2943725 180,90 C180,139.705627 139.705627,180 90,180 C40.2943725,180 0,139.705627 0,90 C0,40.2943725 40.2943725,0 90,0 Z M83,57 L48,57 L48,68 L70,68 L70,106.993 L69.9882675,106.999204 C69.99606,107.165157 70,107.332119 70,107.5 C70,113.29899 65.2989899,118 59.5,118 C53.7010101,118 49,113.29899 49,107.5 L49.002944,107.248879 L49.002944,107.248879 L49.0117325,106.999204 L35,107 C35,119.150264 45.745166,129 59,129 C72.1222857,129 82.7848457,119.346274 82.9967847,107.36381 L83,107 L83,57 Z M145,57 L89,57 L89,68 L111,68 L111,128 L123,128 L123,68 L145,68 L145,57 Z"></path>
+      </svg>
+    </a>
+    <nav class="nav text-xl">
+      <ul class="flex">
+        <li class="ml-5 md:ml-7 xl:ml-8">
+          <a href="/work/" class="hover:opacity-70 transition-opacity">Work</a>
+        </li>
+        <li class="ml-5 md:ml-7 xl:ml-8">
+          <a href="/about/" class="hover:opacity-70 transition-opacity">About</a>
+        </li>
+      </ul>
+    </nav>
+</header>
+
+		
+			
+			<article class="grid lg:grid-cols-4 gap-10">
+  <h1 class="font-windsor leading-tight text-6xl mb-12 col-span-full">Coyote Howl Customer App</h1>
+  <section class="lg:col-span-3">
+    <p class="max-w-2xl mb-6">Along with Coyote's mobile development team, a Product Manager, and a Stakeholder, I designed and help build Coyote Howl&mdash;a customer-focused mobile app to give shippers visibility and insight into their freight network. The app was built from start to finish in about 3 months, launching first internally to sales reps and later externally to customers.</p>
+<p class="max-w-2xl mb-6">Howl's purpose was twofold: first, to give shippers a tool to help manage and view their day-to-day freight; and secondly, to provide customer sales reps with a tool to help sell Coyote to potential customers.</p>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Sketches</h2>
+<p class="max-w-2xl mb-6">The requirements asked for an already established set of features (tracking information, filtering and searching of shipments, Coyote rep contact information, and notifications on shipment status changes (e.g. when a load has been delivered) as well as some aspect to that could be highlighted during sales demos. For the latter request, we initially focused on a new type of navigation which would provide a fun interactive element throughout the app.</p>
+<p class="max-w-2xl mb-6">After minimal user testing, we found the navigation hard to use and not very discoverable. We talked through the problem more and came to the conclusion that gambling on the design of the navigation was too risky. Instead, we built a new tab called Visibility to show larger trends of a customer's freight network. The charts and map on this page made for a great demo.</p>
+<div class="grid gap-10 grid-cols-3">
+	<img loading="lazy" class="" src="/images/projects/howl-sketch-1.jpg" alt="Howl Sketch 1" height="2000" width="1328" />
+	<img loading="lazy" class="" src="/images/projects/howl-sketch-3.jpg" alt="Howl Sketch 3" height="2000" width="1316" />
+	<img loading="lazy" class="" src="/images/projects/howl-sketch-2.jpg" alt="Howl Sketch 2" height="2000" width="1270" />
+	<img loading="lazy" class="" src="/images/projects/howl-sketch-4.jpg" alt="Howl Sketch 4" height="2000" width="1181" />
+</div>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Wireframes</h2>
+<p class="max-w-2xl mb-6">I built wireframes and presented it to the user stakeholders, sales stakeholders, and development team to make sure everyone was aware of the content and functionality being asked for and built.</p>
+<p class="max-w-2xl mb-6">While the development team started building out the backend services and the framework in Ionic and AngularJS, I built a working prototype with actual content and started testing it with users. Eventually, this code was merged with the development team's framework, as it was also built on Ionic, and is now in the production version of the app. During this round of user testing, I discovered our menus were way too deep for external customer users and vital load information was far too many taps away for it to be useful. I modified the prototype and final design to feature contact information and primary load information directly on the load details screen.</p>
+<div class="grid gap-10 grid-cols-3">
+	<img loading="lazy" class="" src="/images/projects/howl-moqup-1.png" alt="Howl Moqup 1" height="504" width="318" />
+	<img loading="lazy" class="" src="/images/projects/howl-moqup-3.png" alt="Howl Moqup 3" height="504" width="318" />
+	<img loading="lazy" class="" src="/images/projects/howl-moqup-2.png" alt="Howl Moqup 2" height="504" width="318" />
+	<img loading="lazy" class="" src="/images/projects/howl-moqup-4.png" alt="Howl Moqup 4" height="504" width="318" />
+</div>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Final Design</h2>
+<p class="max-w-2xl mb-6">The final app features Coyote's signature green along with bright charts, graphs, and maps. It features a familiar, easily discoverable menu and each section of the app has been simplified to eliminate unnecessary depth in the navigation.</p>
+<div class="grid gap-10 grid-cols-2">
+	<img loading="lazy" class="" src="/images/projects/howl-1.png" alt="Howl Final Design 1" height="1334" width="750" />
+	<img loading="lazy" class="" src="/images/projects/howl-2.png" alt="Howl Final Design 2" height="1334" width="750" />
+	<img loading="lazy" class="" src="/images/projects/howl-3.png" alt="Howl Final Design 3" height="1334" width="750" />
+	<img loading="lazy" class="" src="/images/projects/howl-4.png" alt="Howl Final Design 4" height="1334" width="750" />
+</div>
+
+  </section>
+  <aside class="opacity-60">
+    <ul>
+      
+        <li class="flex">
+          <span class="mr-2">#</span>
+          <span>Coyote Logistics</span>
+        </li>
+      
+        <li class="flex">
+          <span class="mr-2">#</span>
+          <span>Design</span>
+        </li>
+      
+        <li class="flex">
+          <span class="mr-2">#</span>
+          <span>Development</span>
+        </li>
+      
+        <li class="flex">
+          <span class="mr-2">#</span>
+          <span>2014–2015</span>
+        </li>
+      
+    </ul>
+  </aside>
+  <nav class="col-span-full mt-10 mb-20 grid grid-cols-8 gap-10 uppercase text-base font-bold tracking-wider">
+    
+
+
+
+
+
+
+
+
+
+  <div class="col-span-4 lg:col-span-3">
+    <a class="inline-flex opacity-60 hover:opacity-100 transition-opacity" href="/work/amazon-work-tracking/">
+      <span class="transform -translate-y-px mr-1">&larr;</span>
+      <span class="">Prev<span class="hidden md:inline">: Amazon Work Tracking</span></span>
+    </a>
+  </div>
+
+
+  <div class="col-span-4 lg:col-span-3 lg:col-start-4 text-right">
+    <a class="inline-flex ml-auto opacity-60 hover:opacity-100 transition-opacity" href="/work/coyote-ltl-quote/">
+      <span class="">Next<span class="hidden md:inline">: Coyote LTL Quote</span></span>
+      <span class="transform -translate-y-px ml-1">&rarr;</span>
+    </a>
+  </div>
+
+<div class="col-span-full text-left lg:col-start-7 lg:col-span-2">
+  <a href="/work/" class="opacity-60 hover:opacity-100 transition-opacity">View all work</a>
+</div>
+
+  </nav>
+</article>
+
+
+		
+
+		<footer class="border-t border-current">
+  <section class="mt-10 mb-12 grid md:grid-cols-3 gap-10 xl:gap-x-24">
+    <p class="md:col-span-2">
+      Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, please reach out!
+    </p>
+    <p class="md:row-start-2">
+      <span class="flex uppercase tracking-wider font-bold">
+        <span class="transform -translate-y-px mr-1">&rarr;</span>
+        <span class="">Site info</span>
+      </span>
+      Made by Jesse Trippe, powered by <a class="hover:opacity-70 transition-opacity" href="https://jekyllrb.com">Jekyll</a> &amp; <a class="hover:opacity-70 transition-opacity" href="http://tailwindcss.com" class="whitespace-nowrap">Tailwind CSS</a>
+    </p>
+    <p class="md:row-start-2">
+      <span class="flex uppercase tracking-wider font-bold">
+        <span class="transform -translate-y-px mr-1">&rarr;</span>
+        <span class="">Contact</span>
+      </span>
+      <a class="hover:opacity-70 transition-opacity" href="tel:7346496602">(734) 649-6602</a><br>
+      <a class="hover:opacity-70 transition-opacity" href="mailto:jesse@madebyjesse.com">jesse@madebyjesse.com</a>
+    </p>
+    <p class="md:row-start-2">
+      <span class="flex uppercase tracking-wider font-bold">
+        <span class="transform -translate-y-px mr-1">&rarr;</span>
+        <span class="">Follow</span>
+      </span>
+      <a class="hover:opacity-70 transition-opacity" href="https://twitter.com/jessetrippe">Twitter</a>, <a class="hover:opacity-70 transition-opacity" href="https://www.linkedin.com/in/jessetrippe">LinkedIn</a>, <a class="hover:opacity-70 transition-opacity" href="https://github.com/jessetrippe">GitHub</a>
+    </p>
+  </section>
+</footer>
+
+	</div>
+
+</body>
+</html>

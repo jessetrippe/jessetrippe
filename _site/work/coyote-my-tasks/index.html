@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A dashboard that presents Coyote customers with high level freight information, tasks and todo items, and a quick way to complete them." />
+    <link rel="author" href="/humans.txt" />
+    <title>
+    	
+	    	Jesse Trippe / Coyote My Tasks
+	    
+    </title>
+
+    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+
+	<link rel="icon" href="/images/favicon.ico">
+	<link rel="icon" href="/images/icon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="font-robotoMono md:text-lg
+	
+		bg-gray-100 text-gray-900
+	
+">
+	<div class="container max-w-7xl mx-auto px-5 sm:px-6 md:px-7 lg:px-10">
+		<header class="pt-12 pb-24 flex justify-between items-center">
+    <a href="/" class="hover:opacity-70 transition-opacity">
+      <svg class="h-10 w-10" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" d="M90,0 C139.705627,0 180,40.2943725 180,90 C180,139.705627 139.705627,180 90,180 C40.2943725,180 0,139.705627 0,90 C0,40.2943725 40.2943725,0 90,0 Z M83,57 L48,57 L48,68 L70,68 L70,106.993 L69.9882675,106.999204 C69.99606,107.165157 70,107.332119 70,107.5 C70,113.29899 65.2989899,118 59.5,118 C53.7010101,118 49,113.29899 49,107.5 L49.002944,107.248879 L49.002944,107.248879 L49.0117325,106.999204 L35,107 C35,119.150264 45.745166,129 59,129 C72.1222857,129 82.7848457,119.346274 82.9967847,107.36381 L83,107 L83,57 Z M145,57 L89,57 L89,68 L111,68 L111,128 L123,128 L123,68 L145,68 L145,57 Z"></path>
+      </svg>
+    </a>
+    <nav class="nav text-xl">
+      <ul class="flex">
+        <li class="ml-5 md:ml-7 xl:ml-8">
+          <a href="/work/" class="hover:opacity-70 transition-opacity">Work</a>
+        </li>
+        <li class="ml-5 md:ml-7 xl:ml-8">
+          <a href="/about/" class="hover:opacity-70 transition-opacity">About</a>
+        </li>
+      </ul>
+    </nav>
+</header>
+
+		
+			
+			<article class="grid lg:grid-cols-4 gap-10">
+  <h1 class="font-windsor leading-tight text-6xl mb-12 col-span-full">Coyote My Tasks</h1>
+  <section class="lg:col-span-3">
+    <p class="max-w-2xl mb-6">Coyote provides shippers with up-to-the-minute delivery tracking information through web and mobile apps. Location information is provided by drivers using Coyote's mobile app or website but if carriers fail to do this, Coyote representatives have to call drivers for location updates, taking time away from booking new freight.</p>
+<p class="max-w-2xl mb-6">Stakeholders predicted that an improved experience and workflow for updating loads could double self-tracking to 40%. This problem was given to me, a Stakeholder, a Business Analyst, and a development team in Pune, Maharashtra, India to solve. Our solution was a landing page where users are presented with outstanding tasks and a quick way to complete them.</p>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Sketches</h2>
+<p class="max-w-2xl mb-6">The paper and pen phase of this project was quick and used to explore a few solutions to the problem. The team met and decided on one design idea. Requirements gathering was easy as most of the tasks were already defined in other areas of the app. The hard part here was deciding when a task became important enough to warrant a spot on this page as there are many tasks required by any given carrier user on our website.</p>
+<div class="grid gap-10 grid-cols-3">
+	<img loading="lazy" src="/images/projects/my-tasks-sketch-1.jpg" alt="My Tasks Sketch 1" height="2000" width="1551" />
+</div>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Wireframes</h2>
+<p class="max-w-2xl mb-6">After putting together wireframes of our solution and running user tests with carrier and the reps that manually track them, we quickly found a problem with our solution—while gathering all the tasks into one, easy to use interface solved half the problem, sending them to other areas of the site to complete the task slowed them down. So we decided to implement an actionable sidebar to complete each task without having to leave this page.</p>
+<div class="grid gap-10 grid-cols-3">
+	<img loading="lazy" src="/images/projects/my-tasks-moqup-0.png" alt="My Tasks Moqup 1" height="948" width="1200" />
+	<img loading="lazy" src="/images/projects/my-tasks-moqup-1.png" alt="My Tasks Moqup 2" height="1000" width="1199" />
+	<img loading="lazy" src="/images/projects/my-tasks-moqup-2.png" alt="My Tasks Moqup 3" height="999" width="1199" />
+</div>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
+<h2 class="uppercase tracking-wider font-bold mb-6">Final Design</h2>
+<p class="max-w-2xl mb-6">Adding an actionable sidebar increased the effort to complete this project considerably so we built the project in phases, allowing other projects and features to take priority in between.</p>
+<p class="max-w-2xl mb-6">With the release of each phase, the amount of self-tracking increased, eventually surpassing our 40% goal. Other parts of the business have seen this feature and are now developing their own "My Tasks" pages to help solve similar problems.</p>
+<p><img loading="lazy" class="border border-gray-200" src="/images/projects/my-tasks-1.png" alt="My Tasks Final Design" height="1033" width="1200" /></p>
+
+
+  </section>
+  <aside class="opacity-60">
+    <ul>
+      
+        <li class="flex">
+          <span class="mr-2">#</span>
+          <span>Coyote Logistics</span>
+        </li>
+      
+        <li class="flex">
+          <span class="mr-2">#</span>
+          <span>Design</span>
+        </li>
+      
+        <li class="flex">
+          <span class="mr-2">#</span>
+          <span>Development</span>
+        </li>
+      
+        <li class="flex">
+          <span class="mr-2">#</span>
+          <span>July 2015</span>
+        </li>
+      
+    </ul>
+  </aside>
+  <nav class="col-span-full mt-10 mb-20 grid grid-cols-8 gap-10 uppercase text-base font-bold tracking-wider">
+    
+
+
+
+
+
+
+
+
+
+  <div class="col-span-4 lg:col-span-3">
+    <a class="inline-flex opacity-60 hover:opacity-100 transition-opacity" href="/work/shuffl/">
+      <span class="transform -translate-y-px mr-1">&larr;</span>
+      <span class="">Prev<span class="hidden md:inline">: Shuffl Marketing Site</span></span>
+    </a>
+  </div>
+
+
+  <div class="col-span-4 lg:col-span-3 lg:col-start-4 text-right">
+    <a class="inline-flex ml-auto opacity-60 hover:opacity-100 transition-opacity" href="/work/coyote-tms/">
+      <span class="">Next<span class="hidden md:inline">: Coyote TMS Platform</span></span>
+      <span class="transform -translate-y-px ml-1">&rarr;</span>
+    </a>
+  </div>
+
+<div class="col-span-full text-left lg:col-start-7 lg:col-span-2">
+  <a href="/work/" class="opacity-60 hover:opacity-100 transition-opacity">View all work</a>
+</div>
+
+  </nav>
+</article>
+
+
+		
+
+		<footer class="border-t border-current">
+  <section class="mt-10 mb-12 grid md:grid-cols-3 gap-10 xl:gap-x-24">
+    <p class="md:col-span-2">
+      Although I'm not currently looking for freelance opportunities, my inbox is always open. Whether for a potential project or just to say hi, please reach out!
+    </p>
+    <p class="md:row-start-2">
+      <span class="flex uppercase tracking-wider font-bold">
+        <span class="transform -translate-y-px mr-1">&rarr;</span>
+        <span class="">Site info</span>
+      </span>
+      Made by Jesse Trippe, powered by <a class="hover:opacity-70 transition-opacity" href="https://jekyllrb.com">Jekyll</a> &amp; <a class="hover:opacity-70 transition-opacity" href="http://tailwindcss.com" class="whitespace-nowrap">Tailwind CSS</a>
+    </p>
+    <p class="md:row-start-2">
+      <span class="flex uppercase tracking-wider font-bold">
+        <span class="transform -translate-y-px mr-1">&rarr;</span>
+        <span class="">Contact</span>
+      </span>
+      <a class="hover:opacity-70 transition-opacity" href="tel:7346496602">(734) 649-6602</a><br>
+      <a class="hover:opacity-70 transition-opacity" href="mailto:jesse@madebyjesse.com">jesse@madebyjesse.com</a>
+    </p>
+    <p class="md:row-start-2">
+      <span class="flex uppercase tracking-wider font-bold">
+        <span class="transform -translate-y-px mr-1">&rarr;</span>
+        <span class="">Follow</span>
+      </span>
+      <a class="hover:opacity-70 transition-opacity" href="https://twitter.com/jessetrippe">Twitter</a>, <a class="hover:opacity-70 transition-opacity" href="https://www.linkedin.com/in/jessetrippe">LinkedIn</a>, <a class="hover:opacity-70 transition-opacity" href="https://github.com/jessetrippe">GitHub</a>
+    </p>
+  </section>
+</footer>
+
+	</div>
+
+</body>
+</html>

@@ -1,4 +1,0 @@
-<svg {% if include.class %}class="{{ include.class }}"{% endif %} {% if include.id %}id="{{ include.id }}"{% endif %} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1550 440" preserveAspectRatio="none">
-  <path opacity="3%" d="M0 440l775-220L0 0z"/>
-  <path opacity="5%" d="M1550 440V0L775 220z"/>
-</svg>

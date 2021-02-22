@@ -1,7 +1,0 @@
-<svg {% if include.class %}class="{{ include.class }}"{% endif %} {% if include.id %}id="{{ include.id }}"{% endif %} viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-    <path fill="currentColor" d="M37.2 34H21.4l-2.6 8h15.8z"/>
-    <path fill="currentColor" d="M21.4 54l-2.6 8h15.8l2.6-8z"/>
-    <path fill="currentColor" d="M21.4 74l-2.6 8h15.8l2.6-8z"/>/>
-    <path fill="currentColor" d="M90.4 61.6l2.8 2.8-27.4 27.4-7.2 1.6z"/>
-    <polygon fill="currentColor" points="40 5.999 46 5.999 46 28 40 28"/>
-</svg>

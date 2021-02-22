@@ -20,12 +20,12 @@ include:
 collections:
   work_items:
     output: true
-    permalink: /:path/
+    permalink: /work/:name/
     sort_by: order
 
 #Site info
-title: "Jesse Trippe &#124; Product and UX Designer"
-description: "Website of Jesse Trippe—a Product and UX Designer working at Amazon in Seattle, WA."
+title: "Jesse Trippe"
+description: "Website of Jesse Trippe—a UI/UX Designer who enjoys coding and designing for the web."
 author: "Jesse Trippe"
 
 # Exclude from processing.

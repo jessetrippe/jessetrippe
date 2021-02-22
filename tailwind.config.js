@@ -8,6 +8,10 @@ module.exports = {
     css: ["./_site/**/main.css"]
   },
   theme: {
+    fontFamily: {
+      'windsor': ['Windsor', 'Georgia', 'serif'],
+      'robotoMono': ['Roboto Mono', 'Courier', 'monospace'] 
+    },
     extend: {
       colors: {
         orange: colors.orange,

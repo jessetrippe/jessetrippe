@@ -5,6 +5,7 @@
     font-weight: 700;
     src: url('Windsor.woff2') format('woff2'),
          url('Windsor.woff') format('woff');
+    font-display: swap;
 }
 
 @font-face {
@@ -13,6 +14,7 @@
   font-weight: 400;
   src: url('Roboto-Mono-Regular.woff2') format('woff2'),
        url('Roboto-Mono-Regular.woff') format('woff');
+       font-display: swap;
 }
 
 @font-face {
@@ -21,4 +23,5 @@
   font-weight: 700;
   src: url('Roboto-Mono-700.woff2') format('woff2'),
        url('Roboto-Mono-700.woff') format('woff');
+  font-display: swap;
 }

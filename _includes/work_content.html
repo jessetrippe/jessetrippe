@@ -1,13 +1,13 @@
 <article class="grid lg:grid-cols-4 gap-10">
   <h1 class="font-windsor leading-tight text-6xl mb-12 col-span-full">{{ page.title }}</h1>
-  <section class="lg:col-span-3">
+  <div class="lg:col-span-3">
     {{ content }}
-  </section>
+  </div>
   <aside class="opacity-60">
     <ul>
       {% for tag in page.meta %}
         <li class="flex items-center">
-          {% include hash.svg class="h-4 w-4 mr-2" %}</span>
+          {% include hash.svg class="h-4 w-4 mr-2" %}
           <span>{{ tag }}</span>
         </li>
       {% endfor %}

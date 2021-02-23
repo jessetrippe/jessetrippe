@@ -8,8 +8,8 @@ meta: [Amazon Logistics, Design, 2018]
 ---
 
 <p class="max-w-2xl mb-6">In 2018 Amazon launched a last-mile delivery program powered by entrepreneurs. These new companies needed a way to manage their drivers' schedules and communicate their capacity and schedules to Amazon. The needs of each user (Amazon station operators, schedulers, and drivers) is often at odds with one another, forcing the team—consisting of a Product Manager, a development team, and myself—to focus on how our tool could make meaningful strides to achieve the larger organization's goals.</p>
-<p class="max-w-2xl mb-6">The request was to move the daily and weekly offline process of accepting Amazon offered routes online in order to reduce errors and manual touch-points. We built a scrappy solution in 2017 to accomplish this task and began planning a more robust, user-centered solution to launch mid-2018.
-<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div></p>
+<p class="max-w-2xl mb-6">The request was to move the daily and weekly offline process of accepting Amazon offered routes online in order to reduce errors and manual touch-points. We built a scrappy solution in 2017 to accomplish this task and began planning a more robust, user-centered solution to launch mid-2018.</p>
+<div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
 <h2 class="uppercase tracking-wider font-bold mb-6">Field Research</h2>
 <p class="max-w-2xl mb-6">After launching the scrappy version, I worked with a UX Researcher to develop an online and offline survey to test usage and assumptions. I visited various sites across North America and the UK to observe and interview users about their usage of the tool and how they schedule their drivers. I sent an online version of the survey to companies in locations I was unable to travel to.</p>
 <p class="max-w-2xl mb-6">Most companies were using complex, brittle, online spreadsheets to schedule their drivers mostly because the tools were free and synced across multiple site locations. Separately, users found the process of providing Amazon their roster of drivers repetitive, redundant, and of little value to them.</p>
@@ -30,7 +30,6 @@ meta: [Amazon Logistics, Design, 2018]
 <div class="text-2xl font-bold text-center mt-6 mb-12 tracking-tighter" aria-hidden="true">. . .</div>
 <h2 class="uppercase tracking-wider font-bold mb-6">Brainstorming</h2>
 <p class="mb-2">We kicked off a design sprint to begin defining the long-term vision. Using survey results and research findings, the Product Manager, development team, and myself brainstormed using "how might me". We formed a problem statement that encompassed our users' challenges and organized "how might we" statements into categories, and eventually into features, and then set out to conduct a competitive analysis to see how some of these problems were already being solved.</p>
-</div>
 <div class="grid gap-10 grid-cols-3">
 	<img loading="lazy" class="" src="/images/projects/amazon-scheduling-brainstorming-01.jpg" alt="Amazon Scheduling Brainstorming 1" height="865" width="1500">
 	<img loading="lazy" class="" src="/images/projects/amazon-scheduling-brainstorming-02.jpg" alt="Amazon Scheduling Brainstorming 2" height="1335" width="1500">

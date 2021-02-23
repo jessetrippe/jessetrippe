@@ -670,6 +670,10 @@ video {
   font-weight: 700;
 }
 
+.h-4 {
+  height: 1rem;
+}
+
 .h-10 {
   height: 2.5rem;
 }
@@ -926,6 +930,10 @@ video {
 
 .whitespace-nowrap {
   white-space: nowrap;
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .w-10 {

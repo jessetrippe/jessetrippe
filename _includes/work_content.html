@@ -6,8 +6,8 @@
   <aside class="opacity-60">
     <ul>
       {% for tag in page.meta %}
-        <li class="flex">
-          <span class="mr-2">#</span>
+        <li class="flex items-center">
+          {% include hash.svg class="h-4 w-4 mr-2" %}</span>
           <span>{{ tag }}</span>
         </li>
       {% endfor %}

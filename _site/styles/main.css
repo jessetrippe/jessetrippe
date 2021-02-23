@@ -759,10 +759,6 @@ video {
   max-width: 20rem;
 }
 
-.max-w-md {
-  max-width: 28rem;
-}
-
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -781,11 +777,6 @@ video {
 
 .min-w-full {
   min-width: 100%;
-}
-
-.object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .opacity-60 {
@@ -809,24 +800,24 @@ video {
   padding-right: 1.25rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .pt-12 {
   padding-top: 3rem;
+}
+
+.pb-12 {
+  padding-bottom: 3rem;
 }
 
 .pb-24 {
   padding-bottom: 6rem;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 * {

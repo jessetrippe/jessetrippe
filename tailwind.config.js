@@ -2,7 +2,6 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  darkMode: 'media',
   purge: {
     content: ["./_site/**/*.html"],
     css: ["./_site/**/main.css"]
@@ -14,16 +13,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        warmGray: colors.warmGray,
-        teal: colors.teal,
         cyan: colors.cyan,
+        warmGray: colors.warmGray,
+        lightBlue: colors.lightBlue,
+        teal: colors.teal,
+        gray: colors.gray,
       }
     }
-  },
-  variants: {
-    extend: {
-      width: ['group-hover'],
-      visibility: ['group-hover'],
-    }
-  },
+  }
 }

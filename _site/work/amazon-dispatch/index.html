@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Amazon needed a tool for delivery partners to submit hours, mileage, and route counts daily in order to get paid." />
+    <meta name="description" content="Amazon's delivery partners needed a tool to track and monitor driver location, progress, route, and stop information." />
     <link rel="author" href="/humans.txt" />
-    <title>Jesse Trippe / Amazon Work Tracking</title>
+    <title>Jesse Trippe / Amazon Dispatch</title>
 
     <link rel="stylesheet" href="/fonts/fonts.css" />
     <link rel="stylesheet" href="/styles/main.css" />
@@ -45,35 +45,41 @@
 		
 			
 			<article class="grid lg:grid-cols-4 gap-10">
-	<h1 class="font-windsor leading-tight text-6xl mb-12 col-span-full">Amazon Work Tracking</h1>
+	<h1 class="font-windsor leading-tight text-6xl mb-12 col-span-full">Amazon Dispatch</h1>
 	<div class="lg:col-span-3 prose">
-		<p>Due to various unforeseen complications throughout the day, the work Amazon planned for 3rd-party courier companies to complete and eventually invoice Amazon for changed drastically. Amazon needed a tool to allow these companies to review and submit driver hours and route counts daily in order to reduce invoicing disputes, inaccuracies, and speed up payments from Amazon.</p>
+		<p>Among Amazon’s many delivery solutions is a network of 3rd-party courier companies delivering from Amazon-branded vans to customers’ doors. Dispatchers at these companies had to be on-site at Amazon delivery stations to complete dispatching tasks and were largely blind to their fleets’ progress. They needed a tool to monitor location, progress, route, and stop information and Amazon needed a tool to collect daily rosters. The new tool had to combine features and information that was previously spread among many different, clunky tools in an efficient and simple way.</p>
 
-<p>Prior to my involvement, this project launched in beta form to three UK delivery stations where it failed because too many untested assumptions proved to be wrong. I was brought on to work with and mentor a junior designer in order to provide a solution that successfully met the users’ and Amazon’s needs for a work tracking tool. The redesign took around 3 months to complete and involved a visit to the UK with a prototype I built in HTML, CSS, and JavaScript to test with users using real data.</p>
+<p>The Product Manager was new to Amazon’s shipping space so my logistics expertise, business knowledge, and field observations were vital to defining all aspects of this tool. From receiving the project to launching in beta form, the project took 6 months and is being used by all Amazon 3rd-party dispatchers and managers across North America. The tool will launch worldwide in early 2018.</p>
 
 <hr />
 
 <h2 id="wireframes">Wireframes</h2>
 
-<p>After getting up to speed on the goals of the product and how the beta failed, the initial designer and I conducted several interviews with beta testers to uncover pain points and frustrations. The beta failed due to an assumption about how users collect, record, and maintain daily route counts and mileage so the new solution had to support all the various ways this was being done.</p>
+<p>In order to define our users and their needs for this tool, a Product Manager and I traveled to different delivery stations to observe users (painfully) completing dispatching tasks. We also had meetings with Amazon operations teams to understand their needs and then developed a timeline and scope for the project. I wireframed a handful of ideas, and, along with the Product Manager, decided on a design approach to move forward with. I then took these wireframes to a local delivery station to test my assumptions and get feedback.</p>
 
-<p>I wireframed layouts that organized the collection of work in different ways and then reached out to the same beta testers for feedback. I used the wireframes to ensure the right information was being displayed to complete the task without overwhelming them with unnecessary stats and metrics.</p>
+<p class="gallery grid-cols-3"><img src="/images/projects/amazon-dispatch-wireframe-01.png" alt="Amazon Dispatch Wireframe 1" height="823" width="1195" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-04.png" alt="Amazon Dispatch Wireframe 2" height="823" width="1197" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-07.png" alt="Amazon Dispatch Wireframe 3" height="922" width="1195" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-10.png" alt="Amazon Dispatch Wireframe 4" height="886" width="1196" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-02.png" alt="Amazon Dispatch Wireframe 5" height="870" width="1197" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-05.png" alt="Amazon Dispatch Wireframe 6" height="823" width="1193" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-08.png" alt="Amazon Dispatch Wireframe 7" height="885" width="1196" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-11.png" alt="Amazon Dispatch Wireframe 8" height="1033" width="1399" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-03.png" alt="Amazon Dispatch Wireframe 9" height="868" width="1193" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-06.png" alt="Amazon Dispatch Wireframe 10" height="825" width="1196" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-09.png" alt="Amazon Dispatch Wireframe 11" height="1033" width="1397" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-12.png" alt="Amazon Dispatch Wireframe 12" height="1033" width="1397" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-13.png" alt="Amazon Dispatch Wireframe 13" height="569" width="321" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-wireframe-14.png" alt="Amazon Dispatch Wireframe 14" height="569" width="321" loading="lazy" /></p>
 
-<p class="gallery grid-cols-3"><img src="/images/projects/amazon-work-tracking-wireframe-01.png" alt="Amazon Work Tracking Wireframe 1" height="770" width="1123" loading="lazy" />
-<img src="/images/projects/amazon-work-tracking-wireframe-03.png" alt="Amazon Work Tracking Wireframe 2" height="739" width="1124" loading="lazy" />
-<img src="/images/projects/amazon-work-tracking-wireframe-05.png" alt="Amazon Work Tracking Wireframe 3" height="1005" width="1122" loading="lazy" />
-<img src="/images/projects/amazon-work-tracking-wireframe-02.png" alt="Amazon Work Tracking Wireframe 4" height="1028" width="1125" loading="lazy" />
-<img src="/images/projects/amazon-work-tracking-wireframe-04.png" alt="Amazon Work Tracking Wireframe 5" height="1058" width="1123" loading="lazy" /></p>
+<h2 id="final-design">Final Design</h2>
 
-<hr />
+<p>The final tool allows dispatchers to see where routes are, where drivers are, and quickly spot and triage exceptions. This enables 3rd-party companies to establish and more fully optimize their operations. The final designs were taken to a delivery station and presented to users for further feedback. This feedback influenced changes that were either implemented into the product or added to a future feature list.</p>
 
-<h2 id="final-design--prototype">Final Design &amp; Prototype</h2>
-
-<p>Once the wireframe and overall approach were settled, we divided the design work between both designers and built pixel-perfect designs while syncing often. Because of the failures of the initial launch, after the design was somewhat complete, I built a working prototype using actual data, HTML, CSS, and JavaScript and traveled to the UK to test at the three beta stations. The new tool succeeded where the previous failed and also proved far more efficient. We collected feedback and made changes to many of the smaller details but overall the prototype and design were successful.</p>
-
-<p class="gallery"><img src="/images/projects/amazon-work-tracking-01.png" alt="Amazon Work Tracking Final" height="895" width="1280" loading="lazy" />
-<img src="/images/projects/amazon-work-tracking-02.png" alt="Amazon Work Tracking Final" height="895" width="1280" loading="lazy" />
-<img src="/images/projects/amazon-work-tracking-03.png" alt="Amazon Work Tracking Final" height="895" width="1280" loading="lazy" /></p>
+<p class="gallery"><img src="/images/projects/amazon-dispatch-01.png" alt="Amazon Dispatch Final 1" height="1700" width="2560" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-02.png" alt="Amazon Dispatch Final 2" height="1700" width="2560" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-03.png" alt="Amazon Dispatch Final 3" height="1700" width="2560" loading="lazy" />
+<img src="/images/projects/amazon-dispatch-04.png" alt="Amazon Dispatch Final 4" height="1700" width="2560" loading="lazy" /></p>
 
 
 	</div>
@@ -98,7 +104,7 @@
 				<svg class="h-4 w-4 mr-2" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 	<path d="M7.3 8.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM7.3 14.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0zM.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0z"/>
 </svg>
-				<span>2016–2017</span>
+				<span>2017</span>
 			</li>
 			
 		</ul>
@@ -115,16 +121,16 @@
 
 
   <div class="col-span-4 lg:col-span-3">
-    <a class="inline-flex opacity-60 hover:opacity-100 transition-opacity" href="/work/amazon-dispatch/">
+    <a class="inline-flex opacity-60 hover:opacity-100 transition-opacity" href="/work/amazon-scheduling/">
       <span class="transform -translate-y-px mr-1">&larr;</span>
-      <span class="">Prev<span class="hidden md:inline">: Amazon Dispatch</span></span>
+      <span class="">Prev<span class="hidden md:inline">: Amazon Work Scheduling</span></span>
     </a>
   </div>
 
 
   <div class="col-span-4 lg:col-span-3 lg:col-start-4 text-right">
-    <a class="inline-flex ml-auto opacity-60 hover:opacity-100 transition-opacity" href="/work/coyote-howl/">
-      <span class="">Next<span class="hidden md:inline">: Coyote Howl Customer App</span></span>
+    <a class="inline-flex ml-auto opacity-60 hover:opacity-100 transition-opacity" href="/work/amazon-work-tracking/">
+      <span class="">Next<span class="hidden md:inline">: Amazon Work Tracking</span></span>
       <span class="transform -translate-y-px ml-1">&rarr;</span>
     </a>
   </div>

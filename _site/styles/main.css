@@ -529,9 +529,6 @@ video {
   text-underline-offset: 0.2em;
 }
 
-.prose {
-}
-
 .prose p + p,
 .prose h2 + p {
   margin-top: 1.5rem;
@@ -567,6 +564,12 @@ video {
   margin-bottom: 3rem;
   margin-top: 1.5rem;
   text-align: center;
+}
+
+.prose .gallery {
+  display: grid;
+  gap: 2.5rem;
+  max-width: none;
 }
 
 .sr-only {

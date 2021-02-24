@@ -23,11 +23,11 @@ The amount of space dedicated to branding elements was disproportionate to the g
 
 On top of design tweaks, we added an email only sign-up form to allow non-tech visitors to receive organization updates via email. This created a database of visitors that could be vetted and, in some cases with the right work experience, converted into volunteers. It also created a pool of non-tech volunteers that could be used for more traditional campaigning or fundraising.
 
-![Tech For Campaigns Wireframes Phase One 1](/images/projects/tfc-wireframe-01.png){: height="1051" width="1299" loading="lazy"}
-![Tech For Campaigns Wireframes Phase One 2](/images/projects/tfc-wireframe-03.png){: height="1050" width="1299" loading="lazy"}
-![Tech For Campaigns Wireframes Phase One 3](/images/projects/tfc-wireframe-04.png){: height="1460" width="1299" loading="lazy"}
-![Tech For Campaigns Wireframes Phase One 4](/images/projects/tfc-wireframe-03.png){: height="1050" width="1299" loading="lazy"}
-![Tech For Campaigns Wireframes Phase One 5](/images/projects/tfc-wireframe-02.png){: height="1052" width="1299" loading="lazy"}
+![Tech For Campaigns Wireframes Phase One 1](/images/projects/tfc-wf-01.png){: height="1051" width="1299" loading="lazy"}
+![Tech For Campaigns Wireframes Phase One 2](/images/projects/tfc-wf-03.png){: height="1050" width="1299" loading="lazy"}
+![Tech For Campaigns Wireframes Phase One 3](/images/projects/tfc-wf-04.png){: height="1460" width="1299" loading="lazy"}
+![Tech For Campaigns Wireframes Phase One 4](/images/projects/tfc-wf-03.png){: height="1050" width="1299" loading="lazy"}
+![Tech For Campaigns Wireframes Phase One 5](/images/projects/tfc-wf-02.png){: height="1052" width="1299" loading="lazy"}
 {: class="gallery grid-cols-3"}
 
 ---
@@ -49,10 +49,10 @@ After implemention and testing of phase one completed, work began on transformin
 
 I thoughtfully split the form into four steps, designed a status bar, and added placeholders for intro text and icons. After a round of feedback from my team, I sought approval from Tech for Campaigns' founders and moved into the final design phase.
 
-![](/images/projects/tfc-two-wireframe-01.png){: height="846" width="1386" loading="lazy"}
-![](/images/projects/tfc-two-wireframe-02.png){: height="846" width="1386" loading="lazy"}
-![](/images/projects/tfc-two-wireframe-03.png){: height="846" width="1386" loading="lazy"}
-![](/images/projects/tfc-two-wireframe-04.png){: height="846" width="1386" loading="lazy"}
+![](/images/projects/tfc-two-wf-01.png){: height="846" width="1386" loading="lazy"}
+![](/images/projects/tfc-two-wf-02.png){: height="846" width="1386" loading="lazy"}
+![](/images/projects/tfc-two-wf-03.png){: height="846" width="1386" loading="lazy"}
+![](/images/projects/tfc-two-wf-04.png){: height="846" width="1386" loading="lazy"}
 {: class="gallery grid-cols-3"}
 
 ---

@@ -19,11 +19,11 @@ After getting up to speed on the goals of the product and how the beta failed, t
 
 I wireframed layouts that organized the collection of work in different ways and then reached out to the same beta testers for feedback. I used the wireframes to ensure the right information was being displayed to complete the task without overwhelming them with unnecessary stats and metrics.
 
-![Amazon Work Tracking Wireframe 1](/images/projects/amazon-work-tracking-wireframe-01.png){: height="770" width="1123" loading="lazy"}
-![Amazon Work Tracking Wireframe 2](/images/projects/amazon-work-tracking-wireframe-03.png){: height="739" width="1124" loading="lazy"}
-![Amazon Work Tracking Wireframe 3](/images/projects/amazon-work-tracking-wireframe-05.png){: height="1005" width="1122" loading="lazy"}
-![Amazon Work Tracking Wireframe 4](/images/projects/amazon-work-tracking-wireframe-02.png){: height="1028" width="1125" loading="lazy"}
-![Amazon Work Tracking Wireframe 5](/images/projects/amazon-work-tracking-wireframe-04.png){: height="1058" width="1123" loading="lazy"}
+![Amazon Work Tracking Wireframe 1](/images/projects/amazon-work-tracking-wf-01.png){: height="770" width="1123" loading="lazy"}
+![Amazon Work Tracking Wireframe 2](/images/projects/amazon-work-tracking-wf-03.png){: height="739" width="1124" loading="lazy"}
+![Amazon Work Tracking Wireframe 3](/images/projects/amazon-work-tracking-wf-05.png){: height="1005" width="1122" loading="lazy"}
+![Amazon Work Tracking Wireframe 4](/images/projects/amazon-work-tracking-wf-02.png){: height="1028" width="1125" loading="lazy"}
+![Amazon Work Tracking Wireframe 5](/images/projects/amazon-work-tracking-wf-04.png){: height="1058" width="1123" loading="lazy"}
 {: class="gallery grid-cols-3"}
 
 ---

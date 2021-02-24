@@ -7,8 +7,8 @@ featured: shuffl_1.png
 meta: [Shuffl, Design, Development, February 2019]
 ---
 
-<p class="max-w-2xl mb-6">A friend built a small Slack app that paired employees together and set up a day and time to get lunch as a way to promote inter-office communication. As the product grew in usage and time passed, the tool's marketing website began to collect dust informationally and visually. I gave the website a refresh of both the content and the design. This improved the visitor to install ratio drastically and made the owner much more proud of their app.</p>
-<div class="grid grid-cols-2 gap-10">
+<p>A friend built a small Slack app that paired employees together and set up a day and time to get lunch as a way to promote inter-office communication. As the product grew in usage and time passed, the tool's marketing website began to collect dust informationally and visually. I gave the website a refresh of both the content and the design. This improved the visitor to install ratio drastically and made the owner much more proud of their app.</p>
+<div class="gallery grid grid-cols-2 gap-10">
 	<img loading="lazy" class="border border-gray-200" src="/images/projects/shuffl_1.png" alt="Shuffl Screen Shot 1">
 	<img loading="lazy" class="border border-gray-200" src="/images/projects/shuffl_2.png" alt="Shuffl Screen Shot 2">
 	<img loading="lazy" class="border border-gray-200" src="/images/projects/shuffl_3.png" alt="Shuffl Screen Shot 3">

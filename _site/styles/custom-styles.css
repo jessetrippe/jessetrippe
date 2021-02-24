@@ -1,4 +1,30 @@
 /* Front matter is necessary for Jekyll */ {
 } .underline {
   text-underline-offset: 0.2em;
+} .prose {
+} .prose p + p,
+.prose h2 + p {
+  margin-top: 1.5rem;
+} .prose h2 {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: bold;
+} .prose h2,
+.prose p {
+  max-width: 42rem;
+} .prose p + .gallery {
+  margin-top: 3rem;
+} .prose hr {
+  height: auto;
+  border-top: 0;
+} .prose hr:after {
+  content: ". . .";
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+  text-align: center;
 }

@@ -17,20 +17,20 @@ The Product Manager was new to Amazon's shipping space so my logistics expertise
 
 In order to define our users and their needs for this tool, a Product Manager and I traveled to different delivery stations to observe users (painfully) completing dispatching tasks. We also had meetings with Amazon operations teams to understand their needs and then developed a timeline and scope for the project. I wireframed a handful of ideas, and, along with the Product Manager, decided on a design approach to move forward with. I then took these wireframes to a local delivery station to test my assumptions and get feedback.
 
-![Amazon Dispatch Wireframe 1](/images/projects/amazon-dispatch-wireframe-01.png){: height="823" width="1195" loading="lazy"}
-![Amazon Dispatch Wireframe 2](/images/projects/amazon-dispatch-wireframe-04.png){: height="823" width="1197" loading="lazy"}
-![Amazon Dispatch Wireframe 3](/images/projects/amazon-dispatch-wireframe-07.png){: height="922" width="1195" loading="lazy"}
-![Amazon Dispatch Wireframe 4](/images/projects/amazon-dispatch-wireframe-10.png){: height="886" width="1196" loading="lazy"}
-![Amazon Dispatch Wireframe 5](/images/projects/amazon-dispatch-wireframe-02.png){: height="870" width="1197" loading="lazy"}
-![Amazon Dispatch Wireframe 6](/images/projects/amazon-dispatch-wireframe-05.png){: height="823" width="1193" loading="lazy"}
-![Amazon Dispatch Wireframe 7](/images/projects/amazon-dispatch-wireframe-08.png){: height="885" width="1196" loading="lazy"}
-![Amazon Dispatch Wireframe 8](/images/projects/amazon-dispatch-wireframe-11.png){: height="1033" width="1399" loading="lazy"}
-![Amazon Dispatch Wireframe 9](/images/projects/amazon-dispatch-wireframe-03.png){: height="868" width="1193" loading="lazy"}
-![Amazon Dispatch Wireframe 10](/images/projects/amazon-dispatch-wireframe-06.png){: height="825" width="1196" loading="lazy"}
-![Amazon Dispatch Wireframe 11](/images/projects/amazon-dispatch-wireframe-09.png){: height="1033" width="1397" loading="lazy"}
-![Amazon Dispatch Wireframe 12](/images/projects/amazon-dispatch-wireframe-12.png){: height="1033" width="1397" loading="lazy"}
-![Amazon Dispatch Wireframe 13](/images/projects/amazon-dispatch-wireframe-13.png){: height="569" width="321" loading="lazy"}
-![Amazon Dispatch Wireframe 14](/images/projects/amazon-dispatch-wireframe-14.png){: height="569" width="321" loading="lazy"}
+![Amazon Dispatch Wireframe 1](/images/projects/amazon-dispatch-wf-01.png){: height="823" width="1195" loading="lazy"}
+![Amazon Dispatch Wireframe 2](/images/projects/amazon-dispatch-wf-04.png){: height="823" width="1197" loading="lazy"}
+![Amazon Dispatch Wireframe 3](/images/projects/amazon-dispatch-wf-07.png){: height="922" width="1195" loading="lazy"}
+![Amazon Dispatch Wireframe 4](/images/projects/amazon-dispatch-wf-10.png){: height="886" width="1196" loading="lazy"}
+![Amazon Dispatch Wireframe 5](/images/projects/amazon-dispatch-wf-02.png){: height="870" width="1197" loading="lazy"}
+![Amazon Dispatch Wireframe 6](/images/projects/amazon-dispatch-wf-05.png){: height="823" width="1193" loading="lazy"}
+![Amazon Dispatch Wireframe 7](/images/projects/amazon-dispatch-wf-08.png){: height="885" width="1196" loading="lazy"}
+![Amazon Dispatch Wireframe 8](/images/projects/amazon-dispatch-wf-11.png){: height="1033" width="1399" loading="lazy"}
+![Amazon Dispatch Wireframe 9](/images/projects/amazon-dispatch-wf-03.png){: height="868" width="1193" loading="lazy"}
+![Amazon Dispatch Wireframe 10](/images/projects/amazon-dispatch-wf-06.png){: height="825" width="1196" loading="lazy"}
+![Amazon Dispatch Wireframe 11](/images/projects/amazon-dispatch-wf-09.png){: height="1033" width="1397" loading="lazy"}
+![Amazon Dispatch Wireframe 12](/images/projects/amazon-dispatch-wf-12.png){: height="1033" width="1397" loading="lazy"}
+![Amazon Dispatch Wireframe 13](/images/projects/amazon-dispatch-wf-13.png){: height="569" width="321" loading="lazy"}
+![Amazon Dispatch Wireframe 14](/images/projects/amazon-dispatch-wf-14.png){: height="569" width="321" loading="lazy"}
 {: class="gallery grid-cols-3"}
 
 ## Final Design

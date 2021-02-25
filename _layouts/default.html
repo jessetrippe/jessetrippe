@@ -19,13 +19,14 @@
 </head>
 <body class="font-robotoMono md:text-lg
 	{% if page.title == 'Home' %}
-		bg-warmGray-800 text-lightBlue-100
+		bg-warmGray-100 text-lightBlue-800 dark:bg-warmGray-800 dark:text-lightBlue-100
 	{% elsif page.title == 'Work' %}
-		bg-cyan-900 text-teal-200
+		bg-cyan-200 text-teal-900 dark:bg-cyan-900 dark:text-teal-200
 	{% elsif page.title == 'About' %}
+		dark:text-lime-100 dark:bg-blueGray-800
 		bg-warmGray-100 text-cyan-700
 	{% elsif page.collection == 'work_items' %}
-		bg-gray-100 text-gray-900
+		bg-gray-100 text-gray-900 dark:text-gray-100 dark:bg-gray-900
 	{% endif %}
 ">
 	<div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-7 lg:px-10">
@@ -44,6 +45,8 @@
 
 		{% include footer.html %}
 	</div>
-
+	<script>
+		{% include dark-mode.js %}
+	</script>
 </body>
 </html>

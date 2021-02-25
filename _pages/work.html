@@ -13,7 +13,7 @@ blurb: "Some things I've built."
 		{% for item in items %}
 			<li>
 				<a href="{{ item.url }}" class="block h-full hover:opacity-70 transition-opacity">
-					<div class="bg-cyan-400 relative h-40 overflow-hidden">
+					<div class="bg-cyan-300 dark:bg-cyan-400 relative h-40 overflow-hidden">
 						<img class="min-w-full min-h-full transition-all" src="/images/projects/{{ item.featured }}" style="filter: grayscale(100%); mix-blend-mode: multiply;" alt="{{ item.title }}">
 					</div>
 					<h4 class="text-xl font-bold my-7 underline leading-relaxed">{{ item.title }}</h4>

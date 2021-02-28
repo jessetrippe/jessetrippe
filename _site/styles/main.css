@@ -589,6 +589,16 @@ video {
   background-color: rgba(244, 244, 245, var(--tw-bg-opacity));
 }
 
+.bg-green-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(167, 243, 208, var(--tw-bg-opacity));
+}
+
+.bg-green-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(4, 120, 87, var(--tw-bg-opacity));
+}
+
 .bg-cyan-200 {
   --tw-bg-opacity: 1;
   background-color: rgba(165, 243, 252, var(--tw-bg-opacity));
@@ -597,11 +607,6 @@ video {
 .bg-cyan-300 {
   --tw-bg-opacity: 1;
   background-color: rgba(103, 232, 249, var(--tw-bg-opacity));
-}
-
-.bg-cyan-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(14, 116, 144, var(--tw-bg-opacity));
 }
 
 .bg-warmGray-100 {
@@ -630,14 +635,14 @@ video {
     background-color: rgba(41, 37, 36, var(--tw-bg-opacity));
   }
 
-  .dark\:bg-blueGray-700 {
+  .dark\:bg-redOrange-600 {
     --tw-bg-opacity: 1;
-    background-color: rgba(51, 65, 85, var(--tw-bg-opacity));
+    background-color: rgba(227, 63, 25, var(--tw-bg-opacity));
   }
 
-  .dark\:bg-blueGray-800 {
+  .dark\:bg-redOrange-800 {
     --tw-bg-opacity: 1;
-    background-color: rgba(30, 41, 59, var(--tw-bg-opacity));
+    background-color: rgba(154, 40, 23, var(--tw-bg-opacity));
   }
 }
 
@@ -726,6 +731,10 @@ video {
   height: 12rem;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-full {
   height: 100%;
 }
@@ -761,6 +770,11 @@ video {
 .my-7 {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .mx-auto {
@@ -915,11 +929,6 @@ video {
   color: rgba(24, 24, 27, var(--tw-text-opacity));
 }
 
-.text-cyan-700 {
-  --tw-text-opacity: 1;
-  color: rgba(14, 116, 144, var(--tw-text-opacity));
-}
-
 .text-lightBlue-800 {
   --tw-text-opacity: 1;
   color: rgba(7, 89, 133, var(--tw-text-opacity));
@@ -930,10 +939,20 @@ video {
   color: rgba(19, 78, 74, var(--tw-text-opacity));
 }
 
+.text-redOrange-600 {
+  --tw-text-opacity: 1;
+  color: rgba(227, 63, 25, var(--tw-text-opacity));
+}
+
 @media (prefers-color-scheme: dark) {
   .dark\:text-gray-100 {
     --tw-text-opacity: 1;
     color: rgba(244, 244, 245, var(--tw-text-opacity));
+  }
+
+  .dark\:text-green-200 {
+    --tw-text-opacity: 1;
+    color: rgba(167, 243, 208, var(--tw-text-opacity));
   }
 
   .dark\:text-lightBlue-100 {
@@ -944,11 +963,6 @@ video {
   .dark\:text-teal-200 {
     --tw-text-opacity: 1;
     color: rgba(153, 246, 228, var(--tw-text-opacity));
-  }
-
-  .dark\:text-lime-100 {
-    --tw-text-opacity: 1;
-    color: rgba(236, 252, 203, var(--tw-text-opacity));
   }
 }
 

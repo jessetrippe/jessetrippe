@@ -1,2 +1,5 @@
 User-agent: *
-disallow: /
+
+Disallow: /work*
+Disallow: /work/*
+Disallow: /work/index.html

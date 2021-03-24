@@ -33,6 +33,8 @@ In order to define our users and their needs for this tool, a Product Manager an
 ![Amazon Dispatch Wireframe 14](/images/projects/amazon-dispatch-wf-14.png){: height="569" width="321" loading="lazy"}
 {: class="gallery grid-cols-3"}
 
+---
+
 ## Final Design
 
 The final tool allows dispatchers to see where routes are, where drivers are, and quickly spot and triage exceptions. This enables 3rd-party companies to establish and more fully optimize their operations. The final designs were taken to a delivery station and presented to users for further feedback. This feedback influenced changes that were either implemented into the product or added to a future feature list.

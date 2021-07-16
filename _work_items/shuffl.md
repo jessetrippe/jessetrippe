@@ -2,7 +2,7 @@
 layout: default
 title: "Shuffl Marketing Site"
 description: "Website and branding for a small Slack app aimed to keep remote teams connected by pairing random employees up for lunch."
-order: 6
+order: 8
 featured: shuffl_1.png
 meta: [Shuffl, Design, Development, February 2019]
 ---

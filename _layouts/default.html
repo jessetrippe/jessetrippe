@@ -21,7 +21,7 @@
 	{% if page.title == 'Home' %}
 		bg-warmGray-100 text-lightBlue-800 dark:bg-warmGray-800 dark:text-lightBlue-100
 	{% elsif page.title == 'Work' %}
-		bg-cyan-200 text-teal-900 dark:bg-cyan-900 dark:text-teal-200
+		bg-cyan-100 text-teal-900 dark:bg-cyan-900 dark:text-teal-200
 	{% elsif page.title == 'About' %}
 		dark:text-pink-200 dark:bg-blueGray-800
 		bg-warmGray-100 text-cyan-700
@@ -29,7 +29,7 @@
 		bg-gray-100 text-gray-900 dark:text-gray-100 dark:bg-gray-900
 	{% endif %}
 ">
-	<div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-7 lg:px-10">
+	<div class="max-w-7xl mx-auto px-5 sm:px-6 md:px-7 lg:px-10 min-h-screen flex flex-col">
 		{% include header.html %}
 
 		{% if page.collection == 'work_items' %}
@@ -37,8 +37,10 @@
 			{% include work_content.html %}
 
 		{% else %}
-			<main>
-				<h1 class="max-w-5xl font-windsor leading-tight text-5xl md:text-7xl mb-24">{{ page.blurb}}</h1>
+			<main class="flex-grow">
+				{% if page.blurb %}
+				<h1 class="max-w-5xl font-newSpirit leading-tight md:leading-tight text-5xl md:text-7xl">{{ page.blurb }}</h1>
+				{% endif %}
 				{{ content }}
 			</main>
 		{% endif %}

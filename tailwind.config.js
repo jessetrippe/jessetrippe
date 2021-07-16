@@ -9,7 +9,7 @@ module.exports = {
 	},
 	theme: {
 		fontFamily: {
-			'windsor': ['Windsor', 'Georgia', 'serif'],
+			'newSpirit': ['New Spirit Semibold', 'Georgia', 'serif'],
 			'robotoMono': ['Roboto Mono', 'Courier', 'monospace'] 
 		},
 		extend: {

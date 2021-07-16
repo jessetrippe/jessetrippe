@@ -16,16 +16,12 @@
 } .prose hr {
   height: auto;
   border-top: 0;
-} .prose hr:after {
-  content: ". . .";
-  display: block;
-  font-size: 1.5rem;
-  font-weight: bold;
-  letter-spacing: -0.05em;
-  line-height: 2rem;
-  margin-bottom: 3rem;
-  margin-top: 1.5rem;
   text-align: center;
+  line-height: 1;
+  margin: 3rem 0;
+  font-size: .75rem;
+} .prose hr:after {
+  content: "◼ ◼ ◼ ◼ ◼";
 } .prose .gallery {
   display: grid;
   gap: 2.5rem;

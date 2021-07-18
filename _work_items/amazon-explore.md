@@ -11,7 +11,7 @@ Amazon Explore is a virtual tour product consisting of guides (local experts) wh
 
 My responsibilities include sole ownership of the customer in-session streaming UX/UI design (including audio/video controls, alerts and communication messaging, shopping confirmation, and multi-user support) and the  UX/UI design of the app our experts use to deliver these experiences (including providing scheduling, hardware checks, playing in-session media content, creating shopping carts, receiving alerts and messaging, etc.).
 
-![Amazon Explore Design 1](/images/projects/amazon-explore-customer-group.png){: class="col-span-2" height="2050" width="2880" loading="lazy"}
+![Amazon Explore Design 1](/images/projects/amazon-explore-customer-in-session.png){: class="col-span-2" height="2050" width="2880" loading="lazy"}
 ![Amazon Explore Design 5](/images/projects/amazon-explore-customer-in-session-shoppping.png){: height="" width="" loading="lazy"}
 ![Amazon Explore Design 4](/images/projects/amazon-explore-customer-in-session-shopping-responsive.png){: height="" width="" loading="lazy"}
 {: class="gallery grid-cols-2"}
